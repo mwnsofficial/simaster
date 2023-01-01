@@ -1,0 +1,9 @@
+title: simaster
+repository: mwnsofficial/simaster
+
+plugins:
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-seo-tag
+  - some-other-jekyll-plugin
+  - jekyll-sitemap
