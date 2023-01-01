@@ -7,11 +7,18 @@
 {% include header.html %}
 {% include navigasi.html %}
 
+<h1>{{ page.title }}</h1>
+    <section>
+      {{ content }}
+    </section>
+
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-</body>
-
+<footer>
 {% include footer.html %}
+</footer>
+
+</body>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
