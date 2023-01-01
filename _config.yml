@@ -1,5 +1,7 @@
 title: simaster
 repository: mwnsofficial/simaster
+author: Muhammad Yusuf
+
 
 plugins:
   - jekyll-gist
