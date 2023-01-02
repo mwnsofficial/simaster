@@ -10,14 +10,12 @@ folder: blog
     <div class="post-list">
         {% for post in site.posts limit:20 %}
 
-
-    <div class="col-lg-4">
-      <div class="product-offer mb-30" style="height: 200px;">
     {%- if page.image -%}
-      <img src="{{- page.url | relative_url -}}" alt="{{ page.title }}" class="img-fluid">
+      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+    {%- else -%}
+      {%- assign postImage = "/assets/images/image-default.jpg" -%}
+      <img src="{{- postImage | relative_url -}}" alt="" class="featured-image-post">
     {%- endif -%}
-      </div>
-    </div>
 
     <h2><a class="post-link" href="{{ post.url | remove: "/" }}">{{ post.title }}</a></h2>
         <span class="post-meta">{{ post.date | date: "%b - %-d - %Y" }} /
