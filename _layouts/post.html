@@ -3,19 +3,24 @@ layout: default
 ---
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
-    <header class="post-header">
+    <header class="post">
 
     <hr />
 
+    <div class="col-lg-4">
+      <div class="product-offer mb-30" style="height: 200px;">
     {%- if page.image -%}
-      <img src="{{- page.image | relative_url -}}" alt="{{ page.title }}" class="featured-image-post">
+      <img class="img-fluid" src="{{- page.image | relative_url -}}" alt="{{ page.title }}" class="featured-image-post">
     {%- else -%}
       {%- assign postImage = "/images/image-default.jpg" -%}
-      <img src="{{- postImage | relative_url -}}" alt="{{ page.title }}" class="featured-image-post">
+      <img class="img-fluid" src="{{- postImage | relative_url -}}" alt="{{ page.title }}" class="featured-image-post">
     {%- endif -%}
+      </div>
+    </div>
+
 
         <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d - %b - %Y" }}</time> / di post oleh <a alt='author' href='https://www.clashmwns.com/author'>Muhammad Yusuf</a></p>
+        <p {{ page.date }} / di post oleh <a alt='author' href='https://www.clashmwns.com/author'>Muhammad Yusuf</a></p>
 
     </header>
 
