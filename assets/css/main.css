@@ -3,16 +3,16 @@
 }
 
 body {
-  color: rgba(var(--color-primary-rgb), 1);
+  color: black;
 }
 
 a {
-  color: var(--color-links);
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--color-links-hover);
+  color: white;
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ section {
 --------------------------------------------------------------*/
 .page-title {
   font-size: 70px;
-  color: var(--color-black);
+  color: green;
 }
 
 /* Form Input Fieldds */
@@ -105,9 +105,9 @@ section {
 }
 
 .btn.btn-primary {
-  background-color: var(--color-black);
-  color: var(--color-white);
-  border-color: var(--color-black);
+  background-color: black;
+  color: white;
+  border-color: white;
 }
 
 /*--------------------------------------------------------------
@@ -456,7 +456,7 @@ section {
 }
 
 .post-entry-1 h2 a {
-  color: var(--color-black);
+  color: white;
 }
 
 .post-entry-1.lg h2 {
@@ -470,7 +470,7 @@ section {
   text-transform: uppercase;
   font-weight: 600;
   font-family: var(--font-secondary);
-  color: rgba(var(--color-black-rgb), 0.4);
+  color: white, 0.4);
   margin-bottom: 10px;
 }
 
@@ -502,7 +502,7 @@ section {
 }
 
 .trending>h3 {
-  color: var(--color-black);
+  color: white;
   padding: 20px;
   border-bottom: 1px solid rgba(var(--color-black-rgb), 0.1);
 }
