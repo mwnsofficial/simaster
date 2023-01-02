@@ -8,37 +8,71 @@ layout: default
         <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Contact Us</span></h2>
         <div class="row px-xl-5">
             <div class="col-lg-7 mb-5">
-                <div class="contact-form bg-light p-30">
-                    <div id="success"></div>
-                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                        <div class="control-group">
-                            <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                required="required" data-validation-required-message="Please enter your name" />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="control-group">
-                            <input type="email" class="form-control" id="email" placeholder="Your Email"
-                                required="required" data-validation-required-message="Please enter your email" />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="control-group">
-                            <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                required="required" data-validation-required-message="Please enter a subject" />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="control-group">
-                            <textarea class="form-control" rows="8" id="message" placeholder="Message"
-                                required="required"
-                                data-validation-required-message="Please enter your message"></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div>
-                            <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send
-                                Message</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+<div class="flex items-center min-h-screen bg-white-50 dark:bg-white-900">
+  <div class="container mx-auto">
+    <div class="max-w-md mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+      <div class="text-center">
+        <h1 class="my-3 text-3xl font-semibold text-blue-700 dark:text-blue-200">
+          Form Data
+        </h1>
+        <p class="text-gray-400 dark:text-gray-400">
+          Bagi anda yang ingin memesan atau ada kritik dan saran bisa kirimkan pesan email ke admin.
+        </p>
+      </div>
+      <div class="m-7">
+        <form action="https://api.web3forms.com/submit" method="POST" id="form">
+          <input type="hidden" name="access_key" value="9bd28744-e2d8-4326-8fe7-65cd7311714c" />
+          <input type="hidden" name="subject" value="Pesan permohonan member simaster" />
+          <input type="checkbox" name="botcheck" id="" style="display: none;" />
+          <hr>
+          <div class="mb-6">
+            <center><label for="nama asli" class="block mb-2 text-sm text-black-600 dark:text-gray-400">Nama Asli</label></center>
+            <center><input type="text" name="nama asli" id="nama asli" placeholder="isi nama asli..." required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" /></center>
+          </div>
+          <hr>
+          <div class="mb-6">
+          <center><label for="nama akun facebook" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Nama Akun Facebook</label></center>
+          <center><input type="text" name="nama akun facebook" id="nama akun facebook" placeholder="isi nama akun..." required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" /></center>
+          </div>
+          <hr>
+          <div class="mb-6">
+          <center><label for="alamat" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Alamat Anda</label></center>
+          <center><textarea rows="10" name="alamat" id="alamat" placeholder="isi alamat...." class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea></center>
+          </div>
+          <hr>
+          <div class="mb-6">
+            <center><label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Anda</label></center>
+            <center><input type="email" name="email" id="email" placeholder="isi email..." required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" /></center>
+          </div>
+          <hr>
+          <div class="mb-6">
+            <center><label for="nomer whatsapp" class="text-sm text-gray-600 dark:text-gray-400">Nomer Telp</label></center>
+            <center><input type="text" name="nomer whatsapp" id="nomer whatsapp" placeholder="isi nomer telp..." required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" /></center>
+          </div>
+          <hr>
+          <div class="mb-6">
+          <center><label for="nomer telp" class="text-sm text-gray-600 dark:text-gray-400">Nomer whatsapp</label></center>
+          <center><input type="text" name="nomer telp" id="nomer telp" placeholder="isi nomer whatsapp..." required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" /></center>
+          </div>
+          <hr>
+          <div class="mb-6">
+          <center><label for="pesan" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Pesan Anda ke Admin</label></center>
+          <center><textarea rows="10" name="pesan" id="pesan" placeholder="Isi pesan...." class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea></center>
+          </div>
+          <br>
+          <hr>
+          <div class="mb-6">
+          <center><button type="submit" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">Daftar Sekarang</button></center>
+          </div>
+          <hr>
+          <p class="text-base text-center text-gray-400" id="result"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="/js/formdata.js"></script>
+
             <div class="col-lg-5 mb-5">
                 <div class="bg-light p-30 mb-30">
 
