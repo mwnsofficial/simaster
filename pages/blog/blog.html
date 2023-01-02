@@ -1,37 +1,27 @@
 ---
 title: blog simaster
 layout: post
-keywords: news, blog, updates, release notes, announcements, loker, job, jodoh, event, member
+keywords: news, blog, updates, release notes, announcements, member
 permalink: blog.html
 toc: false
 folder: blog
 ---
 <div class="home">
 
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <a class="post-link" href="/simaster-openwrt.html">Simaster Openwrt</a>
-      <img class="d-block w-100" src="/img/carousel.jpg" alt="Simaster Openwrt">
-    </div>
-    <div class="carousel-item">
-      <a class="post-link" href="/simaster-android.html">Simaster Android</a>
-      <img class="d-block w-100" src="/img/carousel.jpg" alt="Simaster Android">
-    </div>
-    <div class="carousel-item">
-      <a class="post-link" href="/simaster-magisk.html">Simaster Magisk</a>
-      <img class="d-block w-100" src="/img/carousel.jpg" alt="Simaster Magisk">
-    </div>
-    <div class="carousel-item">
-      <a class="post-link" href="/simaster-termux.html">Simaster Termux</a>
-      <img class="d-block w-100" src="/img/carousel.jpg" alt="Simaster Termux">
-    </div>
-    <div class="carousel-item">
-      <a class="post-link" href="/simaster-windows.html">Simaster Windows</a>
-      <img class="d-block w-100" src="/img/carousel.jpg" alt="Simaster Windows">
-    </div>
-  </div>
-</div>
+    <div class="post-list">
+        {% for post in site.posts limit:20 %}
+
+
+    <h2><a class="post-link" href="{{ post.url | remove: "/" }}">{{ post.title }}</a></h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} /
+            {% for tag in post.tags %}
+
+                <a href="{{ "tag_" | append: tag | append: ".html"}}">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
+
+                {% endfor %}</span>
+        <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</p>
+
+        {% endfor %}
 
 <hr />
         <p><b>Lihat berita loker lain nya:</b></p>
