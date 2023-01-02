@@ -1,5 +1,5 @@
 ---
-title: "Simaster Openwrt"
+title: "Tutorial Openwrt"
 tagName: openwrt
 search: exclude
 permalink: tag-openwrt.html
