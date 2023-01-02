@@ -11,8 +11,19 @@ folder: blog
         {% for post in site.posts limit:20 %}
 
 
+    <div class="col-lg-4">
+      <div class="product-offer mb-30" style="height: 200px;">
+    {%- if page.image -%}
+      <img class="img-fluid" src="{{- page.image | relative_url -}}" alt="{{ page.title }}" class="featured-image-post">
+    {%- else -%}
+      {%- assign postImage = "/images/image-default.jpg" -%}
+      <img class="img-fluid" src="{{- postImage | relative_url -}}" alt="{{ page.title }}" class="featured-image-post">
+    {%- endif -%}
+      </div>
+    </div>
+
     <h2><a class="post-link" href="{{ post.url | remove: "/" }}">{{ post.title }}</a></h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} /
+        <span class="post-meta">{{ post.date | date: "%b - %-d - %Y" }} /
             {% for tag in post.tags %}
 
                 <a href="{{ "tag-" | append: tag | append: ".html"}}">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
