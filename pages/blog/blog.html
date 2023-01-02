@@ -16,7 +16,7 @@ folder: blog
     {%- if page.image -%}
       <img class="img-fluid" src="{{- page.image | relative_url -}}" alt="{{ page.title }}" class="featured-image-post">
     {%- else -%}
-      {%- assign postImage = "/images/image-default.jpg" -%}
+      {%- assign postImage = "/img/image-carousel.jpg" -%}
       <img class="img-fluid" src="{{- postImage | relative_url -}}" alt="{{ page.title }}" class="featured-image-post">
     {%- endif -%}
       </div>
