@@ -13,6 +13,11 @@ layout: default
         {% endif %}
 
         {% if page.summary %}
+        {%- if page.image -%}
+         <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+        {%- else -%}
+        {%- assign postImage = "/img/carousel.jpg" -%}
+         <img src="{{- postImage | relative_url -}}" alt="" class="featured-image-post">
         <div class="summary">{{page.summary}}</div>
         {% endif %}
 
