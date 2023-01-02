@@ -3,14 +3,12 @@ title: Arsip Post
 layout: post
 keywords: news, blog, updates, release notes, announcements
 permalink: arsip.html
-toc: false
 folder: blog
 ---
 
 <div class="home">
 
     <div class="post-list">
-
 
     <section id="archive">
         <h3>This year's posts</h3>
@@ -26,7 +24,7 @@ folder: blog
         <ul class="past">
             {% endif %}
             {% endunless %}
-            <li><time>{{ post.date | date:"%d %b" }}</time><a href="{{ post.url | remove: "/"}}">{{ post.title }}</a></li>
+            <li><time>{{ post.date | date:"%d %b %Y" }}</time><a href="{{ post.url | remove: "/"}}"> {{ post.title }}</a></li>
             {% endfor %}
         </ul>
     </section>
