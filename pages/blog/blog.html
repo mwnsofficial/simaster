@@ -7,6 +7,9 @@ folder: blog
 ---
 <div class="home">
 
+    <div class="post-list">
+        {% for post in site.posts limit:20 %}
+
     <h2><a class="post-link" href="{{ post.url | remove: "/" }}">{{ post.title }}</a></h2>
         <span class="post-meta">{{ post.date | date: "%b - %-d - %Y" }} /
             {% for tag in post.tags %}
