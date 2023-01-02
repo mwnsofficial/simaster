@@ -1,0 +1,6 @@
+allowed-tags:
+  - openwrt
+  - android
+  - magisk
+  - termux
+  - windows
