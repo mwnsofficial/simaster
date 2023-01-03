@@ -1,14 +1,14 @@
 ---
-title: rule gamer
+title: rule game
 layout: page
-keywords: rule, gamer, rule gamer
-permalink: rule-gamer.html
+keywords: rule, game, rule game
+permalink: rule-game.html
 folder: rules
 ---
 <div class="row">
     <!-- Categories Start -->
     <div class="container-fluid pt-5">
-        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Kumpulan Rule Gamer</span></h2>
+        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Kumpulan Rule Game</span></h2>
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
