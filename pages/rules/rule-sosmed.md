@@ -3,7 +3,7 @@ title: rule sosmed
 layout: page
 keywords: rule, sosmed, rule sosmed
 permalink: rule-sosmed.html
-folder: rule
+folder: rules
 ---
 
     <!-- Categories Start -->
