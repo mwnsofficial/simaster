@@ -165,6 +165,20 @@ folder: configuration
                 </a>
                 </div>
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="https://www.clashmwns.com/#?url=mLO0bLF4Gw17v7bynRThmRXfmEJgGfDtnI1fmRegG7luQ7DaFZ27mRJ0mZQfbw1jQfCub8guWED0QEKuvjCuSI0eSLDgbLOgnRJgbjKrFjKybfXwG8QanZY=">
+                <div class="cat-item d-flex align-items-center mb-4">
+                <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
+                </div>
+                <div class="flex-fill pl-3">
+                <h6>Simaster CFA V1.9</h6>
+                <small class="text-body">1 Products</small>
+                <p><a href="https://www.clashmwns.com/#?url=mLO0bLF4Gw17v7bynRThmRXfmEJgGfDtnI1fmRegG7luQ7DaFZ27mRJ0mZQfbw1jQfCub8guWED0QEKuvjCuSI0eSLDgbLOgnRJgbjKrFjKybfXwG8QanZY="><i>DOWNLOAD</i></a></p>
+                </div>
+                </div>
+                </a>
+                </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
                 <div class="cat-item d-flex align-items-center mb-4">
                 <div class="overflow-hidden" style="width: 100px; height: 100px;">
