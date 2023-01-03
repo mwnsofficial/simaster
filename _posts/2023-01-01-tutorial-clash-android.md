@@ -1,0 +1,36 @@
+---
+title: "tutorial clash android"
+published: true
+permalink: tutorial-clash-android.html
+summary: "tutorials configuration cfa of simaster."
+tags: [android]
+image: /assets/images/post.jpg
+---
+
+Tata cara penggunaan simaster cfa auto.
+
+- masuk clash android kalian.
+
+- masuk ke menu profile.
+
+- tekan tanda + untuk menambahkan profile.
+
+- tekan mode url.
+
+- isi nama profile.
+
+- tempelkan link konfigurasi yang sudah saya siapkan di situs blog ini.
+
+- atur menit untuk auto update konfigurasi nya.
+
+- tekan ikon simpan pojok kanan atas untuk menyimpan settingan.
+
+- tunggu beberapa saya, server akan mengumpulkan semua (fetching data) yang di perlukan.
+
+- tekan tombol radio dari nama profile yang barusan anda buat.
+
+- silahkan kembali ke halaman awal dan tekan start untuk memulai.
+
+- silahkan atur konfigurasi di dalam yacd cfa nya ya bro.
+
+- kini kalian sudah bisa berselancar di dunia maya.
