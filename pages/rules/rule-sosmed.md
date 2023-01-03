@@ -5,7 +5,7 @@ keywords: rule, sosmed, rule sosmed
 permalink: rule-sosmed.html
 folder: rules
 ---
-
+<div class="row">
     <!-- Categories Start -->
     <div class="container-fluid pt-5">
         <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Produk Terbaru</span></h2>
@@ -153,3 +153,4 @@ folder: rules
         </div>
     </div>
     <!-- Categories End -->
+</div>
