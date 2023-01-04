@@ -58,9 +58,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #fff;
+  color: #212529;
   text-align: left;
-  background-color: #343a40;
+  background-color: #fff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -151,7 +151,7 @@ sup {
 }
 
 a {
-  color: #17a2b8;
+  color: #007bff;
   text-decoration: none;
   background-color: transparent;
 }
@@ -308,7 +308,7 @@ legend {
   margin-bottom: .5rem;
   font-size: 1.5rem;
   line-height: inherit;
-  color: #fff;
+  color: inherit;
   white-space: normal;
 }
 
@@ -428,7 +428,7 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #28a745;
+  background-color: #fcf8e3;
 }
 
 .list-unstyled {
@@ -462,7 +462,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #28a745;
+  color: #6c757d;
 }
 
 .blockquote-footer::before {
@@ -494,7 +494,7 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #28a745;
+  color: #6c757d;
 }
 
 code {
@@ -511,7 +511,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
   color: #fff;
-  background-color: #dc3545;
+  background-color: #212529;
   border-radius: 0.2rem;
 }
 
@@ -1485,16 +1485,16 @@ pre code {
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #fff;
+  border-top: 1px solid #dee2e6;
 }
 
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #dee2e6;
 }
 
 .table tbody + tbody {
-  border-top: 2px solid #fff;
+  border-top: 2px solid #dee2e6;
 }
 
 .table-sm th,
@@ -1503,12 +1503,12 @@ pre code {
 }
 
 .table-bordered {
-  border: 1px solid #fff;
+  border: 1px solid #dee2e6;
 }
 
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #17a2b8;
+  border: 1px solid #dee2e6;
 }
 
 .table-bordered thead th,
@@ -1535,14 +1535,14 @@ pre code {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #17a2b8;
+  background-color: #b8daff;
 }
 
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #fff;
+  border-color: #7abaff;
 }
 
 .table-hover .table-primary:hover {
@@ -1551,42 +1551,42 @@ pre code {
 
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
-  background-color: #343a40;
+  background-color: #9fcdff;
 }
 
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
-  background-color: #343a40;
+  background-color: #d6d8db;
 }
 
 .table-secondary th,
 .table-secondary td,
 .table-secondary thead th,
 .table-secondary tbody + tbody {
-  border-color: #fff;
+  border-color: #b3b7bb;
 }
 
 .table-hover .table-secondary:hover {
-  background-color: #17a2b8;
+  background-color: #c8cbcf;
 }
 
 .table-hover .table-secondary:hover > td,
 .table-hover .table-secondary:hover > th {
-  background-color: #17a2b8;
+  background-color: #c8cbcf;
 }
 
 .table-success,
 .table-success > th,
 .table-success > td {
-  background-color: #17a2b8;
+  background-color: #c3e6cb;
 }
 
 .table-success th,
 .table-success td,
 .table-success thead th,
 .table-success tbody + tbody {
-  border-color: #fff;
+  border-color: #8fd19e;
 }
 
 .table-hover .table-success:hover {
@@ -1601,7 +1601,7 @@ pre code {
 .table-info,
 .table-info > th,
 .table-info > td {
-  background-color: #17a2b8;
+  background-color: #bee5eb;
 }
 
 .table-info th,
