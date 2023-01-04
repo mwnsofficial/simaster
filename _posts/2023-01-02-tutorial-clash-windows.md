@@ -74,19 +74,24 @@ files:
 ## Akun yang di support Clash Windows
 
 1. Shadowsocks
-![image](https://user-images.githubusercontent.com/46000841/183147328-3bb57056-d8f4-405f-a186-7deef513feef.png)
+<img src="https://user-images.githubusercontent.com/46000841/183147328-3bb57056-d8f4-405f-a186-7deef513feef.png" alt="shadowsocks" width="100%" height="320">
+
 
 2. Vmess TCP
-![image](https://user-images.githubusercontent.com/46000841/183147391-63ec18e3-8bac-4cb5-b3da-2e2a2d7024f6.png)
+<img src="https://user-images.githubusercontent.com/46000841/183147391-63ec18e3-8bac-4cb5-b3da-2e2a2d7024f6.png" alt="vmess tcp" width="100%" height="320">
+
 
 3. Vmess WS
-![image](https://user-images.githubusercontent.com/46000841/183147421-f67e529f-369f-4c64-800c-bd38dbf31c74.png)
+<img src="https://user-images.githubusercontent.com/46000841/183147421-f67e529f-369f-4c64-800c-bd38dbf31c74.png" alt="vmess ws" width="100%" height="320">
+
 
 4. Socks5
-![image](https://user-images.githubusercontent.com/46000841/183147478-212f35a0-4f1a-4448-8cc5-5c8e982bbe19.png)
+<img src="https://user-images.githubusercontent.com/46000841/183147478-212f35a0-4f1a-4448-8cc5-5c8e982bbe19.png" alt="socks5" width="100%" height="320">
+
 
 5. Http
-![image](https://user-images.githubusercontent.com/46000841/183147527-018e04d1-f834-4550-8b5e-6873a58d325c.png)
+<img src="https://user-images.githubusercontent.com/46000841/183147527-018e04d1-f834-4550-8b5e-6873a58d325c.png" alt="http" width="100%" height="320">
+
 
 ## Jalur outbonds
 Untuk jalur masuk internet agar CLash windows dapat berkerja bisa melalui LAN, Modem usb, atau bisa melewati Wifi pada modem.
