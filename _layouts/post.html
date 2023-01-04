@@ -6,7 +6,7 @@ layout: default
 <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%b-%Y" }}</time>
     {% if page.author %} {{ page.author }}{% endif %}
-      <div class="summary">Tutorial: {{page.summary}}</div>
+      <div class="summary"><b>Tutorial:</b> {{page.summary}}</div>
         <div class="tags">
           {% if page.tags != null %}
             <b>Categories: </b>
