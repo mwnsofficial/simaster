@@ -9,13 +9,13 @@
 {% include navbar.html %}
 
 <section>
-{% include breadcrumb.html %}
-{{ content }}
-{% include comments.html %}
+  {% include breadcrumb.html %}
+    {{ content }}
+    {% include youtubeplayer.html id=page.youtubeid %}
+  {% include comments.html %}
 </section>
 
 {% include offer.html %}
-
 {% include vendor.html %}
 
 <footer>
