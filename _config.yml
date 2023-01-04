@@ -3,6 +3,12 @@ repository: mwnsofficial/simaster
 
 url: https://www.mwns.eu.org
 
+keywords: configuration, scripts, rules, android, openwrt, windows, termux, magisk
+
+description: konfigurasi simaster tersedia disini
+
+author: Muhammad Yusuf
+
 google-site-verification: googled41425154ba52776.html
 
 # bisa multifungsi selain web bisa juga menampilkan pdf
