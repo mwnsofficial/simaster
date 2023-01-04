@@ -10,7 +10,7 @@ layout: default
    {% if page.author %} {{ page.author }}{% endif %}
     <div class="tags">
         {% if page.tags != null %}
-        <b>Categories : </b>
+        <b>Categories: </b>
         {% assign projectTags = site.data.tags.allowed-tags %}
         {% for tag in page.tags %}
         {% if projectTags contains tag %}
@@ -19,11 +19,11 @@ layout: default
         {% endfor %}
         {% endif %}
         {% if site.github_editme_path %}
-        <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-pencil fa-lg"></i> Perbarui</a>
+        <b><i class="fa fa-pencil fa-lg"></i> Editor: </b>
+        <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button">Perbarui Post</a>
         {% endif %}
     </div>
     <hr>
-
    <!-- call the image.html template file -->
    {% if page.images %}<img src="/assets/images/{{ page.images }}" alt="{{ page.image-alt }}{% endif %}
 
