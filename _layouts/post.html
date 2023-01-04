@@ -7,9 +7,9 @@ layout: default
 <div class="post-content" itemprop="articleBody">
    <h1 class="post-title">{{ page.title }}</h1>
    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%b-%Y" }}</time>
-   {% if page.author %} • {{ page.author }}{% endif %}
+   {% if page.author %} {{ page.author }}{% endif %}
    <!-- call the image.html template file -->
-   {% if page.featured-image %}{% include image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
+   {% if page.images %}{% include image.html image=page.image-alt=page.image-alt %}{% endif %}
 
     <div class="tags">
         {% if page.tags != null %}
