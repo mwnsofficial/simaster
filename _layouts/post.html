@@ -3,10 +3,10 @@ layout: default
 ---
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 <header class="post-header">
-  <h1 class="post-title">{{ page.title }}</h1>
-   <div class="summary">{{page.summary}}</div>
-    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%b-%Y" }}</time>
-      {% if page.author %} {{ page.author }}{% endif %}
+<h1 class="post-title">{{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%b-%Y" }}</time>
+    {% if page.author %} {{ page.author }}{% endif %}
+      <div class="summary">Tutorial: {{page.summary}}</div>
         <div class="tags">
           {% if page.tags != null %}
             <b>Categories: </b>
