@@ -5,27 +5,30 @@ keywords: news, blog, updates, release notes, announcements, member
 permalink: blog.html
 folder: blog
 ---
+
+<!-- some HTML content -->
 <div class="home">
-
-    <div class="post-list">
-        {% for post in site.posts limit:20 %}
-
-    <h2><a class="post-link" href="{{ post.url | remove: "/" }}">{{ post.title }}</a></h2>
-        <span class="post-meta"><time>{{ post.date | date:"%d~%b~%Y" }}</time> / {% for tag in post.tags %}
-        <a href="{{ "tag-" | append: tag | append: ".html"}}">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
-        {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>                
-        {% endfor %}</span>
+<div class="post-list">
+{% for post in site.posts limit:20 %}
+    <div>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
         <!-- call the featured-post-image.html template file -->
         {% if post.featured-image %}{% include image.html image=post.featured-image alt=post.featured-image-alt %}{% endif %}
+        <span class="post-meta">{{ post.date | date: "%d-%b-%Y" }} / {% for tag in post.tags %}
+        <a href="{{ "tag-" | append: tag | append: ".html"}}">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
+        {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>                
+        {% endfor %}</span></span>
+        {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
         <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</p>
-
-        {% endfor %}
-
-<hr />
+        <hr />
         <p><b>Lihat berita loker lain nya:</b></p>
         <p><a href="/arsip.html" class="btn btn-primary navbar-btn cursorNorm" role="button">Semua Post Simaster{{tag}}</a></p>
         <p><a href="/sitemap.html" class="btn btn-primary navbar-btn cursorNorm" role="button">Sitemap{{tag}}</a></p>
         <p><a href="feed.xml" class="btn btn-primary navbar-btn cursorNorm" role="button">RSS{{tag}}</a></p>
-
-    </div>
+    </div>   
+{% endfor %}
 </div>
+</div>
+<!-- some other HTML content -->
