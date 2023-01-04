@@ -3,10 +3,13 @@ layout: default
 ---
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
-        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-        <span class="post-meta"><time>{{ post.date | date:"%d - %b - %Y" }}</time> / di post oleh <a alt='author' href='/about.html'>Muhammad Yusuf</a></span>
-
-    <div class="post-content" itemprop="articleBody">
+<!-- some page content -->
+<div class="post-content" itemprop="articleBody">
+   <h1 class="post-title">{{ page.title }}</h1>
+   <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%b-%Y" }}</time>
+   {% if page.author %} • {{ page.author }}{% endif %}
+   <!-- call the image.html template file -->
+   {% if page.featured-image %}{% include image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
 
     <div class="tags">
         {% if page.tags != null %}
@@ -24,18 +27,9 @@ layout: default
         <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-pencil fa-lg"></i> Perbarui</a>
         {% endif %}
 
-<!-- some page content -->
-<header class="post-header">
-   <h1 class="post-title">{{ page.title }}</h1>
-   <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-   {% if page.author %} • {{ page.author }}{% endif %}
-   <!-- call the featured-post-image.html template file -->
-   {% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
-</header>
-<!-- other page content -->
-
         {{ content }}
 
-    </div>
+</div>
+<!-- other page content -->
 
 </article>
