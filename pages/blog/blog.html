@@ -20,7 +20,7 @@ folder: blog
         </span>
 
 
-            {%- assign postImage = post.image | relative_url -%}
+            {%- assign postImage = post.images | relative_url -%}
             {%- if postImage -%}
                 <img src="{{postImage}}" alt="{{ post.title }}" width="100%" height="300">
             {%- else -%}
