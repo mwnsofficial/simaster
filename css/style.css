@@ -4540,7 +4540,7 @@ input[type="button"].btn-block {
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #e9ecef;
+  background-color: black;
 }
 
 .breadcrumb-item {
@@ -4567,7 +4567,7 @@ input[type="button"].btn-block {
 }
 
 .breadcrumb-item.active {
-  color: teal;
+  color: white;
 }
 
 .pagination {
@@ -6154,13 +6154,13 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: teal !important;
+  background-color: black !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
-  background-color: #e6e6e6 !important;
+  background-color: black !important;
 }
 
 .bg-dark {
