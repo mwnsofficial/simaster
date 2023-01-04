@@ -9,7 +9,7 @@ layout: default
    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%b-%Y" }}</time>
    {% if page.author %} {{ page.author }}{% endif %}
    <!-- call the image.html template file -->
-   {% if page.images %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}
+   {% if page.images %}<img src="/assets/images/{{ page.images }}" alt="{{ page.image-alt }}{% endif %}
 
     <div class="tags">
         {% if page.tags != null %}
