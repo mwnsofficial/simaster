@@ -7,7 +7,7 @@ author: Muhammad Yusuf
 permalink: tutorial-clash-magisk.html
 image: /assets/images/post.jpg
 image-alt: tutorial clash magisk v1.9
-summary: configuration oc openwrt of simaster v1.9
+summary: configuration clash magisk of simaster v1.9
 tags: [magisk]
 ---
 
