@@ -1,15 +1,14 @@
 ---
 published: true
 layout: post
-title: tutorial clash android
+title: tutorial simaster auto android
 date: 2023-01-01
 author: Muhammad Yusuf
-permalink: tutorial-clash-android.html
-description: This is the one blog post to rule them all
+permalink: tutorial-simaster-auto-android.html
+youtubeid: ClrrSotAreE
 image: /assets/images/post.jpg
 image-alt: tutorial clash android
-summary: tutorials configuration cfa of simaster
-categories: android
+summary: tutorials configuration auto cfa of simaster
 tags: [android]
 ---
 
