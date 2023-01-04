@@ -19,11 +19,15 @@ folder: blog
         <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author }}</span></span>{% endif %}
         </span>
 
-        <!-- call the featured-post-image.html template file -->
-        {% if post.image %}
-        <img src="{{ post.images }} alt="{{ post.image-alt }} width="100%" height="300">
-        {% endif %}
-        <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</p>
+
+            {%- assign postImage = post.image | relative_url -%}
+            {%- if postImage -%}
+                <img src="{{postImage}}" alt="{{ post.title }}" width="100%" height="300">
+            {%- else -%}
+                {%- assign postImage = "/assets/images/post.jpg" | relative_url -%}
+                <img src="{{postImage}}" alt="{{ post.title }}" width="100%" height="300">
+            {%- endif -%}
+         <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</p>
     </div>   
 {% endfor %}
         <hr />
