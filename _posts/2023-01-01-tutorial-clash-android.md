@@ -6,7 +6,7 @@ date: 2023-01-01
 author: Muhammad Yusuf
 permalink: tutorial-simaster-auto-android.html
 youtubeid: ClrrSotAreE
-image: /assets/images/post.jpg
+image: /assets/images/simaster-auto-android.jpg
 image-alt: tutorial clash android
 summary: tutorials configuration auto cfa of simaster
 tags: [android]
