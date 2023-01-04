@@ -5,7 +5,7 @@ title: configuration clash openwrt
 date: 2023-01-01
 author: Muhammad Yusuf
 permalink: tutorial-clash-openwrt.html
-image: /img/carousel.jpg
+image: /assets/images/post.jpg
 image-alt: tutorial clash openwrt
 summary: configuration oc openwrt of simaster
 categories: openwrt
