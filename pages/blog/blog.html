@@ -30,13 +30,14 @@ folder: blog
         {% include image.html image=post.featured-image alt=post.featured-image-alt %}
         {% endif %}
         <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</p>
-        <hr />
-        <p><b>Lihat berita loker lain nya:</b></p>
-        <p><a href="/arsip.html" class="btn btn-primary navbar-btn cursorNorm" role="button">Semua Post Simaster{{tag}}</a></p>
-        <p><a href="/sitemap.html" class="btn btn-primary navbar-btn cursorNorm" role="button">Sitemap{{tag}}</a></p>
-        <p><a href="feed.xml" class="btn btn-primary navbar-btn cursorNorm" role="button">RSS{{tag}}</a></p>
     </div>   
 {% endfor %}
+        <hr />
+        <p><b>Lihat berita loker lain nya:</b>
+        <a href="/arsip.html" class="btn btn-primary navbar-btn cursorNorm" role="button">Semua Post Simaster{{tag}}</a>
+        <a href="/sitemap.html" class="btn btn-primary navbar-btn cursorNorm" role="button">Sitemap{{tag}}</a>
+        <a href="feed.xml" class="btn btn-primary navbar-btn cursorNorm" role="button">RSS{{tag}}</a></p>
+
 </div>
 </div>
 <!-- some other HTML content -->
