@@ -2852,12 +2852,12 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: teal;
+  color: red;
   border-color: white;
 }
 
 .btn-outline-light:hover {
-  color: teal;
+  color: red;
   background-color: teal;
   border-color: white;
 }
@@ -2867,13 +2867,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light.disabled, .btn-outline-light:disabled {
-  color: teal;
+  color: red;
   background-color: transparent;
 }
 
 .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active,
 .show > .btn-outline-light.dropdown-toggle {
-  color: teal;
+  color: red;
   background-color: teal;
   border-color: white;
 }
@@ -9264,15 +9264,15 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #FFD333 !important;
+  color: red !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #e6b400 !important;
+  color: red !important;
 }
 
 .text-secondary {
-  color: #F5F5F5 !important;
+  color: red !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -9292,7 +9292,7 @@ a.text-success:hover, a.text-success:focus {
 }
 
 a.text-info:hover, a.text-info:focus {
-  color: #0f6674 !important;
+  color: red !important;
 }
 
 .text-warning {
@@ -9340,7 +9340,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: red !important;
 }
 
 .text-hide {
