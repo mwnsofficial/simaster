@@ -26,7 +26,10 @@ layout: default
 <div class="post-content" itemprop="articleBody">
   <!-- call the image.html template file -->
     {% if page.image %}
-      <img src="{{- page.image | relative_url -}}" alt="{{ page.image-alt }} width="100%" height="300px">{% endif %}
+      <img src="{{- page.image | relative_url -}}" alt="{{ page.image-alt }} width="100%" height="300px">
+    {%- assign postImage = "/assets/images/post.jpg" -%}
+      <img src="{{- postImage | relative_url -}}" alt="{{ page.image-alt }} width="100%" height="300px">
+    {%- endif -%}
         {% if page.summary %}
         <div class="summary">{{page.summary}}</div>
       {% endif %}
