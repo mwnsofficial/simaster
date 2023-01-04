@@ -313,8 +313,8 @@ a:hover {
 }
 
 .previous {
-  background-color: #f1f1f1;
-  color: black;
+  background-color: #04AA6D;
+  color: white;
 }
 
 .next {
@@ -327,7 +327,9 @@ a:hover {
 }
 
 .img-fluid {
-  display: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
