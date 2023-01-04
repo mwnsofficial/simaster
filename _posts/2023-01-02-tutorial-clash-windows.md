@@ -8,7 +8,7 @@ permalink: tutorial-clash-windows.html
 image: /assets/images/simaster-windows.jpg
 image-alt: tutorial clash windows
 summary: tutorials configuration cfw of simaster
-tags: [android]
+tags: [windows]
 ---
 
 ## Install clash windows
