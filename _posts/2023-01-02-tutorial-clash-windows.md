@@ -27,7 +27,8 @@ Jika anda sudah mengetahui persyaratan nya, sekarang anda sudah bisa melewati la
 
 ## Download config Clash Windows
 
-![image](https://user-images.githubusercontent.com/46000841/183148218-7ae52d64-f8c6-4955-a71d-8605cc14972c.png)
+<img src="https://user-images.githubusercontent.com/46000841/183148218-7ae52d64-f8c6-4955-a71d-8605cc14972c.png" alt="download clash windows" width="100%" height="320">
+
 
 Untuk mendapatkan config dari Master Wifi Network Solution, anda hanya perlu menekan download di bawah ini.
 
@@ -36,9 +37,11 @@ Untuk mendapatkan config dari Master Wifi Network Solution, anda hanya perlu men
 Jika sudah anda download, silahkan anda untuk melakukan ekstrak file formt zip ini
 
 ## Cara pemasangan config di Clash Windows
+
 Untuk memasang config ini cara nya cukup mudah, anda hanya tinggal ikuti step dari saya:
 
-![image](https://user-images.githubusercontent.com/46000841/183147778-4ed52067-5138-4001-b2d9-ebdb59e0daa5.png)
+<img src="https://user-images.githubusercontent.com/46000841/183147778-4ed52067-5138-4001-b2d9-ebdb59e0daa5.png" alt="Cara pemasangan config di Clash Windows" width="100%" height="320">
+
 
 1. Silahkan anda copy kan semua file ini lalu paste kan ke
 ```
@@ -67,7 +70,7 @@ files:
     mode: script
 ```
 
-![image](https://user-images.githubusercontent.com/46000841/183147879-293d16be-e08a-422b-9788-04f00a993d46.png)
+<img src="https://user-images.githubusercontent.com/46000841/183147879-293d16be-e08a-422b-9788-04f00a993d46.png" alt="tampilan clash windows" width="100%" height="320">
 
 4. Jika sudah beres semua, anda tinggal mengisi akun anda di akun1 dan akun2 dengan menakan tanda "< >" atau bisa juga dengan menekan klik kanan lalu pilih edit.
 
