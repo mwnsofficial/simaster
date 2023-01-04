@@ -326,5 +326,8 @@ a:hover {
   border-radius: 50%;
 }
 
-.img-fluid. max-width: 100%;
- height: auto;
+.img-fluid {
+  display: cover;
+  width: 100%;
+  height: auto;
+}
