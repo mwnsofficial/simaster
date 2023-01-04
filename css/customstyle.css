@@ -309,11 +309,13 @@ a:hover {
 .previous {
   background-color: #04AA6D;
   color: white;
+  float: left;
 }
 
 .next {
   background-color: #04AA6D;
   color: white;
+  float: right;
 }
 
 .round {
