@@ -31,6 +31,8 @@ layout: default
         {% if page.summary %}
       {% endif %}
     {{ content }}
+  {% include youtube-video.html id=page.youtubeid %}
+  {% include youtube-playlist.html playlist=page.playlist %}
   </div>
 <!-- other page content -->
 </article>
