@@ -2,15 +2,9 @@
  * Posts images start ----------
  */
 
-.featured-image-post {
+.img-fluid {
   width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
-.blog-roll-image {
-  width: 75px;
-  height: 75px;
+  height: 320px;
   object-fit: cover;
   float: left;
 }
@@ -324,12 +318,4 @@ a:hover {
 
 .round {
   border-radius: 50%;
-}
-
-.img-fluid {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
