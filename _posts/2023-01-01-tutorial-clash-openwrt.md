@@ -6,7 +6,7 @@ date: 2023-01-01
 author: Muhammad Yusuf
 permalink: tutorial-clash-openwrt.html
 youtubeid: fiobdUjdycU
-image: /assets/images/post.jpg
+image: /assets/images/simaster-auto-openwrt.jpg
 image-alt: tutorial simaster auto openwrt
 summary: configuration auto oc openwrt of simaster
 tags: [openwrt]
