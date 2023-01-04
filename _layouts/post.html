@@ -26,7 +26,7 @@ layout: default
 <div class="post-content" itemprop="articleBody">
   <!-- call the image.html template file -->
     {% if page.image %}
-      <img src="{{- page.image | relative_url -}}" alt="{{ page.image-alt }} class="img-fluid">
+      <img src="{{- page.image | relative_url -}}" alt="{{ page.image-alt }} width="100%" height="320">
     {%- endif -%}
         {% if page.summary %}
       {% endif %}
