@@ -6,7 +6,7 @@ date: 2023-01-01
 author: Muhammad Yusuf
 permalink: tutorial-clash-android.html
 description: This is the one blog post to rule them all
-images: post.jpg
+image: /assets/images/post.jpg
 image-alt: tutorial clash android
 summary: tutorials configuration cfa of simaster
 categories: android
