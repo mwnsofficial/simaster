@@ -3,9 +3,7 @@ title: video channel simaster
 layout: page
 keywords: news, blog, youtube, channel
 permalink: video.html
-youtubeid: jXLQttDzm54
-playlist:
-folder: blog
+folder: pages
 ---
 
 <h3>PLAYLIST OPENWRT</h3>
