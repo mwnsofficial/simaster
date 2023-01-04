@@ -1,10 +1,16 @@
 ---
-title: "tutorial clash android"
 published: true
+layout: post
+title: "tutorial clash android"
+date:   2023-01-01
+author: Muhammad Yusuf
 permalink: tutorial-clash-android.html
+description: This is the one blog post to rule them all
+featured-image: /assets/images/post.jpg
+featured-image-alt: tutorial clash android
 summary: "tutorials configuration cfa of simaster."
+categories: android
 tags: [android]
-image: /assets/images/post.jpg
 ---
 
 Tata cara penggunaan simaster cfa auto.
