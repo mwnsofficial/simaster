@@ -38,13 +38,10 @@ layout: default
     {% include youtubevideo.html id=page.youtubeid %}
     {% include youtubeplaylist.html playlist=page.playlist %}
 
-<div class="PageNavigation">
-  {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-  {% endif %}
-</div>
+<a class="previous" href="{{page.previous.url}}">&laquo; Previous</a>
+<a class="next" href="{{page.next.url}}">Next &raquo;</a>
+
+<a class="previous round" href="{{page.previous.url}}">&#8249;</a>
+<a class="next round" href="{{page.next.url}}">&#8250;</a>
 <!-- other page content -->
 </article>
