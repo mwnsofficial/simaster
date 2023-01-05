@@ -7,18 +7,26 @@
 
 <body>
 {% include navbar.html %}
-    {% include adsense.html %}
+<div class="ads">
+{% include adsense.html %}
+</div>
 <section>
   {% include breadcrumb.html %}
-    {% include adsense.html %}
+<div class="ads">
+{% include adsense.html %}
+</div>
     {{ content }}
-    {% include adsense.html %}
+<div class="ads">
+{% include adsense.html %}
+</div>
   {% include comments.html %}
 </section>
 
 {% include offer.html %}
 {% include vendor.html %}
+<div class="ads">
 {% include adsense.html %}
+</div>
 <footer>
 {% include footer.html %}
 </footer>
