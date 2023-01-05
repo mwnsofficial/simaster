@@ -6,31 +6,21 @@
 </head>
 
 <body>
-{% include navbar.html %}
-<div class="ads">
 {% include adsense.html %}
-</div>
+{% include navbar.html %}
+{% include adsense.html %}
 <section>
   {% include breadcrumb.html %}
-<div class="ads">
-{% include adsense.html %}
-</div>
     {{ content }}
-<div class="ads">
-{% include adsense.html %}
-</div>
   {% include comments.html %}
 </section>
-
+{% include adsense.html %}
 {% include offer.html %}
 {% include vendor.html %}
-<div class="ads">
-{% include adsense.html %}
-</div>
 <footer>
 {% include footer.html %}
 </footer>
-
+{% include adsense.html %}
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
