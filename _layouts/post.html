@@ -3,6 +3,9 @@ layout: default
 ---
 
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+<div class="ads">
+{% include adsense.html %}
+</div>
 <header class="post-header">
 <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%b-%Y" }}</time>
@@ -23,6 +26,9 @@ layout: default
       <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-pencil-square-o"></i> Muhammad Yusuf</a>
     {% endif %}
   </div>
+<div class="ads">
+{% include adsense.html %}
+</div>
 </header>
 <div class="post-content" itemprop="articleBody">
   <!-- call the image.html template file -->
@@ -31,8 +37,11 @@ layout: default
     {%- endif -%}
         {% if page.summary %}
       {% endif %}
-    {% include adsense.html %}
-    {{ content }} 
+    {{ content }}
+
+ <div class="ads">
+ {% include adsense.html %}
+ </div>
  </div>
     {% include bagikan.html %}
     {% include youtubevideo.html id=page.youtubeid %}
@@ -42,4 +51,7 @@ layout: default
 <a class="next" href="{{page.next.url}}">Next Page</a>
 <!-- other page content -->
 </article>
-    {% include adsense.html %}
+
+<div class="ads">
+{% include adsense.html %}
+</div>
