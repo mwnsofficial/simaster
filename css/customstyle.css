@@ -334,10 +334,10 @@ a:hover {
 .bagikan-sekarang {
     display: inline-block;
     margin: 0;
-    color: #4e4a4a;
+    color: black;
     text-transform: uppercase;
     font-size: 16px;
-    background: #fff;
+    background: green;
     z-index: 1;
     position: relative;
     padding: 0 10px;
@@ -369,7 +369,7 @@ a:hover {
     width: 20%;
     display: block;
     font-size: 18px;
-    color: cyan;
+    color: red;
     transition: opacity 0.15s linear;
     float: left;
 }
@@ -378,8 +378,8 @@ a:hover {
   #kotak-bagikan a {
     width: 20%;
     display: block;
-    font-size: 18px;
-    color: red;
+    font-size: 15px;
+    color: cyan;
     transition: opacity 0.15s linear;
     float: left;
   }
