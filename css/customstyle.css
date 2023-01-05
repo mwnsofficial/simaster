@@ -78,7 +78,7 @@ table tr td {
 }
 
 table.dataTable thead {
-    background-color: #444;
+    background-color: green;
 }
 table td {
     hyphens: auto;
@@ -100,7 +100,7 @@ section table tr.danger, table tr.preference, table tr.preference > td.sorting_1
 }
 
 .orange {
-    color: orange;
+    color: green;
 }
 
 table.profile thead tr th {
@@ -304,6 +304,8 @@ a:hover {
   color: black;
 }
 
+/** --- start next prev --- **/
+
 .previous {
   background-color: #04AA6D;
   color: white;
@@ -320,7 +322,10 @@ a:hover {
   border-radius: 50%;
 }
 
-/** bagikan **/
+/** --- end next prev --- **/
+
+/** --- start share box --- **/
+
 #kotak-bagikan-container {
     margin: 20px auto 30px;
     overflow: hidden;
@@ -385,3 +390,28 @@ a:hover {
     float: left;
   }
 }
+
+/** --- end share box --- **/
+
+/** --- start ads --- **/
+
+.ads {
+ width: 320px;
+ height: 100px;
+}
+
+@media(min-width: 500px) {
+.ads {
+ width: 468px;
+  height: 60px;
+}
+}
+
+@media(min-width: 800px) {
+.ads {
+ width: 728px;
+  height: 90px;
+}
+}
+
+/** --- end ads --- **/
