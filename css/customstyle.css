@@ -368,8 +368,8 @@ a:hover {
 #kotak-bagikan a {
     width: 20%;
     display: block;
-    font-size: 24px;
-    color: #353131;
+    font-size: 18px;
+    color: cyan;
     transition: opacity 0.15s linear;
     float: left;
 }
@@ -379,7 +379,7 @@ a:hover {
     width: 20%;
     display: block;
     font-size: 18px;
-    color: #353131;
+    color: red;
     transition: opacity 0.15s linear;
     float: left;
   }
