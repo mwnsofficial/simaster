@@ -32,8 +32,7 @@ layout: default
         {% if page.summary %}
       {% endif %}
     {% include adsense.html %}
-    {{ content }}
-    {% include adsense.html %} 
+    {{ content }} 
  </div>
     {% include bagikan.html %}
     {% include youtubevideo.html id=page.youtubeid %}
@@ -43,3 +42,4 @@ layout: default
 <a class="next" href="{{page.next.url}}">Next Page</a>
 <!-- other page content -->
 </article>
+    {% include adsense.html %}
