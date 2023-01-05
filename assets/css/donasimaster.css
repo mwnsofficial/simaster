@@ -1,0 +1,73 @@
+/* Start Donation Simaster */
+
+.donasimaster {
+  background: #bde0b9; /* warna background */
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 20px 0px;
+  display: flex;
+  padding: 15px;
+  overflow: hidden;
+  transition: all .3s ease;
+  border-radius: 7px;
+}
+
+.donasimaster .ikon a {
+  background-color: #008c5f; /* warna ikon */
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  border-radius: 7px;
+  text-align: center;
+  -webkit-animation: simasterbounce 1s linear 1s infinite normal;
+  animation: simasterbounce 1s linear 1s infinite normal
+}
+
+.donasimaster svg {
+  width: 50px;
+  height: 50px
+}
+
+.donasimaster svg path {
+  fill: #bde0b9
+}
+
+.donasimaster .ikon {
+  margin-right: 15px
+}
+
+.donasimaster .deskripsi {
+  line-height: 1.5em;
+}
+
+.donasimaster .deskripsi .judul {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+@keyframes simasterbounce{0%,100%{-webkit-transform:scale3d(1,1,1);transform: scale3d(1,1,1)}
+30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}
+40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}
+50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}
+65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}
+75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}
+}
+@-webkit-keyframes simasterbounce{0%,100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}
+40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}
+50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}
+65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}
+75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}
+}
+
+/* End Donation Simaster */
