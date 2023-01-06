@@ -1,0 +1,63 @@
+/* Safelink */
+
+.button1{
+  display: inline-block;
+  padding: 6px 20px;
+  margin: 15px 0 10px 0;
+  border: 1px solid #ddd;
+  font-size: 13px;
+  color: #414141;
+  border-radius: 30px;
+  cursor: pointer;
+  transition:  all 0.3s ease
+}
+
+.button1:hover{
+  background-color: #EA6D23;
+  border-color: #EA6D23;
+  color: #fff
+}
+
+.ads-top{
+  padding: 5px 0 15px 0;
+  text-align: center
+}
+
+.ads-left,.ads-right{
+  display: inline-block;
+  float: left;
+  margin: 5px 15px 0 0
+}
+
+.ads-right{
+  float: right;
+  margin: 5px 0 0 15px
+}
+
+.visit-link,#daplong{
+  margin-right: 0;
+  padding: 7px 30px;
+  line-height: 25px;
+  font-family: Lato, sans-serif;
+  transition: all 0.3s ease-in-out
+}
+
+.visit-link{
+  padding: 7px 50px
+}
+
+#HTML99,#HTML99 .widget-content{
+  border: 0!important;
+  margin: 0!important;
+  padding: 0!important
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px){.ads-left,.ads-right{
+  display: block;
+  float: none;
+  margin: 5px 0 0;
+  text-align: center
+}
+}
