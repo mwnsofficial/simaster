@@ -61,14 +61,14 @@ folder: blog
 
 		th {
 			font-size: 0.9em;
-			padding: 2px 6px 4px 4px;
+			padding: 2px 4px 4px 4px;
 			border-bottom: 1px solid #CCCCCC;
 			vertical-align: top;
 		}
 
 		td {
 			font-size: 0.9em;
-			padding: 2px 6px 4px 4px;
+			padding: 2px 4px 4px 4px;
 			border-bottom: 1px solid #CCCCCC;
 			vertical-align: top;
 		}
@@ -189,13 +189,9 @@ folder: blog
 {% endif %}
 {% endunless %}
 <tr>
-<td Class="c1">Waktu Post</td>
-<td Class="c1">Judul Post</td>
+<th Class="c1">Waktu Post</th>
+<th Class="c1">Judul Post</th>
 </tr>
-</tabel>
-</div>
-<div class="body">
-<table>
 <tr>
 <td Class="c1"><time>{{ post.date | date:"%d-%b-%Y" }}</time></td>
 <td Class="c1"><a href="{{ post.url | remove: "/"}}"> {{ post.title }}</a></td>
