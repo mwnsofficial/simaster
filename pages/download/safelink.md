@@ -159,7 +159,7 @@ folder: download
 <div class='safelink' dir='ltr' trbidi='on'>
 <div>
 <span id='daplong' class='button1'>Simaster Muatkan...</span></div>
-<script>var currentURL=location.href; var str = currentURL; var res = str.replace("https://www.clashmwns.com/safelink.html?url=", ""); document.write('<button id="download" class="visit-link button1" onclick="changeLink();" style="display:none;" href="https://www.mwns.eu.org">Menuju Link</button>')</script></div>
+<script>var currentURL=location.href; var str = currentURL; var res = str.replace("https://www.clashmwns.com/safelink.html?url=", ""); document.write('<button id="download" class="visit-link button1" onclick="changeLink();" style="display:none;"><a href="https://www.mwns.eu.org">Menuju Link</a></button>')</script></div>
 <div id='ads-right' class='ads-right'>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1794381705838564"
      crossorigin="anonymous"></script>
