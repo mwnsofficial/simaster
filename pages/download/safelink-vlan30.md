@@ -4,6 +4,8 @@ layout: page
 keywords: safelink
 permalink: safelink-vlan30.html
 folder: download
+youtubeid: h0wKldSUSKg
+playlist: PLl3VtaZ1T4VpPm1NjF0jPwETk_npxDrwI
 ---
 
 <div class='separator-text' style='text-align:center'>
