@@ -127,12 +127,12 @@ folder: blog
 
 		.c2 {
 			text-align: left;
-			width: 14em;
+			width: 40%;
 		}
 
 		.c3 {
 			text-align: center;
-			width: 6em;
+			width: 60%;
 		}
 
 		.c4 {
@@ -189,12 +189,12 @@ folder: blog
 {% endif %}
 {% endunless %}
 <tr>
-<th Class="c1">Waktu Post</th>
-<th Class="c1">Judul Post</th>
+<th Class="c2">Waktu Post</th>
+<th Class="c3">Judul Post</th>
 </tr>
 <tr>
-<td Class="c1"><time>{{ post.date | date:"%d-%b-%Y" }}</time></td>
-<td Class="c1"><a href="{{ post.url | remove: "/"}}"> {{ post.title }}</a></td>
+<td Class="c2"><time>{{ post.date | date:"%d-%b-%Y" }}</time></td>
+<td Class="c3"><a href="{{ post.url | remove: "/"}}"> {{ post.title }}</a></td>
 </tr>
 {% endfor %}
 </section>
