@@ -21,11 +21,17 @@ folder: blog
             {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
             {% if year != nyear %}
         </ul>
-        <h3>{{ post.date | date: '%Y' }}</h3>
-        <ul class="past">
-            {% endif %}
-            {% endunless %}
-            <li><time>{{ post.date | date:"%d-%b-%Y" }}</time> : <a href="{{ post.url | remove: "/"}}"> {{ post.title }}</a></li>
+<table>
+<h3>{{ post.date | date: '%Y' }}</h3>
+<ul class="past">
+{% endif %}
+{% endunless %}
+<table>
+<th>Waktu Post</th>
+<th>Judul Post</th>
+<td><time>{{ post.date | date:"%d-%b-%Y" }}</time></td>
+<td><a href="{{ post.url | remove: "/"}}"> {{ post.title }}</a></td>
+</tabel>
             {% endfor %}
         </ul>
     </section>
