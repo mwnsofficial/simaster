@@ -192,10 +192,17 @@ folder: blog
 {% endif %}
 {% endunless %}
 <table>
-<th>Waktu Post</th>
-<th>Judul Post</th>
-<td><time>{{ post.date | date:"%d-%b-%Y" }}</time></td>
-<td><a href="{{ post.url | remove: "/"}}"> {{ post.title }}</a></td>
+<tr>
+<th Class="c1">Waktu Post</th>
+</tr>
+<th Class="c1">Judul Post</th>
+</tr>
+<tr>
+<td Class="c1"><time>{{ post.date | date:"%d-%b-%Y" }}</time></td>
+</tr>
+<tr>
+<td Class="c1"><a href="{{ post.url | remove: "/"}}"> {{ post.title }}</a></td>
+</tr>
 </table>
 </div>
 </body>
