@@ -1,53 +1,55 @@
 ---
 title: script account shadowsocks
 layout: page
-keywords: script, account, shadowsocks
+keywords: script, account, shadowsocks, shadowsocksr
 permalink: account-shadowsocks.html
 folder: account
+youtubeid: jXLQttDzm54
+playlist: PLl3VtaZ1T4VpPm1NjF0jPwETk_npxDrwI
 ---
 <div class="row">
     <!-- Categories Start -->
     <div class="container-fluid pt-5">
-        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Kumpulan Account Shadowsocks</span></h2>
+        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Kumpulan Account Snell</span></h2>
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
+                <a class="text-decoration-none" href="https://github.com/mwnsofficial/shadowsocks/archive/refs/heads/main.zip">
                     <div class="cat-item d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
                             <img class="img-fluid" src="img/cat.jpg" alt=""></a>
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Shadowsocks H2</h6>
+                            <h6>Shadowsocks Tanpa Plugin</h6>
                             <small class="text-body">1 Products</small>
-                            <p><a href="https://bit.ly/3WyfWe8"><i>DOWNLOAD</i></a></p>
+                            <p><a href="https://github.com/mwnsofficial/shadowsocks/archive/refs/heads/main.zip"><i>DOWNLOAD</i></a></p>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3jyIvte">
+                <a class="text-decoration-none" href="https://github.com/mwnsofficial/shadowsocks-obfs/archive/refs/heads/main.zip">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
                             <img class="img-fluid" src="img/cat.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Shadowsocks WS</h6>
+                            <h6>Shadowsocks Plugin Obfs</h6>
                             <small class="text-body">1 Products</small>
-                            <p><a href="https://bit.ly/3jyIvte"><i>DOWNLOAD</i></a></p>
+                            <p><a href="https://github.com/mwnsofficial/shadowsocks-obfs/archive/refs/heads/main.zip"><i>DOWNLOAD</i></a></p>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3hN8DA8">
+                <a class="text-decoration-none" href="https://github.com/mwnsofficial/shadowsocksr/archive/refs/heads/main.zip">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
                             <img class="img-fluid" src="img/cat.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Shadowsocks GRPC</h6>
+                            <h6>ShadowsocksR (SNI)</h6>
                             <small class="text-body">1 Products</small>
-                            <p><a href="https://bit.ly/3hN8DA8"><i>DOWNLOAD</i></a></p>
+                            <p><a href="https://github.com/mwnsofficial/shadowsocksr/archive/refs/heads/main.zip"><i>DOWNLOAD</i></a></p>
                         </div>
                     </div>
                 </a>
