@@ -27,11 +27,6 @@ tag: [blog]
          <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 150 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</p>
     </div>   
 {% endfor %}
-        <hr />
-        <p><b>Lihat semua post simaster:</b></p>
-        <p><a href="{{ site.baseurl }}/arsip.html" class="btn btn-primary navbar-btn cursorNorm" role="button">Arsip Blog{{tag}}</a>
-        <p><a href="{{ site.baseurl }}/sitemap.html" class="btn btn-primary navbar-btn cursorNorm" role="button">Sitemap{{tag}}</a>
-        <a href="{{ site.baseurl }}/feed.xml" class="btn btn-primary navbar-btn cursorNorm" role="button">RSS Feed{{tag}}</a></p>
 
 </div>
 </div>
