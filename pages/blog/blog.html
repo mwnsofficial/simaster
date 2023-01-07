@@ -21,10 +21,8 @@ tag: [blog]
         <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author }}</span></span>{% endif %}
         </span>
 
-
-            {% assign post.image | relative_url %}
-            {% if postImage %}
-                <img src="/{{ post.image }}" alt="{{ post.title }}" class="img-fluid">
+            {% if page.image %}
+                <img src="{{ post.image | relative_url %}}" alt="{{ post.title }}" class="img-fluid">
             {% endif %}
          <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 150 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</p>
     </div>   
