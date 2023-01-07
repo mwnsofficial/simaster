@@ -416,53 +416,42 @@ a:hover {
 
 /** --- end ads --- **/
 
-/** --- start search --- **/
+/** --- search area --- **/
 
-#search-bar {
-  margin: 32px auto;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  padding: 0 20px;
-
-  & #search {
-    width: calc(100% - 30px);
-    border: none;
-    line-height: 44px;
-    outline: none;
-    border-style: none;
-  }
-  & #search-result {
-    display: none;
-    position: absolute;
-    top: 80px;
-    width: calc(100% - 70px);
-    max-height: 325px;
-    overflow-y: auto;
+#search-demo-container ul#results-container {
+    list-style: none;
+    font-size: 12px;
     background-color: white;
-    box-shadow: 0px 4px 8px 0 #ccc;
-    z-index: 99999;
-    & .result-item {
-      display: block;
-      padding: 8px 16px;
-      text-decoration: none;
-      & .title,
-      .description {
-        width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-      & .title {
-        color: #f74094;
-        padding-bottom: 4px;
-        font-size: 16px;
-      }
-      & .description {
-        color: #757575;
-        font-size: 16px;
-      }
-    }
-  }
+    position: absolute;
+    top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
+    left: 20px;
+    z-index: -1;
+    width:223px;
+    border-left: 1px solid #dedede;
+}
+
+
+ul#results-container a {
+    background-color: transparent;
+}
+
+ul#results-container a:hover {
+    color: black;
+}
+
+
+#search-demo-container a:hover {
+    color: black;
+}
+#search-input {
+    padding: .5em;
+    margin-left:20px;
+    width:20em;
+    font-size: 0.8em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top:10px;
 }
 
 /** --- end search --- **/
