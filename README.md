@@ -14,15 +14,15 @@ For those of you who want to try the simaster template from me. You can press th
 
 If you wish to donate, please use the following:
 
-![DANA](/asets/images/donasidana.png)
+![DANA](https://github.com/mwnsofficial/simaster/asets/images/donasidana.png)
 
-![SHOPEEPAY](/asets/images/donasishopeepay.png)
+![SHOPEEPAY](https://github.com/mwnsofficial/simaster/asets/images/donasishopeepay.png)
 
-![SAWERIA](/asets/images/donasisaweria.png)
+![SAWERIA](https://github.com/mwnsofficial/simaster/asets/images/donasisaweria.png)
 
-![SOCIABUZZ](/asets/images/donasisociabuzz.png)
+![SOCIABUZZ](https://github.com/mwnsofficial/simaster/asets/images/donasisociabuzz.png)
 
-![PAYPAL](/asets/images/donasipaypal.png)
+![PAYPAL](https://github.com/mwnsofficial/simaster/asets/images/donasipaypal.png)
 
-![KO-FI](/asets/images/donasikofi.png)
+![KO-FI](https://github.com/mwnsofficial/simaster/asets/images/donasikofi.png)
 
