@@ -21,9 +21,9 @@ folder: blog
         </span>
 
 
-            {%- assign postImage = post.image | relative_url -%}
+            {%- assign post.image = page.image | relative_url -%}
             {%- if postImage -%}
-                <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ post.title }}" class="img-fluid">
+                <img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}" class="img-fluid">
             {%- endif -%}
          <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 150 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</p>
     </div>   
