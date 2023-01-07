@@ -22,3 +22,4 @@ If you wish to donate, please use the following:
 | ![SOCIABUZZ](https://github.com/mwnsofficial/simaster/blob/main/assets/images/donasisociabuzz.png) | [DONATE HERE](https://sociabuzz.com/master_wifi_network_solution/tribe) |
 | ![PAYPAL](https://github.com/mwnsofficial/simaster/blob/main/assets/images/donasipaypal.png) | [DONATE HERE](https://paypal.me/myarachma92) |
 | ![KO-FI](https://github.com/mwnsofficial/simaster/blob/main/assets/images/donasikofi.png) | [DONATE HERE](https://ko-fi.com/masterwifinetworksolution) |
+
