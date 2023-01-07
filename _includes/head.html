@@ -1,13 +1,11 @@
 <meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5" name="viewport">
-<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
 <title>simaster - {{ page.title }}</title>
-<meta content="{{ site.keywords }}" name="keywords">
-<meta content="{{ site.description }}" name="description">
+<meta name="keywords" content="{{ site.keywords }}">
+<meta name="description" content="{{ site.description }}">
 <meta name="author" content="{{ site.author }}">
 <meta http-equiv="refresh" content="360">
-
-<!--[ Generator and rrs ]-->
+<base href="{{ site.url }}/{{ page.url }}">
 
 <!-- Favicon -->
 <link href="/assets/images/logo.png" rel="icon">
@@ -36,22 +34,3 @@
 
 <script>/*<![CDATA[*/ var currentURL=location.href; var str = currentURL; var res = str.replace("//www.clashmwns.com/safelink.html?url=", ""); $(".visit-link").hide(); function changeLink(){var decodedString = Base64.decode(res); window.open(decodedString,'_blank')} function generate() {var linkDL = document.getElementById("download"), btn = document.getElementById("btn"), notif = document.getElementById("daplong"), direklink = document.getElementById("download").href, waktu = 15; var teks_waktu = document.createElement("span"); linkDL.parentNode.replaceChild(teks_waktu, linkDL); var id; id = setInterval(function () { waktu--; if (waktu < 0) { teks_waktu.parentNode.replaceChild(linkDL, teks_waktu); clearInterval(id); notif.style.display = "none"; linkDL.style.display = "inline-block"; } else { teks_waktu.innerHTML = "Link akan simaster tampilkan dalam " + waktu.toString() + " Detik"; btn.style.display = "none";}}, 1000);} /*]]>*/</script>
 <script>/*<![CDATA[*/ var uri = window.location.toString(); if (uri.indexOf("%3D","%3D") > 0) { var clean_uri = uri.substring(0, uri.indexOf("%3D")); window.history.replaceState({}, document.title, clean_uri);} var uri = window.location.toString(); if (uri.indexOf("%3D%3D","%3D%3D") > 0) { var clean_uri = uri.substring(0, uri.indexOf("%3D%3D")); window.history.replaceState({}, document.title, clean_uri);} var uri = window.location.toString(); if (uri.indexOf("&m=1","&m=1") > 0) { var clean_uri = uri.substring(0, uri.indexOf("&m=1")); window.history.replaceState({}, document.title, clean_uri); } var uri = window.location.toString(); if (uri.indexOf("?m=1","?m=1") > 0) { var clean_uri = uri.substring(0, uri.indexOf("?m=1")); window.history.replaceState({}, document.title, clean_uri);}; var protocol=window.location.protocol.replace(/\:/g,''); if(protocol=='http'){ var url=window.location.href.replace('http','https'); window.location.replace(url);} /*]]>*/</script>
-
-<!-- Markup JSON-LD dibuat oleh Pemandu Markup Data Terstruktur Google. -->
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Article",
-  "image": "https://www.clashmwns.com/assets/images/post.jpg",
-  "articleSection": "Kami membuka toko, donasi, dan juga tutorial terlengkap khusus untuk anda",
-  "url": "{{ site.url }}",
-  "publisher": {
-    "@type": "Author",
-    "name": "Muhammad Yusuf"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "rating"
-  }
-}
-</script>
