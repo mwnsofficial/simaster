@@ -1,289 +1,175 @@
 ---
 title: sitemap
-layout: default
+layout: page
 ---
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="en">
+
 <head>
-	<title>Sitemap clashmwns</title>
-	<meta name="description" content="Sitemap created by clashmwns" />
-	<meta name="keywords" content="Sitemap Generator clashmwns" />
-	<meta content="simaster" name="Author" />
+	<meta charset="utf-8" />
+	<title>Simaster - Sitemap</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+	<style type="text/css">
+	body {
+		background-color: #fff;
+		font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+		margin: 0;
+	}
 
-	<style>
+	#top {
 
-	.html, body {
-			padding: 0px;
-			margin: 0px;
-			font-family: Tahoma, Verdana, Arial, sans-serif;
-			height: 100%;
-		}
+		background-color: #b1d1e8;
+		font-size: 16px;
+		padding-bottom: 40px;
+	}
 
-		h1 {
-			padding: 1%;
-			margin: 0px;
-			font-style: normal;
-			font-weight: normal;
-		}
+	nav {
+		font-size: 24px;
 
-			h1 a {
-				color: #FFFFFF;
-				text-decoration: none;
-			}
+		margin: 0px 30px 0px;
+		border-bottom-left-radius: 6px;
+		border-bottom-right-radius: 6px;
+		background-color: #f3f3f3;
+		color: #666;
+		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+		padding: 10px 0;
+		text-align: center;
+		z-index: 1;
+	}
 
-		table {
-			height: 75%;
-			border-collapse: collapse;
-		}
+	h3 {
+		margin: auto;
+		padding: 10px;
+		max-width: 600px;
+		color: #666;
+	}
 
-		thead tr {
-			width: 100%;
-		}
+	h3 span {
+		float: right;
+	}
 
-		tbody tr:nth-child(even) {
-			background-color: #f2f2f2;
-		}
-
-		tbody tr:hover {
-			background-color: #ffff99;
-		}
-
-		tbody.main {
-			overflow: auto;
-			width: 100%;
-			height: 75vh;
-		}
-
-		th {
-			font-size: 0.9em;
-			padding: 2px 10px 2px 2px;
-			border-bottom: 1px solid #CCCCCC;
-		}
-
-		td {
-			font-size: 0.9em;
-			padding: 6px 10px 6px 4px;
-			border-bottom: 1px solid #CCCCCC;
-			vertical-align: top;
-		}
-
-		i {
-			font-size: 1.5em;
-		}
-
-		td p {
-			margin-top: 0;
-			padding-top: 0;
-		}
-
-		.top-bar {
-			width: 100%;
-			float: left;
-			background-color: #141E53 !important;
-		}
-
-		.body {
-			width: 98%;
-			float: left;
-			padding: 1%;
-		}
-
-		.footer {
-			width: 100%;
-			float: left;
-			border-top: 1px solid #999999;
-			padding: 10px 0px 10px 0px;
-		}
-
-			.footer a {
-				color: #999999;
-				font-size: 11px;
-				text-decoration: none;
-			}
-
-			.footer span {
-				color: #999999;
-				font-size: 11px;
-				text-decoration: none;
-				margin-left: 20px;
-			}
-
-		.c0 {
-			text-align: left;
-			white-space: nowrap;
-			width: 30em;
-		}
-
-		.c1 {
-			text-align: left;
-			min-width: 30em;
-		}
-
-		.c2 {
-			text-align: left;
-			width: 14em;
-		}
-
-		.c3 {
-			text-align: center;
-			width: 6em;
-		}
-
-		.c4 {
-			text-align: center;
-			width: 6em;
-		}
-
-		.c5 {
-			text-align: center;
-			width: 6em;
-		}
-
-		.c6 {
-			text-align: center;
-			width: 6em;
-		}
+	h3 a {
+		font-weight: normal;
+		display: block;
+	}
 
 
-		.bi-check-circle {
-			color: #33cc33;
-		}
+	#cont {
+		position: relative;
+		border-radius: 6px;
+		box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 
-		.bi-exclamation-triangle {
-			color: #ff8c1a
-		}
+		background: #f3f3f3;
 
-		.bi-exclamation-octagon {
-			color: #e60000
-		}
+		margin: -20px 30px 0px 30px;
+		padding: 20px;
+	}
+
+	a:link,
+	a:visited {
+		color: #0180AF;
+		text-decoration: underline;
+	}
+
+	a:hover {
+		color: #666;
+	}
+
+
+	#footer {
+		padding: 10px;
+		text-align: center;
+	}
+
+	ul {
+    	margin: 0px;
+
+    	padding: 0px;
+    	list-style: none;
+	}
+	li {
+		margin: 0px;
+	}
+	li ul {
+		margin-left: 20px;
+	}
+
+	.lhead {
+		background: #ddd;
+		padding: 10px;
+    	margin: 10px 0px;
+	}
+
+	.lcount {
+		padding: 0px 10px;
+	}
+
+	.lpage {
+		border-bottom: #ddd 1px solid;
+		padding: 5px;
+	}
+	.last-page {
+		border: none;
+	}
 	</style>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
 </head>
 
 <body>
-<div class="top-bar">
-<h1><a href="/sitemap.html">Sitemap clashmwns</a></h1>
-</div>
-<div class="body">
-<table>
-<tr>
-<th Class="c1">Halaman</th>
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/index.html">Home</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/donasi.html">Donasi</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/contact.html">Contact</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/about.html">About</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/disclaimer.html">Disclaimer</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/privacy-policy.html">Privacy Policy</a></td> 
-</tr>
-</table>
-</div>
-<div class="body">
-<table>
-<tr>
-<th Class="c1">Semua Rules</th>
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/rule-chat.html">Rule Chat</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/rule-olshop.html">Rule Olshop</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/rule-bank.html">Rule Bank</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/rule-stream.html">Rule Stream</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/rule-sosmed.html">Rule Sosmed</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/rule-game.html">Rule Game</a></td> 
-</tr>
-</table>
-</div>
-<div class="body">
-<table>
-<tr>
-<th Class="c1">Semua Account</th>
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/account-http.html">Account HTTP</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/account-snell.html">Account Snell</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/account-shadowsocks.html">Account Shadowsocks</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/account-vmess.html">Account Vmess</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/account-trojan.html">Account Trojan</a></td> 
-</tr>
-</table>
-</div>
-<div class="body">
-<table>
-<tr>
-<th Class="c1">Semua Configuration</th>
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/configuration-lama.html">Configuration Lama</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/configuration-evo.html">Configuration Evo</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/configuration-simaster.html">Configuration Simaster</a></td> 
-</tr>
-</table>
-</div>
-<div class="body">
-<table>
-<tr>
-<th Class="c1">Blog, Tutorial, Edukasi</th>
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/video.html">Video</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/arsip.html">Arsip</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/blog.html">Blog</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/tutorial-clash-windows.html">Tutorial Clash Windows</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/tutorial-clash-magisk.html">Tutorial Clash Magisk</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/tutorial-simaster-auto-android.html">Tutorial Clash Android</a></td> 
-</tr>
-<tr>
-<td Class="c1"><a href="https://www.clashmwns.com/tutorial-clash-openwrt.html">Tutorial Clash Openwrt</a></td> 
-</tr>
-</table>
-</div>
+	<div id="top">
+		<nav>Sitemap Simaster</nav></div>
+<text align="center">
+<p>Last updated: 7 January 2023</p>
+<p>Total pages: 38, Kembali ke <a href="{{ site.baseurl }}">Home</a></p>
+<br></text>
+	<div id="cont">
+		<ul class="level-0">
+
+            <li class="lhead">/  <span class="lcount">38 pages</span></li>
+            
+<li class="lpage"><a href="https://www.clashmwns.com/" title="simaster - home">simaster - home</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/blog.html" title="simaster - blog simaster">simaster - blog simaster</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/arsip.html" title="simaster - sitemap clashmwns">simaster - sitemap clashmwns</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/video.html" title="simaster - video channel simaster">simaster - video channel simaster</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/configuration-simaster.html" title="simaster - script configuration simaster">simaster - script configuration simaster</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/configuration-evo.html" title="simaster - script configuration evo">simaster - script configuration evo</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/configuration-lama.html" title="simaster - script configuration lama">simaster - script configuration lama</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/account-trojan.html" title="simaster - script account trojan">simaster - script account trojan</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/account-vmess.html" title="simaster - script account vmess">simaster - script account vmess</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/account-vless.html" title="simaster - script account vless">simaster - script account vless</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/account-shadowsocks.html" title="simaster - script account shadowsocks">simaster - script account shadowsocks</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/account-snell.html" title="simaster - script account snell">simaster - script account snell</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/account-socks5.html" title="simaster - script account socks5">simaster - script account socks5</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/rule-game.html" title="simaster - rule game">simaster - rule game</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/rule-sosmed.html" title="simaster - rule sosmed">simaster - rule sosmed</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/rule-stream.html" title="simaster - rule stream">simaster - rule stream</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/rule-bank.html" title="simaster - rule bank">simaster - rule bank</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/rule-olshop.html" title="simaster - rule online shop">simaster - rule online shop</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/rule-chat.html" title="simaster - rule chat">simaster - rule chat</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/privacy-policy.html" title="simaster - privacy policy">simaster - privacy policy</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/disclaimer.html" title="simaster - disclaimer">simaster - disclaimer</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/readme.html" title="simaster - About Us">simaster - About Us</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/contact.html" title="simaster - contact">simaster - contact</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/donasi.html" title="simaster - donasi">simaster - donasi</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/tag-openwrt.html" title="simaster - Tutorial Openwrt">simaster - Tutorial Openwrt</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/tag-android.html" title="simaster - Tutorial Android">simaster - Tutorial Android</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/tag-magisk.html" title="simaster - Tutorial Magisk">simaster - Tutorial Magisk</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/tag-termux.html" title="simaster - Tutorial Termux">simaster - Tutorial Termux</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/tag-windows.html" title="simaster - Tutorial Windows">simaster - Tutorial Windows</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/donasi-bri.html" title="simaster - Donasi via BRI">simaster - Donasi via BRI</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/donasi-pulsa.html" title="simaster - Donasi via Pulsa">simaster - Donasi via Pulsa</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/tutorial-clash-magisk.html" title="simaster - configuration clash magisk v1.9">simaster - configuration clash magisk v1.9</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/tutorial-clash-windows.html" title="simaster - tutorial clash windows">simaster - tutorial clash windows</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/tutorial-clash-openwrt.html" title="simaster - configuration simaster auto openwrt">simaster - configuration simaster auto openwrt</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/tutorial-simaster-auto-android.html" title="simaster - tutorial simaster auto android">simaster - tutorial simaster auto android</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/sitemap.html" title="simaster - sitemap">simaster - sitemap</a></li>
+<li class="lpage"><a href="https://www.clashmwns.com/index.html" title="simaster - home">simaster - home</a></li>
+<li class="lpage last-page"><a href="https://www.clashmwns.com/about.html" title="Simaster - Online Shop Configuration">Simaster - Online Shop Configuration</a></li>
+</ul>
+	</div>
+	<div id="footer">
+		<p>Generated by &copy; 2005-2023 <a target="_blank" href="https://www.xml-sitemaps.com">xml-sitemaps.com</a></p>
+	</div>
 </body>
+
 </html>
