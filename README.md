@@ -3,6 +3,8 @@ title: "About Us"
 layout: page
 permalink: readme.html
 search: exclude
+youtubeid: h0wKldSUSKg
+playlist: PLl3VtaZ1T4VpPm1NjF0jPwETk_npxDrwI
 ---  
 
 <h3>SIMASTER TEMPLATE</h3>
