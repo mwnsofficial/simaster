@@ -1,3 +1,10 @@
+---
+title: "About Us"
+layout: none
+permalink: readme.html
+search: exclude
+---  
+
 # simaster template
 
 Welcome to the simaster template.
