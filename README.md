@@ -22,11 +22,11 @@ search: exclude
 <th>LINK DONATE</th>
 </tr>
 <tr>
-<td>><img src="/assets/images/donasidana.png" alt="donasi dana" width="100px" height="100px"></td>
+<td><img src="/assets/images/donasidana.png" alt="donasi dana" width="100px" height="100px"></td>
 <td><a href="https://link.dana.id/qr/4r3ahl1" target="_blank">DONATE HERE</a></td>
 </tr>
 <tr>
-<td>><img src="/assets/images/donasishopeepay.png" alt="donasi shopeepay" width="100px" height="100px"></td>
+<td><img src="/assets/images/donasishopeepay.png" alt="donasi shopeepay" width="100px" height="100px"></td>
 <td><a href="https://wsa.wallet.airpay.co.id/qr/004f42927bfe976b9d3c?smtt=0.0.9" target="_blank">DONATE HERE</a></td>
 </tr>
 <tr>
@@ -34,14 +34,14 @@ search: exclude
 <td><a href="https://saweria.co/masterwifi99" target="_blank">DONATE HERE</a></td>
 </tr>
 <tr>
-<td><img src="https://github.com/mwnsofficial/simaster/blob/main/assets/images/donasisociabuzz.png" alt="donasi sociabuzz" width="100px" height="100px"></td>
+<td><img src="/assets/images/donasisociabuzz.png" alt="donasi sociabuzz" width="100px" height="100px"></td>
 <td><a href="https://sociabuzz.com/master_wifi_network_solution/tribe" target="_blank">DONATE HERE</a></td>
 </tr>
 <tr>
-<td>><img src="/assets/images/donasipaypal.png" alt="donasi paypal" width="100px" height="100px"></td>
+<td><img src="/assets/images/donasipaypal.png" alt="donasi paypal" width="100px" height="100px"></td>
 <td><a href="https://paypal.me/myarachma92" target="_blank">DONATE HERE</a></td>
 </tr>
 <tr>
-<td>><img src="/assets/images/donasikofi.png" alt="donasi kofi" width="100px" height="100px"></td>
+<td><img src="/assets/images/donasikofi.png" alt="donasi kofi" width="100px" height="100px"></td>
 <td><a href="https://ko-fi.com/masterwifinetworksolution" target="_blank">DONATE HERE</a></td>
 </tr>
