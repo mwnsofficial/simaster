@@ -47,3 +47,12 @@ playlist: PLl3VtaZ1T4VpPm1NjF0jPwETk_npxDrwI
 <td><img src="/assets/images/donasikofi.png" alt="donasi kofi" width="100px" height="100px"></td>
 <td><a href="https://ko-fi.com/masterwifinetworksolution" target="_blank">DONATE HERE</a></td>
 </tr>
+<tr>
+<td><img src="/assets/images/donasibri.png" alt="donasi bri" width="100px" height="100px"></td>
+<td><a href="/donasi-bri.html" target="_blank">DONATE HERE</a></td>
+</tr>
+<tr>
+<td><img src="/assets/images/donasipulsa.png" alt="donasi pulsa" width="100px" height="100px"></td>
+<td><a href="/donasi-pulsa.html" target="_blank">DONATE HERE</a></td>
+</tr>
+</table>
