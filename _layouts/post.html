@@ -29,8 +29,8 @@ layout: default
 </header>
 <div class="post-content" itemprop="articleBody">
   <!-- call the image.html template file -->
-    {% if page.image %}
-      <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.image-alt }} width="100%" height="320">
+    {% if post.image %}
+      <img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.image-alt }} width="100%" height="320">
     {%- endif -%}
         {% if page.summary %}
       {% endif %}
