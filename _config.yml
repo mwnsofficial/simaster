@@ -1,26 +1,43 @@
-# ini jalur repository blog ini
-repository: mwnsofficial/simaster
-
-url: https://www.clashmwns.com
-
+# Khusus kata kunci pencarian google
 keywords: configuration, scripts, rules, android, openwrt, windows, termux, magisk
 
-description: konfigurasi simaster tersedia disini
+# Menampilkan text pada halaman pencarian google
+description: Simaster adalah situs khusus berisikan semua file yang di butuhkan untuk semua pengguna koneksi internet.
 
+# Fokus pada pencarian google
+subject:
+
+# Penulis atau pemilik pada blog ini
 author: Muhammad Yusuf
 
+# Email penulis atau pemilik pada blog ini
+email: myarachma92@gmail.com
+
+# Alamat utama pada atau CNAME pada blog ini
+baseurl: https://www.clashmwns.com
+
+# Bahasa penerjemah yang di gunakan pada blog ini
+subtitle:
+
+# Hak cipta pada blog ini berada pada bagian footer
+copyright:
+
+# Jalur repository blog ini
+repository: mwnsofficial/simaster
+
+# Verifikasi Khusus untuk Keberadaan Situs ini pada Google
 google-site-verification: googled41425154ba52776.html
 
-# bisa multifungsi selain web bisa juga menampilkan pdf
+# Bisa multifungsi selain web bisa juga menampilkan pdf
 output: web
 
 # optimasi search engine google
-site_title: Semua file simaster tersedia disini.
+site_title: Simaster adalah situs khusus berisikan semua file yang di butuhkan untuk semua pengguna koneksi internet.
 
-# ini tempat titik edit cepat pada blog
+# ini tempat titik edit paling cepat untuk halaman atau post pada blog
 github_editme_path: mwnsofficial/simaster/blob/main/
 
-# ini tempat titik edit cepat pada blog
+# ini tempat titik edit paling cepat untuk halaman atau post pada blog
 # gitlab_editme_path: 
 
 # khusus analisa google
@@ -63,6 +80,7 @@ collections:
   tooltips:
     output: false
 
+# Ini khusus halaman statis utama pada blog
 defaults:
   -
     scope:
@@ -73,6 +91,7 @@ defaults:
       comments: true
       search: true
 
+# Ini khusus halaman post utama pada blog
   -
     scope:
       path: ""
@@ -82,17 +101,9 @@ defaults:
       comments: true
       search: true
 
-# ini jalur deskripsi sitemap.xml
-description: "Semua file simaster tersedia disini."
-
-# needed for sitemap.xml file only
-# url: http://www.clashmwns.com
-# baseurl: /simaster
-
-
 github: [metadata]
 
-
+# Widget khusus jekyll hosting
 plugins:
   - jekyll-gist
   - jekyll-coffeescript
