@@ -3,9 +3,8 @@ published: true
 layout: post
 title: tutorial clash windows
 date: 2023-01-01
-author: Muhammad Yusuf
 permalink: tutorial-clash-windows.html
-image: /assets/images/simaster-windows.jpg
+image: assets/images/simaster-windows.jpg
 image-alt: tutorial clash windows
 summary: tutorials configuration cfw of simaster
 tags: [windows]
