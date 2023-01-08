@@ -1,25 +1,7 @@
-<?php 
-$result = '';
-
-if(isset($_POST['input'])){
-
-$input = $_POST['input'];
-$type = $_POST['type'];
-
-	if(!empty($input)){
-		if($type==1){
-			$result = base64_decode($input);
-		}else{
-
-			$result = base64_encode(urldecode($input));
-		}	
-	}
-}
-?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Simaster - Base64 Official</title>
+<title>Simaster - Base64 Official</title>
 <link rel="stylesheet" href="/assets/css/base64.min.css">
 </head>
 <body>
@@ -31,7 +13,7 @@ $type = $_POST['type'];
 					<h3><b>Simaster Base64 Decode dan Encode</b></h3>
 				</div>
 				<div class="card-body">
-					<form method="POST" action="base64.php">
+					<form method="POST" action="base64.js">
 						<div class="form-group">
 					    	<label for="input">Tools Type</label>
 					    	<select class="custom-select" id="type" name="type">
@@ -49,5 +31,6 @@ $type = $_POST['type'];
 		</div>
 	</div>
 </div>
+<script src="/assets/js/base64.js"></script>
 </body>
 </html>
