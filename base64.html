@@ -3,24 +3,6 @@ title: Base64
 layout: default
 ---
 
-<?php 
-$result = '';
-
-if(isset($_POST['input'])){
-
-$input = $_POST['input'];
-$type = $_POST['type'];
-
-	if(!empty($input)){
-		if($type==1){
-			$result = base64_decode($input);
-		}else{
-
-			$result = base64_encode(urldecode($input));
-		}	
-	}
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +17,7 @@ $type = $_POST['type'];
 					<h3><b>Simaster - {{ page.title }}</b></h3>
 				</div>
 				<div class="card-body">
-					<form method="POST" action="base64.php">
+					<form method="POST" action="base64.html">
 						<div class="form-group">
 					    	<label for="input">Pilih Type</label>
 					    	<select class="custom-select" id="type" name="type">
@@ -53,5 +35,25 @@ $type = $_POST['type'];
 		</div>
 	</div>
 </div>
+
+<style>
+$result = '';
+
+if(isset($_POST['input'])){
+
+$input = $_POST['input'];
+$type = $_POST['type'];
+
+	if(!empty($input)){
+		if($type==1){
+			$result = base64_decode($input);
+		}else{
+
+			$result = base64_encode(urldecode($input));
+		}	
+	}
+}
+</style>
+
 </body>
 </html>
