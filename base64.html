@@ -18,34 +18,37 @@
 					    	<label for="input">Convert Link To Json</label>
 						</div>
 						<div class="form-group">
-					    	<textarea class="form-control" id="input" name="input" rows="5" placeholder="isikan disini.." id="result"></textarea>
+					    	<textarea class="form-control" id="txt_data" rows="5" placeholder="isikan disini.."></textarea>
 						</div>
-						<button type="submit" id="submit-decode" class="btn btn-primary">Convert Decode</button>
-                                                <button type="submit" id="submit-encode" class="btn btn-primary">Convert Encode</button>
-                                                <button type="submit" id="submit-copy" class="btn btn-primary">Copy Text</button>
+						<input type="button" id="btn_decode" class="btn btn-primary" value="Decode">
+                                                <input type="button" id="btn_encode" class="btn btn-primary" value="Encode">
+                                                <input type="button" id="btn_copy" class="btn btn-primary" value="Copy Result to Data">
+						<div class="form-group">
+					    	<textarea class="form-control" id="txt_result" rows="5" placeholder="hasil ada disini.."></textarea>
+						</div>
 				  	</form>
 				</div>
 			</div>
-<script language='javascript'>
-  document.getElementById('submit-decode').onclick = function() {
-    document.getElementById('result').value = '';
-    var strDataToDecode = document.getElementById('input').value;
-    var strDecodedData = escape(atob(strDataToDecode));
-    document.getElementById('result').value = strDecodedData;
-  }
-  document.getElementById('submit-encode').onclick = function() {
-    document.getElementById('result').value = '';
-    var strDataToEncode = document.getElementById('input').value;
-    var strEncodedData = btoa(unescape(strDataToEncode));
-    document.getElementById('result').value = strEncodedData;
-  }
-  document.getElementById('submit-copy').onclick = function() {
-    document.getElementById('input').value = document.getElementById('result').value;
-    document.getElementById('result').value = '';
-  }
-</script>
 		</div>
 	</div>
 </div>
+<script language='javascript'>
+  document.getElementById('btn_decode').onclick = function() {
+    document.getElementById('txt_result').value = '';
+    var strDataToDecode = document.getElementById('txt_data').value;
+    var strDecodedData = escape(atob(strDataToDecode));
+    document.getElementById('txt_result').value = strDecodedData;
+  }
+  document.getElementById('btn_encode').onclick = function() {
+    document.getElementById('txt_result').value = '';
+    var strDataToEncode = document.getElementById('txt_data').value;
+    var strEncodedData = btoa(unescape(strDataToEncode));
+    document.getElementById('txt_result').value = strEncodedData;
+  }
+  document.getElementById('btn_copy').onclick = function() {
+    document.getElementById('txt_data').value = document.getElementById('txt_result').value;
+    document.getElementById('txt_result').value = '';
+  }
+</script>
 </body>
 </html>
