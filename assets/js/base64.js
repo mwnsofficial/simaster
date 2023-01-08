@@ -39,7 +39,7 @@ Settlement.base64_encode = function(text)
  	// Tested in chrome browser
   	return window.btoa(unescape(encodeURIComponent(text)));
 }
-result = '';
+document.getElementById('result').value = '';
 if (typeof _POST['input'] !== 'undefined') {
     input = _POST['input'];
     type = _POST['type'];
