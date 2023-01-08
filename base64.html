@@ -1,14 +1,32 @@
+---
+title: Base64
+layout: default
+---
+
+<?php 
+$result = '';
+
+if(isset($_POST['input'])){
+
+$input = $_POST['input'];
+$type = $_POST['type'];
+
+	if(!empty($input)){
+		if($type==1){
+			$result = base64_decode($input);
+		}else{
+
+			$result = base64_encode(urldecode($input));
+		}	
+	}
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-{% include head.html %}
 <link rel="stylesheet" href="/assets/css/base64.min.css">
 </head>
 <body>
-{% include adsense.html %}
-{% include navbar.html %}
-{% include breadcrumb.html %}
-
 <div id="get-height-foramp" class=" container-fluid">
 	<div class="row">
 		<div class="col-md-12 py-2">
@@ -35,40 +53,5 @@
 		</div>
 	</div>
 </div>
-{% include comments.html %}
-</section>
-{% include donasimaster.html %}
-{% include offer.html %}
-{% include vendor.html %}
-<footer>
-{% include footer.html %}
-{% include adsense.html %}
-</footer>
-  <!-- Back to Top -->
-  <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-{% include javascript.html %}
-
-<style>
-<?php 
-$result = '';
-
-if(isset($_POST['input'])){
-
-$input = $_POST['input'];
-$type = $_POST['type'];
-
-	if(!empty($input)){
-		if($type==1){
-			$result = base64_decode($input);
-		}else{
-
-			$result = base64_encode(urldecode($input));
-		}	
-	}
-}
-?>
-</style>
-
 </body>
 </html>
