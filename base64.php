@@ -1,42 +1,4 @@
----
-title: Base64
-layout: default
----
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<link rel="stylesheet" href="/assets/css/base64.min.css">
-</head>
-<body>
-<div id="get-height-foramp" class=" container-fluid">
-	<div class="row">
-		<div class="col-md-12 py-2">
-			<div class="card">
-				<div class="card-header">
-					<h3><b>Simaster - {{ page.title }}</b></h3>
-				</div>
-				<div class="card-body">
-					<form method="POST" action="base64.html">
-						<div class="form-group">
-					    	<label for="input">Pilih Type</label>
-					    	<select class="custom-select" id="type" name="type">
-					          <option value="1" selected>Base64 Decode</option>
-					          <option value="2">Base64 Encode</option>
-					        </select>
-						</div>
-						<div class="form-group">
-					    	<textarea class="form-control" id="input" name="input" rows="5" placeholder="Masukkan Disini.."><?php print_r($result) ?></textarea>
-						</div>
-						<button type="submit" id="submit-value" class="btn btn-primary">Kirimkan</button>
-				  	</form>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<style>
+<?php 
 $result = '';
 
 if(isset($_POST['input'])){
@@ -53,7 +15,39 @@ $type = $_POST['type'];
 		}	
 	}
 }
-</style>
-
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simaster - Base64 Official</title>
+<link rel="stylesheet" href="/assets/css/base64.min.css">
+</head>
+<body>
+<div id="get-height-foramp" class=" container-fluid">
+	<div class="row">
+		<div class="col-md-12 py-2">
+			<div class="card">
+				<div class="card-header">
+					<h3><b>Simaster Base64 Decode dan Encode</b></h3>
+				</div>
+				<div class="card-body">
+					<form method="POST" action="base64.php">
+						<div class="form-group">
+					    	<label for="input">Tools Type</label>
+					    	<select class="custom-select" id="type" name="type">
+					          <option value="1" selected>Base64 Decode</option>
+					          <option value="2">Base64 Encode</option>
+					        </select>
+						</div>
+						<div class="form-group">
+					    	<textarea class="form-control" id="input" name="input" rows="5" placeholder="isikan disini.."><?php print_r($result) ?></textarea>
+						</div>
+						<button type="submit" id="submit-value" class="btn btn-primary">Kirimkan</button>
+				  	</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 </body>
 </html>
