@@ -418,40 +418,11 @@ a:hover {
 
 /** --- search area --- **/
 
-#search-demo-container ul#results-container {
-    list-style: none;
-    font-size: 12px;
-    background-color: white;
-    position: absolute;
-    top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
-    left: 20px;
-    z-index: -1;
-    width:223px;
-    border-left: 1px solid #dedede;
-}
+import { autocomplete } from '@algolia/autocomplete-js';
 
-
-ul#results-container a {
-    background-color: transparent;
-}
-
-ul#results-container a:hover {
-    color: black;
-}
-
-
-#search-demo-container a:hover {
-    color: black;
-}
-#search-input {
-    padding: .5em;
-    margin-left:20px;
-    width:20em;
-    font-size: 0.8em;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin-top:10px;
-}
+autocomplete({
+  container: '#autocomplete',
+  // ...
+});
 
 /** --- end search --- **/
