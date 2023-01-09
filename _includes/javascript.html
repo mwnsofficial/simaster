@@ -32,9 +32,9 @@ SimpleJekyllSearch({
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
   json: '/searchpage.json',
-  searchResultTemplate: '<a href="{url}" title="{summary}">{title}</a>',
-  searchResultTemplate: '<a href="{url}" title="{keyword}">{title}</a>',
-  noResultsText: 'Maaf, Simaster tidak menemukan yang anda cari...',
+  searchResultTemplate: '<li><a href="{url}" title="{summary}">{title}</a></li>',
+  searchResultTemplate: '<li><a href="{url}" title="{keyword}">{title}</a></li>',
+  noResultsText: '<p>Maaf, Simaster tidak menemukan yang anda cari...</p>',
   limit: 10,
   fuzzy: false,
   exclude: ['simaster']
