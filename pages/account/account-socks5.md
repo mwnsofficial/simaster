@@ -4,6 +4,7 @@ layout: page
 keywords: script, account, socks5
 permalink: account-socks5.html
 folder: account
+tags: [account]
 youtubeid: jXLQttDzm54
 playlist: PLl3VtaZ1T4VpPm1NjF0jPwETk_npxDrwI
 ---
