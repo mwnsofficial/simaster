@@ -4,6 +4,7 @@ layout: page
 keywords: script, configuration, evo
 permalink: configuration-evo.html
 folder: configuration
+tags: [configuration]
 ---
 <div class="row">
     <!-- Categories Start -->
