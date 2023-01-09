@@ -9,7 +9,7 @@ youtubeid: ClrrSotAreE
 image: /assets/images/post.jpg
 image-alt: rule mobilelegends
 summary: rule garena terbaik dari simaster
-tags: [rule, garena]
+tags: [garena]
 ---
 
 <pre>
