@@ -19,3 +19,11 @@ $('#search-input').autocomplete({
 }]).on('autocomplete:selected', function(event, suggestion, dataset) {
   window.location.href = suggestion.url;      
 });
+
+
+SearchConfig config =
+  new SearchConfig.Builder("XKI7G3MOW5", "YourWriteAPIKey")
+      .setBatchSize(999999)
+      .build();
+
+SearchClient client = DefaultSearchClient.create(config);
