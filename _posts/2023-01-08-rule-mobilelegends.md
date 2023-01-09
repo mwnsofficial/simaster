@@ -9,7 +9,7 @@ youtubeid: ClrrSotAreE
 image: /assets/images/post.jpg
 image-alt: rule mobilelegends
 summary: rule mobilelegends terbaik dari simaster
-tags: [rule, mobilelegends]
+tags: [mobilelegends]
 ---
 
 <pre>
