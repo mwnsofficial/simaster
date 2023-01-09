@@ -32,13 +32,11 @@ SimpleJekyllSearch({
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
   json: '/searchpage.json',
-  searchResultTemplate: '<div id="kotak-bagikan-container"><div class="garis-label-c"><p class="bagikan-sekarang"><a href="{url}" title="{summary}"><i class="fab fa-atom">{title}</i></a></p></div></div>',
-  searchResultTemplate: '<div id="kotak-bagikan-container"><div class="garis-label-c"><p class="bagikan-sekarang"><a href="{url}" title="{keyword}"><i class="fab fa-rocket-launch">{title}</i></a></p></div></div>',
+  searchResultTemplate: '<div id="kotak-bagikan-container"><div class="garis-label-c"><li><a href="{url}" title="{summary}"><i class="fab fa-search">{title}</i></a></li></div></div>',
+  searchResultTemplate: '<div id="kotak-bagikan-container"><div class="garis-label-c"><li><a href="{url}" title="{keyword}"><i class="fab fa-search">{title}</i></a></li></div></div>',
   noResultsText: 'Maaf, Simaster tidak menemukan yang anda cari...',
   limit: 10,
   fuzzy: false,
   exclude: ['simaster']
 })
 </script>
-
-<div id="kotak-bagikan-container"><div class="garis-label-c">
