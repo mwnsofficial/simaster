@@ -31,10 +31,10 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
-  searchResultTemplate: '<li><a href="{{ page.url }}" title="{{ page.title }}">{{ title }}</a></li>',
+  searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
   noResultsText: 'Pencarian Simaster tidak ada..',
   limit: 10,
   fuzzy: false,
-  exclude: ['Welcome']
+  exclude: ['simaster']
 })
 </script>
