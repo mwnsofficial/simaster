@@ -11,12 +11,4 @@ layout: none
       "date"     : "{{ post.date }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
-  {% for page in site.pages %}
-    {
-      "title"    : "{{ page.title }}",
-      "category" : "{{ page.category }}",
-      "tags"     : "{{ page.tags }}",
-      "url"      : "{{ page.url }}",
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
 ]
