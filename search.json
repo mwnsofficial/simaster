@@ -6,7 +6,7 @@ layout: none
     {
       "title"        : "{{ post.title | escape }}",
       "description"  : "{{ post.description }}",
-      "tags"         : "{{page.tagName}}",
+      "tags"         : "{{ page.tags }}",
       "url"          : "{{ site.baseurl }}{{ post.url }}",
       "date"         : "{{ post.date }}"
     } {% unless forloop.last %},{% endunless %}
