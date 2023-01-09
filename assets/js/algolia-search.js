@@ -22,7 +22,7 @@ $('#search-input').autocomplete({
 
 
 SearchConfig config =
-  new SearchConfig.Builder("XKI7G3MOW5", "YourWriteAPIKey")
+  new SearchConfig.Builder("XKI7G3MOW5", "fb84fbe42de7b22c8880295732bb0001")
       .setBatchSize(999999)
       .build();
 
