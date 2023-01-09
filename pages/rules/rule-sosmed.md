@@ -4,6 +4,7 @@ layout: page
 keywords: rule, sosmed, rule sosmed
 permalink: rule-sosmed.html
 folder: rules
+tags: [rule]
 ---
 <div class="row">
     <!-- Categories Start -->
