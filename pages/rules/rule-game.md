@@ -4,6 +4,7 @@ layout: page
 keywords: rule, game, rule game
 permalink: rule-game.html
 folder: rules
+tags: [rule]
 ---
 <div class="row">
     <!-- Categories Start -->
