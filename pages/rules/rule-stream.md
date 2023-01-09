@@ -4,6 +4,7 @@ layout: page
 keywords: rule, stream, rule stream
 permalink: rule-stream.html
 folder: rules
+tags: [rule]
 ---
 <div class="row">
     <!-- Categories Start -->
