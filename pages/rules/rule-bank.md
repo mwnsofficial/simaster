@@ -4,6 +4,7 @@ layout: page
 keywords: rule, bank, rule bank
 permalink: rule-bank.html
 folder: rules
+tags: [rule]
 ---
 <div class="row">
     <!-- Categories Start -->
