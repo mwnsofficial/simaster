@@ -419,7 +419,8 @@ a:hover {
 /** --- search area --- **/
 
 .inputdata[type=text] {
-  background-color: white;
+  color: white
+  background-color: black;
   background-image: url('/assets/images/search.png');
   background-position: 10px 10px;
   background-repeat: no-repeat;
