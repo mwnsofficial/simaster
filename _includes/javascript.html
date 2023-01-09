@@ -31,8 +31,19 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
+  searchResultTemplate: '<li><a href="{url}" title="{tags}">{title}</a></li>',
+  noResultsText: '<p>Maaf, Simaster tidak menemukan yang anda cari...</p>',
+  limit: 10,
+  fuzzy: false,
+  exclude: ['simaster']
+})
+</script>
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
   json: '/searchpage.json',
-  searchResultTemplate: '<li><a href="{url}" title="{title}">{tags}</a></li>',
+  searchResultTemplate: '<li><a href="{url}" title="{tags}">{title}</a></li>',
   noResultsText: '<p>Maaf, Simaster tidak menemukan yang anda cari...</p>',
   limit: 10,
   fuzzy: false,
