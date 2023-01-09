@@ -418,11 +418,14 @@ a:hover {
 
 /** --- search area --- **/
 
-import { autocomplete } from '@algolia/autocomplete-js';
-
-autocomplete({
-  container: '#autocomplete',
-  // ...
-});
+.inputdata[type=text] {
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
 
 /** --- end search --- **/
