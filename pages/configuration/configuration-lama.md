@@ -4,6 +4,7 @@ layout: page
 keywords: script, configuration, lama
 permalink: configuration-lama.html
 folder: configuration
+tags: [configuration]
 ---
 <div class="row">
     <!-- Categories Start -->
