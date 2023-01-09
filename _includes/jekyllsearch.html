@@ -11,6 +11,7 @@ SimpleJekyllSearch.init({
 searchInput: document.getElementById('search-input'),
 resultsContainer: document.getElementById('results-container'),
 dataSource: '{{ "search.json" }}',
+dataSource: '{{ "searchpage.json" }}'
 searchResultTemplate: '<li><a href="{{ page.url }}" title="{{ page.title | escape }}">{{ page.title }}</a></li>',
 noResultsText: '{{site.data.strings.search_no_results_text}}',
 limit: 10,
