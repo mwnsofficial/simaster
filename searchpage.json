@@ -1,0 +1,14 @@
+---
+layout: none
+---
+[
+  {% for page in site.pages %}
+    {
+      "title"    : "{{ page.title | escape }}",
+      "keyword"  : "{{ page.keywords }}",
+      "tags"     : "{{ page.tags | join: ', ' }}",
+      "url"      : "{{ page.url }}",
+      "date"     : "{{ post.date }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
