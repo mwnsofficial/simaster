@@ -103,6 +103,12 @@ defaults:
 
 github: [metadata]
 
+# khusus search widget
+algolia:
+  application_id: XKI7G3MOW5
+  api_key: fb84fbe42de7b22c8880295732bb0001
+  index_name: simaster
+
 # Widget khusus jekyll hosting
 plugins:
   - jekyll-gist
