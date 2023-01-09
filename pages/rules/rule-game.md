@@ -12,7 +12,7 @@ tags: [rule]
         <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Kumpulan Rule Game</span></h2>
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="/mobilelegends.html">
+                <a class="text-decoration-none" href="/rule-mobilelegends.html">
                     <div class="cat-item d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
                             <img class="img-fluid" src="img/cat.jpg" alt=""></a>
@@ -20,13 +20,13 @@ tags: [rule]
                         <div class="flex-fill pl-3">
                             <h6>Mobile Legends</h6>
                             <small class="text-body">1 Products</small>
-                            <p><a href="/mobilelegends.html"><i>DOWNLOAD</i></a></p>
+                            <p><a href="/rule-mobilelegends.html"><i>DOWNLOAD</i></a></p>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="/garena.html">
+                <a class="text-decoration-none" href="/rule-garena.html">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
                             <img class="img-fluid" src="img/cat.jpg" alt="">
@@ -34,13 +34,13 @@ tags: [rule]
                         <div class="flex-fill pl-3">
                             <h6>Garena</h6>
                             <small class="text-body">1 Products</small>
-                            <p><a href="/garena.html"><i>DOWNLOAD</i></a></p>
+                            <p><a href="/rule-garena.html"><i>DOWNLOAD</i></a></p>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="/pubg.com">
+                <a class="text-decoration-none" href="/rule-pubg.com">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
                             <img class="img-fluid" src="img/cat.jpg" alt="">
@@ -48,7 +48,7 @@ tags: [rule]
                         <div class="flex-fill pl-3">
                             <h6>PUBG</h6>
                             <small class="text-body">1 Products</small>
-                            <p><a href="/pubg.html"><i>DOWNLOAD</i></a></p>
+                            <p><a href="/rule-pubg.html"><i>DOWNLOAD</i></a></p>
                         </div>
                     </div>
                 </a>
