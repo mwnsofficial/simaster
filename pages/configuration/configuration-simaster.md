@@ -4,6 +4,7 @@ layout: page
 keywords: script, configuration, simaster
 permalink: configuration-simaster.html
 folder: configuration
+tags: [configuration]
 ---
 <div class="row">
     <!-- Categories Start -->
