@@ -4,6 +4,7 @@ layout: page
 keywords: rule, online shop, rule online shop
 permalink: rule-olshop.html
 folder: rules
+tags: [rule]
 ---
 <div class="row">
     <!-- Categories Start -->
