@@ -4,6 +4,7 @@ layout: page
 keywords: rule, chat, rule chat
 permalink: rule-chat.html
 folder: rules
+tags: [rule]
 ---
 <div class="row">
     <!-- Categories Start -->
