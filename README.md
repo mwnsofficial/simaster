@@ -18,41 +18,48 @@ playlist: PLl3VtaZ1T4VpPm1NjF0jPwETk_npxDrwI
 <p>You can use the desktop menu first and then press the fork button.</p>
 <p>If you wish to donate, please use the following:</p>
 
+<!-- Donasi Start -->
 <table>
 <tr>
-<th>LOGO DONATE</th>
-<th>LINK DONATE</th>
+<th>SAWER</th>
+<th>SIMASTER</th>
 </tr>
 <tr>
 <td><img src="/assets/images/donasidana.png" alt="donasi dana" width="100px" height="100px"></td>
-<td><a href="https://link.dana.id/qr/4r3ahl1" target="_blank">DONATE HERE</a></td>
+<td><a href="https://link.dana.id/qr/4r3ahl1" target="_blank"><img src="/assets/images/btn-donasi.png" alt="donasi dana" width="100px" height="100px"></a></td>
 </tr>
 <tr>
 <td><img src="/assets/images/donasishopeepay.png" alt="donasi shopeepay" width="100px" height="100px"></td>
-<td><a href="https://wsa.wallet.airpay.co.id/qr/004f42927bfe976b9d3c?smtt=0.0.9" target="_blank">DONATE HERE</a></td>
+<td><a href="https://wsa.wallet.airpay.co.id/qr/004f42927bfe976b9d3c?smtt=0.0.9" target="_blank"><img src="/assets/images/btn-donasi.png" alt="donasi dana" width="100px" height="100px"></a></td>
 </tr>
 <tr>
 <td><img src="/assets/images/donasisaweria.png" alt="donasi saweria" width="100px" height="100px"></td>
-<td><a href="https://saweria.co/masterwifi99" target="_blank">DONATE HERE</a></td>
+<td><a href="https://saweria.co/masterwifi99" target="_blank"><img src="/assets/images/btn-donasi.png" alt="donasi dana" width="100px" height="100px"></a></td>
 </tr>
 <tr>
 <td><img src="/assets/images/donasisociabuzz.png" alt="donasi sociabuzz" width="100px" height="100px"></td>
-<td><a href="https://sociabuzz.com/master_wifi_network_solution/tribe" target="_blank">DONATE HERE</a></td>
+<td><a href="https://sociabuzz.com/master_wifi_network_solution/tribe" target="_blank"><img src="/assets/images/btn-donasi.png" alt="donasi dana" width="100px" height="100px"></a></td>
 </tr>
 <tr>
 <td><img src="/assets/images/donasipaypal.png" alt="donasi paypal" width="100px" height="100px"></td>
-<td><a href="https://paypal.me/myarachma92" target="_blank">DONATE HERE</a></td>
+<td><a href="https://paypal.me/myarachma92" target="_blank"><img src="/assets/images/btn-donasi.png" alt="donasi dana" width="100px" height="100px"></a></td>
 </tr>
 <tr>
 <td><img src="/assets/images/donasikofi.png" alt="donasi kofi" width="100px" height="100px"></td>
-<td><a href="https://ko-fi.com/masterwifinetworksolution" target="_blank">DONATE HERE</a></td>
+<td><a href="https://ko-fi.com/masterwifinetworksolution" target="_blank"><img src="/assets/images/btn-donasi.png" alt="donasi dana" width="100px" height="100px"></a></td>
 </tr>
 <tr>
 <td><img src="/assets/images/donasibri.png" alt="donasi bri" width="100px" height="100px"></td>
-<td><a href="https://www.clashmwns.com/donasi-bri.html" target="_blank">DONATE HERE</a></td>
+<td><a href="https://www.clashmwns.com/donasi-bri.html"><img src="/assets/images/btn-donasi.png" alt="donasi dana" width="100px" height="100px"></a></td>
 </tr>
 <tr>
 <td><img src="/assets/images/donasipulsa.png" alt="donasi pulsa" width="100px" height="100px"></td>
-<td><a href="https://www.clashmwns.com/donasi-pulsa.html" target="_blank">DONATE HERE</a></td>
+<td><a href="https://www.clashmwns.com/donasi-pulsa.html"><img src="/assets/images/btn-donasi.png" alt="donasi dana" width="100px" height="100px"></a></td>
+</tr>
+<tr>
+<td><img src="/assets/images/donasibitcoin.png" alt="donasi bitcoin" width="100px" height="100px"></td>
+<td><a href="https://link.
+<td><a href="www.clashmwns.com/donasi-bitcoin.html"><img src="/assets/images/btn-donasi.png" alt="donasi dana" width="100px" height="100px"></a></td>
 </tr>
 </table>
+<!-- Donasi End -->
