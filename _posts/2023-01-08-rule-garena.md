@@ -6,6 +6,7 @@ date: 2023-01-08
 author: Muhammad Yusuf
 permalink: rule-garena.html
 youtubeid: ClrrSotAreE
+playlist: PLl3VtaZ1T4VpPm1NjF0jPwETk_npxDrwI
 image: /assets/images/post.jpg
 image-alt: rule mobilelegends
 summary: rule garena terbaik dari simaster
