@@ -1,13 +1,13 @@
 .caption {
   width: 100%;
-  max-width: 854px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 20px 0;
 }
 
 .vid-main-wrapper {
   width: 100%;
-  max-width: 1100px;
+  max-width: 100%;
   min-width: 440px;
   background: #fff;
   margin: 0 auto;
@@ -17,10 +17,10 @@
 /*  VIDEO PLAYER CONTAINER */
 .vid-container {
   position: relative;
-  padding-bottom: 52%;
-  padding-top: 30px;
-  height: 360px;
-  width: 70%;
+  padding-bottom: 5;
+  padding-top: 5;
+  height: 315px;
+  width: 85%;
   float: left;
 }
 		 
@@ -31,12 +31,12 @@
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 360px;
+  min-height: 315px;
 }
 
 /*  VIDEOS PLAYLIST  */
 .vid-list-container {
-  width: 30%;
+  width: 15%;
   height:360px;
   overflow: hidden;
   float: right;
@@ -58,14 +58,14 @@ ol#vid-list li {
 
 ol#vid-list li a {
   text-decoration: none;
-  background-color: #222;
+  background-color: black;
   height: 55px;
   display: block;
   padding: 10px;
 }
 
 ol#vid-list li a:hover {
-  background-color: #666666
+  background-color: black
 }
 
 .vid-thumb {
@@ -74,7 +74,7 @@ ol#vid-list li a:hover {
 }
 
     .active-vid { 
-      background: #3A3A3A;
+      background: black;
     }
 
 #vid-list .desc {
@@ -84,7 +84,7 @@ ol#vid-list li a:hover {
 }
 
 
-@media (max-width: 624px) {
+@media (max-width: 100%) {
   body {
     margin: 15px;
   }
