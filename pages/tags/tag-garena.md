@@ -1,8 +1,8 @@
 ---
-title: "Semua Tentang Rule "
-tagName: rule
+title: "Semua Tentang Garena "
+tagName: garena
 search: exclude
-permalink: tag-rule.html
+permalink: tag-garena.html
 layout: page
 folder: tags
 ---
