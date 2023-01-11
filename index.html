@@ -5,30 +5,100 @@ layout: default
 
 {% include slidecarousel.html %}
   {% include adsense.html %}
-    <!-- Featured Start -->
-    <div class="container-fluid pt-5">
-        <div class="row px-xl-5 pb-3">
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
-                    <h1 class="fa fa-check text-primary m-0 mr-3"></h1>
-                    <h5 class="font-weight-semi-bold m-0">Best Quality Product</h5>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
-                    <h1 class="fa fa-shipping-fast text-primary m-0 mr-2"></h1>
-                    <h5 class="font-weight-semi-bold m-0">Fast Respondsive</h5>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
-                    <h1 class="fa fa-phone-volume text-primary m-0 mr-3"></h1>
-                    <h5 class="font-weight-semi-bold m-0">24/7 Support</h5>
-                </div>
-            </div>
-        </div>
+<!-- Carousel wrapper -->
+<div
+  id="carouselVideoExample"
+  class="carousel slide carousel-fade"
+  data-mdb-ride="carousel"
+>
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-mdb-target="#carouselVideoExample"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselVideoExample"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselVideoExample"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+    <iframe class="img-fluid" id="ytplayer" type="text/html" width="100%" height="360"
+    src="https://www.youtube.com/embed/fiobdUjdycU?autoplay=1"
+    frameborder="0"></iframe>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Simaster Auto OpenWRT</h5>
+        <p>
+          Anda Tidak perlu bingung harus upload manual karena simaster mudahkan untuk anda.
+        </p>
+      </div>
     </div>
-    <!-- Featured End -->
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <iframe class="img-fluid" id="ytplayer" type="text/html" width="100%" height="360"
+      src="https://www.youtube.com/embed/ClrrSotAreE?autoplay=1"
+      frameborder="0"></iframe>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Simaster Auto Android</h5>
+        <p>
+          Anda Tidak perlu bingung harus upload manual karena simaster mudahkan untuk anda.
+        </p>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <iframe class="img-fluid" id="ytplayer" type="text/html" width="100%" height="360"
+      src="https://www.youtube.com/embed/fiobdUjdycU?autoplay=1"
+      frameborder="0"></iframe>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Simaster Auto Windows</h5>
+        <p>
+          Anda Tidak perlu bingung harus upload manual karena simaster mudahkan untuk anda.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-mdb-target="#carouselVideoExample"
+    data-mdb-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-mdb-target="#carouselVideoExample"
+    data-mdb-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel wrapper -->
 
     {% include produkbaru.html %}
 
