@@ -14,9 +14,9 @@
 /*  VIDEO PLAYER CONTAINER */
 .vid-container {
   position: relative;
-  padding-bottom: 5;
-  padding-top: 5;
-  height: 380px;
+  padding-bottom: 0;
+  padding-top: 0;
+  height: 480px;
   width: 85%;
   float: left;
 }
@@ -26,7 +26,7 @@
 .vid-container embed {
   position: absolute;
   top: 0;
-  left: 5;
+  left: 0;
   width: 100%;
   min-height: 380px;
 }
@@ -34,7 +34,7 @@
 /*  VIDEOS PLAYLIST  */
 .vid-list-container {
   width: 15%;
-  height: 380px;
+  height: 480px;
   overflow: hidden;
   float: right;
 }
@@ -58,7 +58,7 @@ ol#vid-list li a {
   background-color: black;
   height: 55px;
   display: block;
-  padding: 10px;
+  padding: 0px;
 }
 
 ol#vid-list li a:hover {
@@ -83,7 +83,7 @@ ol#vid-list li a:hover {
 
 @media (max-width: 100%) {
   body {
-    margin: 1px;
+    margin: 10px;
   }
 
   .caption {
@@ -91,6 +91,6 @@ ol#vid-list li a:hover {
   }
 
   .vid-list-container {
-    padding-bottom: 1px;
+    padding-bottom: 10px;
   }
 }
