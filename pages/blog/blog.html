@@ -22,9 +22,12 @@ tags: [blog]
         </span>
 
             {% if post.image %}
-                <img src="{{ post.image }}" alt="{{ post.title }}" class="img-fluid">
+               <img src="{{ post.image }}" alt="{{ post.title }}" class="img-fluid">
             {% endif %}
          <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 150 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</p>
+            {% if post.excerpt != post.content %}
+               <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+            {% endif %}
     </div>   
 {% endfor %}
 
