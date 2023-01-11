@@ -1,6 +1,5 @@
 .caption {
   width: 100%;
-  max-width: 100%;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -8,8 +7,6 @@
 .vid-main-wrapper {
   width: 100%;
   height: 380px;
-  max-width: 100%;
-  min-width: 440px;
   background: black;
   margin: 0 auto;
 }
@@ -20,7 +17,7 @@
   padding-bottom: 5;
   padding-top: 5;
   height: 380px;
-  width: 80%;
+  width: 85%;
   float: left;
 }
 		 
@@ -29,7 +26,7 @@
 .vid-container embed {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 5;
   width: 100%;
   min-height: 380px;
 }
@@ -84,7 +81,7 @@ ol#vid-list li a:hover {
 }
 
 
-@media (max-width: 440px) {
+@media (max-width: 100%) {
   body {
     margin: 1px;
   }
