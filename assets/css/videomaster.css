@@ -7,7 +7,7 @@
 
 .vid-main-wrapper {
   width: 100%;
-  height: 315px;
+  height: 380px;
   max-width: 100%;
   min-width: 440px;
   background: black;
@@ -19,7 +19,7 @@
   position: relative;
   padding-bottom: 5;
   padding-top: 5;
-  height: 315px;
+  height: 380px;
   width: 85%;
   float: left;
 }
@@ -31,13 +31,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 315px;
+  min-height: 380px;
 }
 
 /*  VIDEOS PLAYLIST  */
 .vid-list-container {
   width: 15%;
-  height: 315px;
+  height: 380px;
   overflow: hidden;
   float: right;
 }
@@ -84,7 +84,7 @@ ol#vid-list li a:hover {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 440px) {
   body {
     margin: 1px;
   }
