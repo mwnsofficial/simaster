@@ -10,17 +10,17 @@ layout: default
       <div class="text-white"> <b>Tutorial:</b> {{page.summary}}</div>
         <div class="tags">
           {% if page.tags != null %}
-            <h5 class="text-white">Categories: </h5>
+            <h5 class="text-white">Categories: 
               {% assign projectTags = site.data.tags.allowed-tags %}
                 {% for tag in page.tags %}
                   {% if projectTags contains tag %}
-                  <a href="{{ "tag-" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+                  <a href="{{ "tag-" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a></h5>
                 {% endif %}
               {% endfor %}
             {% endif %}
           {% if site.github_editme_path %}
-        <h5 class="text-white">Editor: </h5>
-      <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-pencil-square-o"></i> Muhammad Yusuf</a>
+        <h5 class="text-white">Editor: 
+      <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"> Muhammad Yusuf</a></h5>
     {% endif %}
   </div>
 <div class="ads">
