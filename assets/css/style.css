@@ -1532,23 +1532,23 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #7f3a87;
+  color: white;
 }
 
 .table th,
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid green;
 }
 
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dee2e6;
+  border-bottom: 2px solid green;
 }
 
 .table tbody + tbody {
-  border-top: 2px solid #dee2e6;
+  border-top: 2px solid green;
 }
 
 .table-sm th,
@@ -1557,12 +1557,12 @@ pre code {
 }
 
 .table-bordered {
-  border: 1px solid #dee2e6;
+  border: 1px solid green;
 }
 
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #dee2e6;
+  border: 1px solid green;
 }
 
 .table-bordered thead th,
@@ -1578,188 +1578,188 @@ pre code {
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: black;
 }
 
 .table-hover tbody tr:hover {
-  color: #7f3a87;
-  background-color: rgba(0, 0, 0, 0.075);
+  color: white;
+  background-color: black;
 }
 
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #fff3c6;
+  background-color: black;
 }
 
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #ffe895;
+  border-color: green;
 }
 
 .table-hover .table-primary:hover {
-  background-color: #ffeead;
+  background-color: black;
 }
 
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
-  background-color: #ffeead;
+  background-color: black;
 }
 
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
-  background-color: #fcfcfc;
+  background-color: black;
 }
 
 .table-secondary th,
 .table-secondary td,
 .table-secondary thead th,
 .table-secondary tbody + tbody {
-  border-color: #fafafa;
+  border-color: green;
 }
 
 .table-hover .table-secondary:hover {
-  background-color: #efefef;
+  background-color: black;
 }
 
 .table-hover .table-secondary:hover > td,
 .table-hover .table-secondary:hover > th {
-  background-color: #efefef;
+  background-color: black;
 }
 
 .table-success,
 .table-success > th,
 .table-success > td {
-  background-color: #c3e6cb;
+  background-color: black;
 }
 
 .table-success th,
 .table-success td,
 .table-success thead th,
 .table-success tbody + tbody {
-  border-color: #8fd19e;
+  border-color: green;
 }
 
 .table-hover .table-success:hover {
-  background-color: #b1dfbb;
+  background-color: black;
 }
 
 .table-hover .table-success:hover > td,
 .table-hover .table-success:hover > th {
-  background-color: #b1dfbb;
+  background-color: black;
 }
 
 .table-info,
 .table-info > th,
 .table-info > td {
-  background-color: #bee5eb;
+  background-color: black;
 }
 
 .table-info th,
 .table-info td,
 .table-info thead th,
 .table-info tbody + tbody {
-  border-color: #86cfda;
+  border-color: green;
 }
 
 .table-hover .table-info:hover {
-  background-color: #abdde5;
+  background-color: black;
 }
 
 .table-hover .table-info:hover > td,
 .table-hover .table-info:hover > th {
-  background-color: #abdde5;
+  background-color: black;
 }
 
 .table-warning,
 .table-warning > th,
 .table-warning > td {
-  background-color: #ffeeba;
+  background-color: black;
 }
 
 .table-warning th,
 .table-warning td,
 .table-warning thead th,
 .table-warning tbody + tbody {
-  border-color: #ffdf7e;
+  border-color: red;
 }
 
 .table-hover .table-warning:hover {
-  background-color: #ffe8a1;
+  background-color: black;
 }
 
 .table-hover .table-warning:hover > td,
 .table-hover .table-warning:hover > th {
-  background-color: #ffe8a1;
+  background-color: black;
 }
 
 .table-danger,
 .table-danger > th,
 .table-danger > td {
-  background-color: #f5c6cb;
+  background-color: black;
 }
 
 .table-danger th,
 .table-danger td,
 .table-danger thead th,
 .table-danger tbody + tbody {
-  border-color: #ed969e;
+  border-color: green;
 }
 
 .table-hover .table-danger:hover {
-  background-color: #f1b0b7;
+  background-color: black;
 }
 
 .table-hover .table-danger:hover > td,
 .table-hover .table-danger:hover > th {
-  background-color: #f1b0b7;
+  background-color: black;
 }
 
 .table-light,
 .table-light > th,
 .table-light > td {
-  background-color: white;
+  background-color: black;
 }
 
 .table-light th,
 .table-light td,
 .table-light thead th,
 .table-light tbody + tbody {
-  border-color: white;
+  border-color: green;
 }
 
 .table-hover .table-light:hover {
-  background-color: #f2f2f2;
+  background-color: black;
 }
 
 .table-hover .table-light:hover > td,
 .table-hover .table-light:hover > th {
-  background-color: #f2f2f2;
+  background-color: black;
 }
 
 .table-dark,
 .table-dark > th,
 .table-dark > td {
-  background-color: #c9cbcd;
+  background-color: black;
 }
 
 .table-dark th,
 .table-dark td,
 .table-dark thead th,
 .table-dark tbody + tbody {
-  border-color: #9a9fa2;
+  border-color: black;
 }
 
 .table-hover .table-dark:hover {
-  background-color: #bcbec1;
+  background-color: black;
 }
 
 .table-hover .table-dark:hover > td,
 .table-hover .table-dark:hover > th {
-  background-color: #bcbec1;
+  background-color: black;
 }
 
 .table-active,
@@ -1778,26 +1778,26 @@ pre code {
 }
 
 .table .thead-dark th {
-  color: #fff;
-  background-color: #343a40;
-  border-color: #454d55;
+  color: white;
+  background-color: black;
+  border-color: green;
 }
 
 .table .thead-light th {
-  color: #495057;
-  background-color: #e9ecef;
-  border-color: #dee2e6;
+  color: white;
+  background-color: black;
+  border-color: green;
 }
 
 .table-dark {
-  color: #fff;
-  background-color: #343a40;
+  color: white;
+  background-color: black;
 }
 
 .table-dark th,
 .table-dark td,
 .table-dark thead th {
-  border-color: #454d55;
+  border-color: green;
 }
 
 .table-dark.table-bordered {
@@ -1805,12 +1805,12 @@ pre code {
 }
 
 .table-dark.table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: black;
 }
 
 .table-dark.table-hover tbody tr:hover {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.075);
+  color: white;
+  background-color: black;
 }
 
 @media (max-width: 575.98px) {
@@ -2917,12 +2917,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: green;
+  color: white;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #e6b400;
+  color: orange;
   text-decoration: underline;
 }
 
