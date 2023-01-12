@@ -19,11 +19,11 @@ tags: [blog]
                   {% endif %}
                 <div class="offer-text">
                 <h6 class="text-white text-uppercase">{% for tag in post.tags %}
-                  <a href="{{ "tag-" | append: tag | append: ".html"}}">{{tag}}</a>{% endfor %}
+                  <a href="{{ "tag-" | append: tag | append: ".html"}}" color="white">{{tag}}</a>{% endfor %}
                 </h6>
-                  <h3 class="text-white mb-3"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+                  <h3 class="text-white mb-3"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" color="white">{{ post.title }}</a></h3>
                   {% if post.excerpt != post.content %}
-                  <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+                  <a href="{{ site.baseurl }}{{ post.url }}" color="white">Read More</a>
                   {% endif %}
                </div>
             </div>
