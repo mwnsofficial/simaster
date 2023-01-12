@@ -23,7 +23,6 @@ tags: [blog]
                   <a href="{{ site.baseurl }}/about.html">{{ site.author }}</a>{% endfor %}
                 </h6>
                   <h3 class="text-white mb-3"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-                  <h5 class="text-white mb-3">{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 20 }} {% else %} {{ post.content | truncatewords: 20 | strip_html }} {% endif %}</h5>
                   {% if post.excerpt != post.content %}
                   <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
                   {% endif %}
