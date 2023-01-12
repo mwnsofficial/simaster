@@ -20,10 +20,13 @@ playlist: PLl3VtaZ1T4VpPm1NjF0jPwETk_npxDrwI
 
 <!-- Donasi Start -->
 <table>
+<thead>
 <tr>
 <th>SAWER</th>
 <th>SIMASTER</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td><img src="/assets/images/donasidana.png" alt="donasi dana" width="100px" height="100px"></td>
 <td><a href="https://link.dana.id/qr/4r3ahl1" target="_blank"><img src="/assets/images/btn-donasi.png" alt="donasi dana" width="100px" height="100px"></a></td>
@@ -58,8 +61,8 @@ playlist: PLl3VtaZ1T4VpPm1NjF0jPwETk_npxDrwI
 </tr>
 <tr>
 <td><img src="/assets/images/donasibitcoin.png" alt="donasi bitcoin" width="100px" height="100px"></td>
-<td><a href="https://link.
 <td><a href="www.clashmwns.com/donasi-bitcoin.html"><img src="/assets/images/btn-donasi.png" alt="donasi dana" width="100px" height="100px"></a></td>
 </tr>
+</tbody>
 </table>
 <!-- Donasi End -->
