@@ -152,13 +152,13 @@ sup {
 }
 
 a {
-  color: white;
+  color: orange;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: white;
+  color: red;
   text-decoration: underline;
 }
 
