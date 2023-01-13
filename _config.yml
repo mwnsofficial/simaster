@@ -4,8 +4,8 @@ keywords: configuration, scripts, rules, android, openwrt, windows, termux, magi
 # Menampilkan text pada halaman pencarian google
 description: Simaster adalah situs khusus berisikan semua file yang di butuhkan untuk semua pengguna koneksi internet.
 
-# Fokus pada pencarian google
-subject:
+# Nama dari blog ini
+situs: Simaster
 
 # Penulis atau pemilik pada blog ini
 author: Muhammad Yusuf
