@@ -469,7 +469,7 @@ a:hover {
   }
   
 .breakingnews marquee {
-  width: 50%;
+  width: 70%;
   background-color: teal;
   color: #fff;
   padding: 5px 3px;
@@ -489,7 +489,7 @@ a:hover {
 
 @media screen and (max-width:500px) {
   .breakingnews .breakingnewstitle {
-    width: 100%;
+    width: 30%;
     font-size: 10px;
     font-weight: bold
   }
@@ -499,7 +499,7 @@ a:hover {
   }
 
   .breakingnews marquee {
-    width: 100%
+    width: 70%
   }
 }
 
@@ -510,7 +510,7 @@ a:hover {
 }
 
 #post_breakingnews .breakingnews {
-  width: 1120px;
+  width: 550px;
   max-width: 100%;
   margin: 0 auto
 }
