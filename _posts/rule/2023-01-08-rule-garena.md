@@ -10,7 +10,7 @@ playlist: PLl3VtaZ1T4VpPm1NjF0jPwETk_npxDrwI
 image: /assets/images/post.jpg
 image-alt: rule mobilelegends
 summary: rule garena terbaik dari simaster
-tags: [garena]
+tags: [rule]
 ---
 
 <pre>
