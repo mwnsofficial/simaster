@@ -10,7 +10,7 @@ playlist: PLl3VtaZ1T4VpPm1NjF0jPwETk_npxDrwI
 image: /assets/images/post.jpg
 image-alt: rule mobilelegends
 summary: rule mobilelegends terbaik dari simaster
-tags: [mobilelegends]
+tags: [rule]
 ---
 
 <pre>
