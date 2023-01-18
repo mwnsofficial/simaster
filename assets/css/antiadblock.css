@@ -1,6 +1,6 @@
 /* Anti AdBlock By clashmwns.com */
 .mwnsAdBlock {
-  background-color: rgba(0,0,0,.75);
+  background-color: teal;
   position: fixed;
   z-index: 999;
 }
