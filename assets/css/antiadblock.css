@@ -1,14 +1,14 @@
 /* Anti AdBlock By clashmwns.com */
-.ignielAdBlock {
+.mwnsAdBlock {
   background-color: rgba(0,0,0,.75);
   position: fixed;
   z-index: 999;
 }
-.ignielAdBlock svg {
+.mwnsAdBlock svg {
   height: 8rem;
   width: 8rem;
 }
-.ignielAdBlock path {
+.mwnsAdBlock path {
   fill: #b82929;
 }
 .adblock-outer {
@@ -24,7 +24,7 @@
   overflow: auto;
   padding: 2rem;
 }
-.ignielAdBlock, .adblock-outer {
+.mwnsAdBlock, .adblock-outer {
   bottom: 0;
   left: 0;
   right: 0;
@@ -50,7 +50,7 @@
   .adblock-outer {
     max-width: 90vw;
   }
-  .ignielAdBlock svg {
+  .mwnsAdBlock svg {
     height: 5rem;
     width: 5rem;
   }
