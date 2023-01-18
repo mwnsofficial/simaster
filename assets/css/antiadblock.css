@@ -1,0 +1,71 @@
+/* Anti AdBlock By clashmwns.com */
+.ignielAdBlock {
+  background-color: rgba(0,0,0,.75);
+  position: fixed;
+  z-index: 999;
+}
+.ignielAdBlock svg {
+  height: 8rem;
+  width: 8rem;
+}
+.ignielAdBlock path {
+  fill: #b82929;
+}
+.adblock-outer {
+  margin: auto;
+  max-height: 90vh;
+  max-width: 640px;
+  padding: 2rem;
+  position: absolute;
+}
+.adblock-inner {
+  background-color: #f4f4f4;
+  border-radius: 15px;
+  overflow: auto;
+  padding: 2rem;
+}
+.ignielAdBlock, .adblock-outer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.adblock-outer, .adblock-inner {
+  align-items: center;
+  display: flex;
+  display: inline-flex;
+}
+.adblock-wrapper {
+  margin-left: 1rem;
+}
+.adblock-title {
+  font-size: 2rem;
+  font-weight: bolder;
+  line-height: 2.5rem;
+}
+.adblock-text {
+  margin-top: 1rem;
+}
+@media screen and (max-width: 640px) {
+  .adblock-outer {
+    max-width: 90vw;
+  }
+  .ignielAdBlock svg {
+    height: 5rem;
+    width: 5rem;
+  }
+  .adblock-title {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .adblock-inner {
+    flex-direction: column;
+  }
+  .adblock-wrapper {
+    margin-left: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
