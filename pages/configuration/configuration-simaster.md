@@ -235,6 +235,20 @@ tags: [configuration]
                 </div>
                 </a>
                 </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="https://www.mediafire.com/file/d9hulnafjgbu03u/simastercft.zip/file">
+                <div class="cat-item d-flex align-items-center mb-4">
+                <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
+                </div>
+                <div class="flex-fill pl-3">
+                <h6>Simaster termux terbaru</h6>
+                <small class="text-body">1 Products</small>
+                <p><a href="https://www.mediafire.com/file/d9hulnafjgbu03u/simastercft.zip/file"><i>DOWNLOAD</i></a></p>
+                </div>
+                </div>
+                </a>
+                </div>
         </div>
     </div>
     <!-- Categories End -->
