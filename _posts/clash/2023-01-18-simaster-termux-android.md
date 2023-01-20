@@ -19,3 +19,4 @@ Kalian cukup hanya dengan download file nya [DISINI](https://www.mediafire.com/f
 Untuk tutorial cara penggunaan sudah saya siapkan di dalam video di channel youtube saya
 
 Selamat mencoba dan semoga berhasil.
+
