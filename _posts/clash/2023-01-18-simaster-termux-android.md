@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: tutorial simaster auto android
+title: tutorial simaster termux android
 date: 2023-01-18
 permalink: simaster-termux-android.html
 image: /assets/images/simaster-auto-android.jpg
