@@ -6,7 +6,6 @@
 <meta property="og:locale" content="id_ID">
 <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
 <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:url" content="{{ page.url | replace:'/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
 <meta property="og:image" content="{%if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.logo }}{% endif %}" />
 <meta property="og:site_name" content="File Simaster : berbagi pengalaman seputar teknologi dan jaringan">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -31,11 +30,11 @@
 <meta name="designer" content="{{ site.designer }}">
 <meta name="reply-to" content="{{ site.email }}">
 <meta name="owner" content="{{ site.author }}">
-<meta name="url" content="{{ site.baseurl }}">
 <meta name="identifier-URL" content="{{ site.baseurl }}">
 <meta name="directory" content="submission">
 <meta name="pagename" content="{{ page.title }}">
 <meta name="category" content="{{ page.category }}">
+<link rel="canonical" href="{{ site.baseurl }}{{ page.url }}" />
 
 <!-- Favicon -->
 <link href="/assets/images/logo.png" rel="icon">
