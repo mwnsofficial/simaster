@@ -12,6 +12,20 @@ tags: [configuration]
         <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Kumpulan Configuration Simaster</span></h2>
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <a class="text-decoration-none" href="https://www.mediafire.com/file/i1hfwtcujkksd5e/openclashmanager.apk/file">
+                <div class="cat-item d-flex align-items-center mb-4">
+                <div class="overflow-hidden" style="width: 100px; height: 100px;">
+                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
+                </div>
+                <div class="flex-fill pl-3">
+                <h6>Openclash Manager APK</h6>
+                <small class="text-body">1 Products</small>
+                <p><a href="https://www.mediafire.com/file/i1hfwtcujkksd5e/openclashmanager.apk/file"><i>DOWNLOAD</i></a></p>
+                </div>
+                </div>
+                </a>
+                </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
                 <div class="cat-item d-flex align-items-center mb-4">
                 <div class="overflow-hidden" style="width: 100px; height: 100px;">
