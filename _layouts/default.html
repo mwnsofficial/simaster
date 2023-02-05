@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
 {% include head.html %}
 </head>
@@ -13,21 +12,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 {% include adsense.html %}
-{% include navbar.html %}
-{% include marquee.html %}
-<section>
-  {% include breadcrumb.html %}
-    {{ content }}
-</section>
+{% include header.html %}
+{{ content }}
 {% include donasimaster.html %}
-{% include offer.html %}
-{% include vendor.html %}
+
 <footer>
 {% include footer.html %}
-{% include adsense.html %}
 </footer>
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 {% include javascript.html %}
 {% include antiadblock.html %}
