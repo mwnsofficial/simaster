@@ -39,7 +39,7 @@
                         </div>
                         <!-- Details -->
                         <div class="most-recent mb-40">
-                        {% for post in site.posts limit:3 %}
+                        {% for post in site.posts limit:20 %}
                             <div class="most-recent-img">
                                 {% if post.image %}<img src="{{ post.image }}" alt="{{ post.title }}">{% endif %}
                                 <div class="most-recent-cap">
