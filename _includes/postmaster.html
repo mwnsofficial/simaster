@@ -3,7 +3,7 @@
   <div class="widget Blog" data-version="1" id="Blog1">
    <div class="blog-posts hfeed">
     <!--Can't find substitution for tag [defaultAdStart]--> 
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:30 %}
     <div class="post-outer">
      <div class="post hentry">
       <meta content="{% if post.summary %}{{ post.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ post.content | truncatewords: 50 | strip_html }}{% endif %}" property="twitter:description">
