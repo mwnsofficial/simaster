@@ -14,30 +14,16 @@ tags: [configuration]
 
 <!--start--> 
 <div class="post-outer">
-<div class="post hentry">
-<meta content="download simaster" property="twitter:description">
-<div itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
-<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU"" itemprop="url">
-<meta content="700" itemprop="width">
-<meta content="700" itemprop="height">
-</div>
-<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
-<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
-<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" itemprop="url">
-<meta content="600" itemprop="width">
-<meta content="600" itemprop="height">
-</div>
-<meta content="{{ site.situs }}" itemprop="name">
-</div>
-<div class="thumb-wrapper">
-<div class="first-thumb">
-<a href="#" target="_blank">
-<amp-img alt="Simaster" height="110" layout="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset:600ms !important;">
-<i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
-<img decoding="async" alt="Simaster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" class="i-amphtml-fill-content i-amphtml-replaced-content">
-</amp-img>
-</a>
-</div>
+ <div class="post hentry">
+  <div class="thumb-wrapper">
+   <div class="first-thumb">
+  <a href="#" target="_blank">
+    <amp-img alt="Simaster" height="110" layout="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset:600ms !important;">
+     <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
+    <img decoding="async" alt="Simaster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" class="i-amphtml-fill-content i-amphtml-replaced-content">
+   </amp-img>
+  </a>
+ </div>
 </div>
 <h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster</a></h2>
 <div class="post-header">
@@ -75,30 +61,16 @@ tags: [configuration]
 
 <!--start--> 
 <div class="post-outer">
-<div class="post hentry">
-<meta content="download simaster" property="twitter:description">
-<div itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
-<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU"" itemprop="url">
-<meta content="700" itemprop="width">
-<meta content="700" itemprop="height">
-</div>
-<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
-<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
-<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" itemprop="url">
-<meta content="600" itemprop="width">
-<meta content="600" itemprop="height">
-</div>
-<meta content="{{ site.situs }}" itemprop="name">
-</div>
-<div class="thumb-wrapper">
-<div class="first-thumb">
-<a href="#" target="_blank">
-<amp-img alt="Simaster" height="110" layout="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset:600ms !important;">
-<i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
-<img decoding="async" alt="Simaster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" class="i-amphtml-fill-content i-amphtml-replaced-content">
-</amp-img>
-</a>
-</div>
+ <div class="post hentry">
+  <div class="thumb-wrapper">
+   <div class="first-thumb">
+  <a href="#" target="_blank">
+    <amp-img alt="Simaster" height="110" layout="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset:600ms !important;">
+     <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
+    <img decoding="async" alt="Simaster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" class="i-amphtml-fill-content i-amphtml-replaced-content">
+   </amp-img>
+  </a>
+ </div>
 </div>
 <h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster</a></h2>
 <div class="post-header">
@@ -136,30 +108,16 @@ tags: [configuration]
 
 <!--start--> 
 <div class="post-outer">
-<div class="post hentry">
-<meta content="download simaster" property="twitter:description">
-<div itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
-<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU"" itemprop="url">
-<meta content="700" itemprop="width">
-<meta content="700" itemprop="height">
-</div>
-<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
-<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
-<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" itemprop="url">
-<meta content="600" itemprop="width">
-<meta content="600" itemprop="height">
-</div>
-<meta content="{{ site.situs }}" itemprop="name">
-</div>
-<div class="thumb-wrapper">
-<div class="first-thumb">
-<a href="#" target="_blank">
-<amp-img alt="Simaster" height="110" layout="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset:600ms !important;">
-<i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
-<img decoding="async" alt="Simaster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" class="i-amphtml-fill-content i-amphtml-replaced-content">
-</amp-img>
-</a>
-</div>
+ <div class="post hentry">
+  <div class="thumb-wrapper">
+   <div class="first-thumb">
+  <a href="#" target="_blank">
+    <amp-img alt="Simaster" height="110" layout="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset:600ms !important;">
+     <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
+    <img decoding="async" alt="Simaster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" class="i-amphtml-fill-content i-amphtml-replaced-content">
+   </amp-img>
+  </a>
+ </div>
 </div>
 <h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster</a></h2>
 <div class="post-header">
@@ -197,30 +155,16 @@ tags: [configuration]
 
 <!--start--> 
 <div class="post-outer">
-<div class="post hentry">
-<meta content="download simaster" property="twitter:description">
-<div itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
-<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU"" itemprop="url">
-<meta content="700" itemprop="width">
-<meta content="700" itemprop="height">
-</div>
-<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
-<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
-<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" itemprop="url">
-<meta content="600" itemprop="width">
-<meta content="600" itemprop="height">
-</div>
-<meta content="{{ site.situs }}" itemprop="name">
-</div>
-<div class="thumb-wrapper">
-<div class="first-thumb">
-<a href="#" target="_blank">
-<amp-img alt="Simaster" height="110" layout="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset:600ms !important;">
-<i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
-<img decoding="async" alt="Simaster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" class="i-amphtml-fill-content i-amphtml-replaced-content">
-</amp-img>
-</a>
-</div>
+ <div class="post hentry">
+  <div class="thumb-wrapper">
+   <div class="first-thumb">
+  <a href="#" target="_blank">
+    <amp-img alt="Simaster" height="110" layout="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset:600ms !important;">
+     <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
+    <img decoding="async" alt="Simaster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" class="i-amphtml-fill-content i-amphtml-replaced-content">
+   </amp-img>
+  </a>
+ </div>
 </div>
 <h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster</a></h2>
 <div class="post-header">
