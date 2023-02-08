@@ -37,7 +37,7 @@ layout: default
                 <meta content="https://appdroidhunter.blogspot.com/2019/06/rocket-royale-v167-mod-money.html" itemprop="url">
                 <svg height="24" viewbox="0 0 24 24" width="24">
                  <path d="M12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.47,22 2,17.5 2,12C2,6.48 6.48,2 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
-                </svg><a class="timestamp-link" href="  " rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished">{{ page.date | date: "%d-%b-%Y" }}</abbr></a></span>
+                </svg><a class="timestamp-link" href=" " rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished">{{ page.date | date: "%d-%b-%Y" }}</abbr></a></span>
               </div>
              </div>
              <div class="spacer"></div>
@@ -95,8 +95,8 @@ layout: default
                 </amp-img>
                </div>
                <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 2;">
-                <amp-img height="300" src="{{ site.baseurl }}/{{ page.image }}" width="450" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built amp-carousel-slide i-amphtml-layout" i-amphtml-layout="fixed" style="width: 450px; height: 300px; --loader-delay-offset:600ms !important;" aria-hidden="true" i-amphtml-auto-lightbox-visited="">
-                 <img decoding="async" src="{{ site.baseurl }}/{{ page.image }}" class="i-amphtml-fill-content i-amphtml-replaced-content" i-amphtml-auto-lightbox-visited="">
+                <amp-img height="300" src="{% include image.html image=page.image alt=page.image-alt %}" width="450" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built amp-carousel-slide i-amphtml-layout" i-amphtml-layout="fixed" style="width: 450px; height: 300px; --loader-delay-offset:600ms !important;" aria-hidden="true" i-amphtml-auto-lightbox-visited="">
+                 <img decoding="async" src="{% include image.html image=page.image alt=page.image-alt %}" class="i-amphtml-fill-content i-amphtml-replaced-content" i-amphtml-auto-lightbox-visited="">
                 </amp-img>
                </div>
               {%- endif -%}
