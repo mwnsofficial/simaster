@@ -10,7 +10,16 @@
   <nav class="elc-toolbar dark-theme primary">
    <div class="elc-toolbar-content" style="height: 64px;">
     <div class="elc-input">
-     <button id="hamburger" class="elc-input-prepend-outer ripple" onclick="showMenu();">&#8801;>
+     <b id="hamburger" onclick="showMenu();">&#8801;>
+      <nav id="menu_vertikal">
+       <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/configuration-simaster.html">Config</a></li>
+        <li><a href="/account.html">Account</a></li>
+        <li><a href="/rule.html">Rule</a></li>
+        <li><a href="/formware.html">Firmware</a></li>
+       </ul>
+      </nav>
       <div class="elc-input-icon">
        <svg height="24" viewbox="0 0 24 24" width="24">
         <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"></path>
@@ -92,19 +101,6 @@ SimpleJekyllSearch({
     </div>
    </div>
   </div>
-  <amp-sidebar class="sample-sidebar i-amphtml-element i-amphtml-layout-nodisplay i-amphtml-overlay i-amphtml-scrollable i-amphtml-built" id="sidebar-left" layout="nodisplay" side="left" hidden i-amphtml-layout="nodisplay" role="menu" tabindex="-1">
-   <button class="i-amphtml-screen-reader" tabindex="-1">Close the sidebar</button>
-   <nav id="menu_vertikal">
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/configuration-simaster.html">Config</a></li>
-      <li><a href="/account.html">Account</a></li>
-      <li><a href="/rule.html">Rule</a></li>
-      <li><a href="/formware.html">Firmware</a></li>
-    </ul>
-   </nav>
-   <button class="i-amphtml-screen-reader" tabindex="-1">Close the sidebar</button>
-  </amp-sidebar>
    
     {{ content }} 
     
