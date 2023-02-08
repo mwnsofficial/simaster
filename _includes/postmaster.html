@@ -18,17 +18,20 @@
         <meta content="600" itemprop="width">
         <meta content="600" itemprop="height">
        </div>
-       <meta content="AppDroid Hunter" itemprop="name">
+       <meta content="{{ site.situs }}" itemprop="name">
       </div>
       <div class="thumb-wrapper">
        <div class="first-thumb">
         <a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
-         <amp-img alt="{{ post.title }}" height="110" layout="responsive" src="{% if post.image %}{% include image.html %}{% endif %}" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive">
+         {%- if page.image -%}
+         <amp-img alt="{{ post.title }}" height="110" layout="responsive" src="{{- postImage | relative_url -}}" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive">
           <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
-          <img decoding="async" alt="{{ post.title }}" src="{% if post.image %}{% include image.html %}{% endif %}" class="i-amphtml-fill-content i-amphtml-replaced-content">
+          <img decoding="async" alt="{{ post.title }}" src="{{- postImage | relative_url -}}" class="i-amphtml-fill-content i-amphtml-replaced-content">
          </amp-img></a>
+         {%- endif -%}
        </div>
       </div>
+
       <h2 class="post-title entry-title"><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h2>
       <div class="post-header">
        <div class="post-header-line-1">
