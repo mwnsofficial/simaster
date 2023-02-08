@@ -9,14 +9,15 @@ image1: assets/images/hw2.jpg
 image2: assets/images/hw3.jpg
 image-alt: aplikasi huawei manager 7
 summary: Aplikasi ini khusus modem huawei.
+link: https://safelink.id/Sc4N2Vt
 tags: [huawei]
 ---
 
-Selamat datang semuanya di halaman dari blog nya simaster.
+Aplikasi Huawei Manager adalah sebuah aplikasi remote control untuk modem type huawei.
 
-Kali ini saya akan bagikan aplikasi ini khusus buat anda yang pengguna modem type Huawei.
+Huawei Manager Mod yang simaster perbarui dari generasi sebelum nya berbahasa Indonesia ini sudah banyak perubahan dan perbaikan.
 
-Type modem ini saya khususkan untuk modem:
+Untuk type yang simaster ketahui sampai saat ini di gunakan untuk modem huawei type device:
 
 - B310As-852
 - B310s-927
@@ -45,10 +46,8 @@ Type modem ini saya khususkan untuk modem:
 - E5787s-33a
 - E5377s-32
 
-Bagi anda yang ingin dapatkan aplikasi cukup hanya di blog dan youtube dari simaster yang ada di link di bawah ini.
+Jika anda ingin mencoba nya silahkan untuk menguji aplikasi ini.
 
-[Download](https://github.com/mwnsofficial/file/raw/main/HM7_Simaster.apk)
+Perhatian: aplikasi ini tidak 100% aman untuk pengguna di karenakan tidak berada di marketplace resmi seperti playstore.
 
-Dan Bagi anda ingin kontribusi dukungan ke simaster bisa saja melalui tombol donasi yang ada di blog ini.
-
-terima kasih.
+Jadi simaster ingin anda memahami mekanisme nya terlebih dahulu sebelum anda install aplikasi ini.
