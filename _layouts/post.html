@@ -23,9 +23,9 @@ layout: default
       <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"> Muhammad Yusuf</a></h5>
     {% endif %}
   </div>
-<div class="ads">
-{% include adsense.html %}
-</div>
+
+{% include adsterra.html %}
+
 </header>
 <div class="post-content" itemprop="articleBody">
   <!-- call the image.html template file -->
@@ -37,33 +37,13 @@ layout: default
     {% endif %}
 </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1794381705838564"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1794381705838564"
-     data-ad-slot="4591173082"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+    {% include adsterra.html %}
 
     {{ content }}
 
     {% include perpustakaan.html %}
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1794381705838564"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1794381705838564"
-     data-ad-slot="4591173082"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+    {% include adsterra.html %}
 
     {% if page.previous %}
         {% assign previous = page.previous %}
@@ -99,20 +79,9 @@ layout: default
 
     {% include bagikan.html %}
     {% include comments.html %}
-    {% include videomaster.html %}
 <!-- other page content -->
 
 </div>
 </article>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1794381705838564"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1794381705838564"
-     data-ad-slot="4591173082"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+{% include adsterra.html %}
