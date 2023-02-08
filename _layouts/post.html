@@ -2,86 +2,178 @@
 layout: default
 ---
 
-<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
-<header class="post-header">
-<h1 class="post-title">{{ page.title }}</h1>
-<h5 class="text-white"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%b-%Y" }}</time>
-    {% if page.author %} {{ page.author }}{% endif %}</h5>
-      <div class="text-white"> <b>Tutorial:</b> {{page.summary}}</div>
-        <div class="tags">
-          {% if page.tags != null %}
-            <h5 class="text-white">Categories: 
-              {% assign projectTags = site.data.tags.allowed-tags %}
-                {% for tag in page.tags %}
-                  {% if projectTags contains tag %}
-                  <a href="{{ "tag-" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a></h5>
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-          {% if site.github_editme_path %}
-        <h5 class="text-white">Editor: 
-      <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"> Muhammad Yusuf</a></h5>
-    {% endif %}
-  </div>
-
-{% include adsterra.html %}
-
-</header>
-<div class="post-content" itemprop="articleBody">
-  <!-- call the image.html template file -->
-    {% if page.image %}
-      <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.image-alt }} width="100%" height="320">
-    {%- endif -%}
-<div class="text-white">
-    {% if page.summary %}
-    {% endif %}
-</div>
-
-    {% include adsterra.html %}
-
-    {{ content }}
-
-    {% include perpustakaan.html %}
-
-    {% include adsterra.html %}
-
-    {% if page.previous %}
-        {% assign previous = page.previous %}
-    {% else %}
-        {% assign previous = site.posts[0] %}
-    {% endif %}
-    <div class="left">
-        <a class="previous" href="{{site.baseurl}}{{previous.url}}" title="Previous Post: {{previous.title}}">
-            <div>
-                <h4>Prev Posts</h4>
+  <div id="wrapper">
+   <div id="content-wrapper" itemscope itemtype="http://schema.org/Blog" role="main">
+    <div id="main-wrapper">
+     <div class="main section" id="main">
+      <div class="widget Blog" data-version="1" id="Blog1">
+       <div class="blog-posts hfeed">
+        <!--Can't find substitution for tag [defaultAdStart]--> 
+        <div class="date-outer"> 
+         <h2 class="date-header"><span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%b-%Y" }}</time></span></h2> 
+         <div class="date-posts"> 
+          <div class="post-outer">
+           <div class="post hentry">
+            <meta content="       Developer  GameSpire Ltd.    Versi  v1.6.7 (Mod Money)    Ukuran File  74.44 MB       Aplikasi/Game ini kompatibel dengan semua peran..." property="twitter:description">
+            <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+             <meta content="https://1.bp.blogspot.com/mZlojaiiRgYKkGN6JsNgVW6SofuuhjcXIVCtDe1-kxXpirpB2zOxgRmieWhBnTUxLM_L=s180" itemprop="url">
+             <meta content="700" itemprop="width">
+             <meta content="700" itemprop="height">
             </div>
-        </a>
-    </div>
-
-    {% if page.next %}
-        {% assign next = page.next %}
-    {% else %}
-        {%comment%}
-           As the array index start at zero we substract 1 to the total count,
-           we then get the last post index in the site.posts array
-        {%endcomment%}
-        {% assign last lastPostIndex = site.posts | size | minus: 1 %}
-        {% assign next = site.posts[lastPostIndex] %}
-    {% endif %}
-    <div class="right">
-        <a class="next" href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
-            <div>
-                <h4>Next Posts</h4>
+            <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+             <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+              <meta content="https://3.bp.blogspot.com/--15lMM2sBn4/Wbn6D7B0ZWI/AAAAAAAANwM/iuU0-pb1bRUf1ruJtchyppHgTdoE0rhpwCLcBGAs/s1600/infinite-amp.png" itemprop="url">
+              <meta content="600" itemprop="width">
+              <meta content="600" itemprop="height">
+             </div>
+             <meta content="{{ site.situs }}" itemprop="name">
             </div>
-        </a>
+            <h1 class="post-title entry-title">{{ page.title }}</h1>
+            <div class="post-header">
+             <div class="post-header-line-1">
+              <div class="post-info">
+               <span class="author-info"> ✔ <span class="fn"><span itemprop="name">certified</span></span></span>
+               <span class="post-timestamp">
+                <meta content="https://appdroidhunter.blogspot.com/2019/06/rocket-royale-v167-mod-money.html" itemprop="url">
+                <svg height="24" viewbox="0 0 24 24" width="24">
+                 <path d="M12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.47,22 2,17.5 2,12C2,6.48 6.48,2 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+                </svg><a class="timestamp-link" href="  " rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%b-%Y" }}</time>"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%b-%Y" }}</time></abbr></a></span>
+              </div>
+             </div>
+             <div class="spacer"></div>
+             <div aria-label="Rating" class="rating" role="img">
+              <div class="stars"></div>
+              <div class="stars"></div>
+              <div class="stars"></div>
+              <div class="stars"></div>
+              <div class="stars"></div>
+             </div>
+            </div>
+            <div class="post-body entry-content" id="post-body-4452234493122568827">
+             <div class="separator" style="clear: both; text-align: center;"> 
+              <img alt="{{ page.image-alt }}" border="0" data-original-height="180" data-original-width="180" src="{{ site.baseurl }}/{{ page.image }}" title="{{ page.title }}" i-amphtml-auto-lightbox-visited="" lightbox="i-amphtml-auto-lightbox-0" on="tap:amp-lightbox-gallery.activate">
+             </div> 
+             <br> 
+             <div class="satu"> 
+              <div class="dua"> 
+               <div class="tiga"> 
+                <div class="tiga-dua"> 
+                 <b>Developer</b> {{ site.author }}. 
+                </div> 
+                <div class="tiga-dua"> 
+                 <b>Versi</b> {{page.tagName}}{{tag}} 
+                </div> 
+                <div class="tiga-dua"> 
+                 <b>Ukuran File</b> {{ page.ukuran }} 
+                </div> 
+               </div> 
+               <div class="empat"> 
+                <div class="empat-satu"> 
+                 <div class="info"> 
+                 </div>{{page.summary}}
+                </div> 
+               </div> 
+               <div class="empat"> 
+                <a class="empat-dua ripple" href="{{ page.link }}"> Download </a>
+               </div> 
+              </div> 
+             </div> 
+             <br> 
+             <amp-carousel autoplay="" controls="" data-next-button-aria-label="Selanjutnya" data-previous-button-aria-label="Sebelumnya" delay="3000" height="300" layout="responsive" loop="" type="slides" width="450" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-slidescroll i-amphtml-carousel-has-controls i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive">
+              <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
+              {% if page.image %} 
+              <div tabindex="-1" class="i-amphtml-slides-container i-amphtml-slidescroll-no-snap" aria-live="polite">
+               <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 3;">
+                <amp-img height="300" src="{{ site.baseurl }}/{{ page.image }}" width="450" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built amp-carousel-slide i-amphtml-layout" i-amphtml-layout="fixed" style="width: 450px; height: 300px; --loader-delay-offset:600ms !important;" aria-hidden="true" i-amphtml-auto-lightbox-visited="">
+                 <img decoding="async" src="{{ site.baseurl }}/{{ page.image }}" class="i-amphtml-fill-content i-amphtml-replaced-content" i-amphtml-auto-lightbox-visited="">
+                </amp-img>
+               </div>
+               <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 1;">
+                <amp-img height="300" src="{{ site.baseurl }}/{{ page.image }}" width="450" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built amp-carousel-slide i-amphtml-layout" i-amphtml-layout="fixed" style="width: 450px; height: 300px; --loader-delay-offset:600ms !important;" aria-hidden="true" i-amphtml-auto-lightbox-visited="">
+                 <img decoding="async" src="{{ site.baseurl }}/{{ page.image }}" class="i-amphtml-fill-content i-amphtml-replaced-content" i-amphtml-auto-lightbox-visited="">
+                </amp-img>
+               </div>
+               <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 2;">
+                <amp-img height="300" src="{{ site.baseurl }}/{{ page.image }}" width="450" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built amp-carousel-slide i-amphtml-layout" i-amphtml-layout="fixed" style="width: 450px; height: 300px; --loader-delay-offset:600ms !important;" aria-hidden="true" i-amphtml-auto-lightbox-visited="">
+                 <img decoding="async" src="{{ site.baseurl }}/{{ page.image }}" class="i-amphtml-fill-content i-amphtml-replaced-content" i-amphtml-auto-lightbox-visited="">
+                </amp-img>
+               </div>
+              {%- endif -%}
+              </div>
+              <div tabindex="0" class="amp-carousel-button amp-carousel-button-prev" role="button" title="Previous item in carousel (2 of 3)" aria-disabled="false"></div>
+              <div tabindex="0" class="amp-carousel-button amp-carousel-button-next" role="button" title="Selanjutnya (1 of 3)" aria-disabled="false"></div>
+             </amp-carousel> 
+             <br> 
+             <div class="snippets"> 
+              <input id="showmore" type="checkbox"> 
+              <label for="showmore"></label> 
+              <br> 
+              <div> 
+               <br> 
+               <div>
+                 {{ content }}
+               </div> 
+              </div> 
+             </div> 
+             <div class="clear"></div>
+            </div>
+            <div class="post-footer">
+             <div class="post-footer-line post-footer-line-1">
+              <div class="post-share">
+               <h4 class="sharetitle">Bagikan</h4>
+              </div>
+              <div class="clear"></div>
+              <div style="text-align: center;">
+               <amp-social-share height="37" style="border-radius: 50%; width: 37px; height: 37px;" type="twitter" width="37" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined amp-social-share-twitter i-amphtml-built i-amphtml-layout" i-amphtml-layout="fixed" role="button" tabindex="0" aria-label="Share by twitter"></amp-social-share>
+               <amp-social-share data-param-app_id="145634995501895" height="37" style="border-radius: 50%; width: 37px; height: 37px;" type="facebook" width="37" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined amp-social-share-facebook i-amphtml-built i-amphtml-layout" i-amphtml-layout="fixed" role="button" tabindex="0" aria-label="Share by facebook"></amp-social-share>
+               <amp-social-share height="37" style="border-radius: 50%; width: 37px; height: 37px;" type="pinterest" width="37" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined amp-social-share-pinterest i-amphtml-built i-amphtml-layout" i-amphtml-layout="fixed" role="button" tabindex="0" aria-label="Share by pinterest"></amp-social-share>
+               <amp-social-share height="37" style="border-radius: 50%; width: 37px; height: 37px;" type="linkedin" width="37" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined amp-social-share-linkedin i-amphtml-built i-amphtml-layout" i-amphtml-layout="fixed" role="button" tabindex="0" aria-label="Share by linkedin"></amp-social-share>
+               <amp-social-share height="37" style="border-radius: 50%; width: 37px; height: 37px;" type="whatsapp" width="37" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined amp-social-share-whatsapp i-amphtml-built i-amphtml-layout" i-amphtml-layout="fixed" role="button" tabindex="0" aria-label="Share by whatsapp"></amp-social-share>
+              </div>
+              <div class="clear"></div>
+              <div id="subscribeforms">
+               <div class="emaillision">
+                <form action="https://feedburner.google.com/fb/a/mailverify?" method="get" novalidate target="_blank" amp-novalidate="" class="i-amphtml-form">
+                 <input name="email" placeholder="Email Anda" required type="email">
+                 <input class="Submitter ripple" type="submit" value="Langganan">
+                </form>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           {% include comments.html %}
+          </div> 
+         </div>
+        </div> 
+        <!--Can't find substitution for tag [adEnd]-->
+       </div>
+       <div class="blog-pager" id="blog-pager">
+        <div id="blog-pager-older-link">
+         <a class="blog-pager-older-link ripple" href="{{site.baseurl}}{{previous.url}}" id="Blog1_blog-pager-older-link" title="Older Post">
+          <svg viewbox="0 0 24 24">
+           <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" fill="#ffffff"></path>
+          </svg></a>
+        </div>
+        <div class="mobile-link-button" id="blog-pager-home-link">
+         <a class="home-link" href="{{ site.baseurl }}" title="Home">
+          <svg viewbox="0 0 24 24">
+           <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" fill="#ffffff"></path>
+          </svg></a>
+        </div>
+        <div class="home-box" title="This is the newest page">
+         <svg viewbox="0 0 24 24">
+          <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" fill="#ffffff"></path>
+         </svg>
+        </div>
+        <div class="lasthome-box" title="This is the latest page">
+         <svg viewbox="0 0 24 24">
+          <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" fill="#ffffff"></path>
+         </svg>
+        </div>
+       </div>
+       <div class="clear"></div>
+       <div class="post-feeds"></div>
+      </div>
+     </div>
     </div>
-<hr>
-
-    {% include bagikan.html %}
-    {% include comments.html %}
-<!-- other page content -->
-
-</div>
-</article>
-
-{% include adsterra.html %}
