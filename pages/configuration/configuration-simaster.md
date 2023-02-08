@@ -6,279 +6,257 @@ permalink: configuration-simaster.html
 folder: configuration
 tags: [configuration]
 ---
-<div class="row">
-    <!-- Categories Start -->
-    <div class="container-fluid pt-5">
-        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Kumpulan Configuration Simaster</span></h2>
-        <div class="row px-xl-5 pb-3">
 
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://www.mediafire.com/file/rxfl0urx5jvym47/New-HM7-Simaster.apk/file">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Dark Huawei Manager APK</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://www.mediafire.com/file/rxfl0urx5jvym47/New-HM7-Simaster.apk/file"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://www.mediafire.com/file/i1hfwtcujkksd5e/openclashmanager.apk/file">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Openclash Manager APK</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://www.mediafire.com/file/i1hfwtcujkksd5e/openclashmanager.apk/file"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://bit.ly/3WyfWe8"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V1</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://bit.ly/3WyfWe8"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V1.1</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://bit.ly/3WyfWe8"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V1.2</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://bit.ly/3WyfWe8"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V1.3</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://bit.ly/3WyfWe8"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V1.4</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://bit.ly/3WyfWe8"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V1.5</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://bit.ly/3WyfWe8"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V1.6</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://bit.ly/3WyfWe8"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://www.clashmwns.com/#?url=mLO0bLF4Gw17v7bynRThmRXfmEJgGfDtnI1fmRegG7OkmdC9m8brFjlrmEXyDB1qmR9lb7Ogbk98FI07GUKrFjKuFVhuFVCyvZXwGfv4G8QanZY=">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V1.7</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://www.clashmwns.com/#?url=mLO0bLF4Gw17v7bynRThmRXfmEJgGfDtnI1fmRegG7OkmdC9m8brFjlrmEXyDB1qmR9lb7Ogbk98FI07GUKrFjKuFVhuFVCyvZXwGfv4G8QanZY="><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://www.clashmwns.com/#?url=mLO0bLF4Gw17v7bynRThmRXfmEJgGfDtnI1fmRegG7Okbjv4mEOfv8YqW7s0Ww1qmR9lb7Ogbk98FI06GUCwb8TrvZTuWfTwFjMwFk50WEKyQ7stQfgiQP==">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V1.8</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://www.clashmwns.com/#?url=mLO0bLF4Gw17v7bynRThmRXfmEJgGfDtnI1fmRegG7Okbjv4mEOfv8YqW7s0Ww1qmR9lb7Ogbk98FI06GUCwb8TrvZTuWfTwFjMwFk50WEKyQ7stQfgiQP=="><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://www.clashmwns.com/#?url=mLO0bLF4Gw17v7bynRThmRXfmEJgGfDtnI1fmRegG7C7QUvdQ7OdD8JlDEQqDw1qmR9lb7Ogbk98FI05GUC7b8TrvZTuWfTwFjMwFk50WEKybfXwG8QanZY=">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V1.9</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://www.clashmwns.com/#?url=mLO0bLF4Gw17v7bynRThmRXfmEJgGfDtnI1fmRegG7C7QUvdQ7OdD8JlDEQqDw1qmR9lb7Ogbk98FI05GUC7b8TrvZTuWfTwFjMwFk50WEKybfXwG8QanZY="><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://www.clashmwns.com/#?url=mLO0bLF4Gw17v7bynRThmRXfmEJgGfDtnI1fmRegG7luQ7DaFZ27mRJ0mZQfbw1jQfCub8guWED0QEKuvjCuSI0eSLDgbLOgnRJgbjKrFjKybfXwG8QanZY=">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster CFA V1.9</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://www.clashmwns.com/#?url=mLO0bLF4Gw17v7bynRThmRXfmEJgGfDtnI1fmRegG7luQ7DaFZ27mRJ0mZQfbw1jQfCub8guWED0QEKuvjCuSI0eSLDgbLOgnRJgbjKrFjKybfXwG8QanZY="><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://www.clashmwns.com/#?url=mLO0bLF4Gw17v7bynRThmRXfmEJgGfDtnI1fmRegG80qFdJrnLFevZi5vLvdcB1jQf0ub8guWED0QEKuvjCySI55WR9iG8QanZY=">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster Magisk V1.9</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://www.clashmwns.com/#?url=mLO0bLF4Gw17v7bynRThmRXfmEJgGfDtnI1fmRegG80qFdJrnLFevZi5vLvdcB1jQf0ub8guWED0QEKuvjCySI55WR9iG8QanZY="><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V2</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://bit.ly/3WyfWe8"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V2.1</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://bit.ly/3WyfWe8"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://bit.ly/3WyfWe8">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster V2.2</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://bit.ly/3WyfWe8"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="https://www.mediafire.com/file/d9hulnafjgbu03u/simastercft.zip/file">
-                <div class="cat-item d-flex align-items-center mb-4">
-                <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                <img class="img-fluid" src="img/cat.jpg" alt=""></a>
-                </div>
-                <div class="flex-fill pl-3">
-                <h6>Simaster termux terbaru</h6>
-                <small class="text-body">1 Products</small>
-                <p><a href="https://www.mediafire.com/file/d9hulnafjgbu03u/simastercft.zip/file"><i>DOWNLOAD</i></a></p>
-                </div>
-                </div>
-                </a>
-                </div>
-        </div>
-    </div>
-    <!-- Categories End -->
+<div id="main-wrapper">
+<div class="main section" id="main">
+<div class="widget Blog" data-version="1" id="Blog1">
+<div class="blog-posts hfeed">
+
+<!--start--> 
+<div class="post-outer">
+<div class="post hentry">
+<meta content="download simaster" property="twitter:description">
+<div itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU"" itemprop="url">
+<meta content="700" itemprop="width">
+<meta content="700" itemprop="height">
+</div>
+<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" itemprop="url">
+<meta content="600" itemprop="width">
+<meta content="600" itemprop="height">
+</div>
+<meta content="{{ site.situs }}" itemprop="name">
+</div>
+<div class="thumb-wrapper">
+<div class="first-thumb">
+<a href="#" target="_blank">
+<amp-img alt="Simaster" height="110" layout="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset:600ms !important;">
+<i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
+<img decoding="async" alt="Simaster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" class="i-amphtml-fill-content i-amphtml-replaced-content">
+</amp-img>
+</a>
+</div>
+</div>
+<h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster</a></h2>
+<div class="post-header">
+ <div class="post-header-line-1">
+  <div class="post-info">
+   <span class="author-info"> ✔ <span class="fn"><span itemprop="name">Certified</span></span></span>
+   <span class="post-timestamp">
+    <meta content="#" itemprop="url">
+    <svg height="24" viewbox="0 0 24 24" width="24">
+     <path d="M12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.47,22 2,17.5 2,12C2,6.48 6.48,2 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+    </svg><a class="timestamp-link" href="#" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="{{ page.date | date: "%d-%m-%Y" }}">{{ page.date | date: "%d-%m-%Y" }}</abbr></a></span>
+  </div>
+ </div>
+<div class="spacer"></div>
+<div aria-label="Rating" class="rating" role="img">
+<div class="stars"></div>
+<div class="stars"></div>
+<div class="stars"></div>
+<div class="stars"></div>
+<div class="stars"></div>
+</div>
+</div>
+<div class="post-body entry-content" id="post-body-2671850763688371894">
+ <div class="post-snippet">
+   Developer: Muhammad Yusuf. Versi: openwrt. Ukuran File: 100KB. Konfigurasi ini kompatibel dengan type openwrt
+</div>
+<div class="clear"></div>
+</div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1"></div>
+</div>
+</div>
+</div>
+<!--end-->
+
+<!--start--> 
+<div class="post-outer">
+<div class="post hentry">
+<meta content="download simaster" property="twitter:description">
+<div itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU"" itemprop="url">
+<meta content="700" itemprop="width">
+<meta content="700" itemprop="height">
+</div>
+<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" itemprop="url">
+<meta content="600" itemprop="width">
+<meta content="600" itemprop="height">
+</div>
+<meta content="{{ site.situs }}" itemprop="name">
+</div>
+<div class="thumb-wrapper">
+<div class="first-thumb">
+<a href="#" target="_blank">
+<amp-img alt="Simaster" height="110" layout="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset:600ms !important;">
+<i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
+<img decoding="async" alt="Simaster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" class="i-amphtml-fill-content i-amphtml-replaced-content">
+</amp-img>
+</a>
+</div>
+</div>
+<h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster</a></h2>
+<div class="post-header">
+ <div class="post-header-line-1">
+  <div class="post-info">
+   <span class="author-info"> ✔ <span class="fn"><span itemprop="name">Certified</span></span></span>
+   <span class="post-timestamp">
+    <meta content="#" itemprop="url">
+    <svg height="24" viewbox="0 0 24 24" width="24">
+     <path d="M12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.47,22 2,17.5 2,12C2,6.48 6.48,2 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+    </svg><a class="timestamp-link" href="#" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="{{ page.date | date: "%d-%m-%Y" }}">{{ page.date | date: "%d-%m-%Y" }}</abbr></a></span>
+  </div>
+ </div>
+<div class="spacer"></div>
+<div aria-label="Rating" class="rating" role="img">
+<div class="stars"></div>
+<div class="stars"></div>
+<div class="stars"></div>
+<div class="stars"></div>
+<div class="stars"></div>
+</div>
+</div>
+<div class="post-body entry-content" id="post-body-2671850763688371894">
+ <div class="post-snippet">
+   Developer: Muhammad Yusuf. Versi: openwrt. Ukuran File: 100KB. Konfigurasi ini kompatibel dengan type openwrt
+</div>
+<div class="clear"></div>
+</div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1"></div>
+</div>
+</div>
+</div>
+<!--end-->
+
+<!--start--> 
+<div class="post-outer">
+<div class="post hentry">
+<meta content="download simaster" property="twitter:description">
+<div itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU"" itemprop="url">
+<meta content="700" itemprop="width">
+<meta content="700" itemprop="height">
+</div>
+<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" itemprop="url">
+<meta content="600" itemprop="width">
+<meta content="600" itemprop="height">
+</div>
+<meta content="{{ site.situs }}" itemprop="name">
+</div>
+<div class="thumb-wrapper">
+<div class="first-thumb">
+<a href="#" target="_blank">
+<amp-img alt="Simaster" height="110" layout="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset:600ms !important;">
+<i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
+<img decoding="async" alt="Simaster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" class="i-amphtml-fill-content i-amphtml-replaced-content">
+</amp-img>
+</a>
+</div>
+</div>
+<h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster</a></h2>
+<div class="post-header">
+ <div class="post-header-line-1">
+  <div class="post-info">
+   <span class="author-info"> ✔ <span class="fn"><span itemprop="name">Certified</span></span></span>
+   <span class="post-timestamp">
+    <meta content="#" itemprop="url">
+    <svg height="24" viewbox="0 0 24 24" width="24">
+     <path d="M12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.47,22 2,17.5 2,12C2,6.48 6.48,2 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+    </svg><a class="timestamp-link" href="#" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="{{ page.date | date: "%d-%m-%Y" }}">{{ page.date | date: "%d-%m-%Y" }}</abbr></a></span>
+  </div>
+ </div>
+<div class="spacer"></div>
+<div aria-label="Rating" class="rating" role="img">
+<div class="stars"></div>
+<div class="stars"></div>
+<div class="stars"></div>
+<div class="stars"></div>
+<div class="stars"></div>
+</div>
+</div>
+<div class="post-body entry-content" id="post-body-2671850763688371894">
+ <div class="post-snippet">
+   Developer: Muhammad Yusuf. Versi: openwrt. Ukuran File: 100KB. Konfigurasi ini kompatibel dengan type openwrt
+</div>
+<div class="clear"></div>
+</div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1"></div>
+</div>
+</div>
+</div>
+<!--end-->
+
+<!--start--> 
+<div class="post-outer">
+<div class="post hentry">
+<meta content="download simaster" property="twitter:description">
+<div itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU"" itemprop="url">
+<meta content="700" itemprop="width">
+<meta content="700" itemprop="height">
+</div>
+<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" itemprop="url">
+<meta content="600" itemprop="width">
+<meta content="600" itemprop="height">
+</div>
+<meta content="{{ site.situs }}" itemprop="name">
+</div>
+<div class="thumb-wrapper">
+<div class="first-thumb">
+<a href="#" target="_blank">
+<amp-img alt="Simaster" height="110" layout="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive" style="--loader-delay-offset:600ms !important;">
+<i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
+<img decoding="async" alt="Simaster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6mgkg2BVXmpv8dPaek_ZeKzS5dCyzZ9p4w&usqp=CAU" class="i-amphtml-fill-content i-amphtml-replaced-content">
+</amp-img>
+</a>
+</div>
+</div>
+<h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster</a></h2>
+<div class="post-header">
+ <div class="post-header-line-1">
+  <div class="post-info">
+   <span class="author-info"> ✔ <span class="fn"><span itemprop="name">Certified</span></span></span>
+   <span class="post-timestamp">
+    <meta content="#" itemprop="url">
+    <svg height="24" viewbox="0 0 24 24" width="24">
+     <path d="M12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.47,22 2,17.5 2,12C2,6.48 6.48,2 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+    </svg><a class="timestamp-link" href="#" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="{{ page.date | date: "%d-%m-%Y" }}">{{ page.date | date: "%d-%m-%Y" }}</abbr></a></span>
+  </div>
+ </div>
+<div class="spacer"></div>
+<div aria-label="Rating" class="rating" role="img">
+<div class="stars"></div>
+<div class="stars"></div>
+<div class="stars"></div>
+<div class="stars"></div>
+<div class="stars"></div>
+</div>
+</div>
+<div class="post-body entry-content" id="post-body-2671850763688371894">
+ <div class="post-snippet">
+   Developer: Muhammad Yusuf. Versi: openwrt. Ukuran File: 100KB. Konfigurasi ini kompatibel dengan type openwrt
+</div>
+<div class="clear"></div>
+</div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1"></div>
+</div>
+</div>
+</div>
+<!--end-->
+
+</div>
+</div>
+</div>
 </div>
