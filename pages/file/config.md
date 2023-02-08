@@ -1,10 +1,10 @@
 ---
-title: script configuration simaster
+title: config simaster
 layout: page
-keywords: script, configuration, simaster
-permalink: configuration-simaster.html
-folder: configuration
-tags: [configuration]
+keywords: config
+permalink: config.html
+folder: file
+tags: [config]
 ---
 
 <div id="main-wrapper">
