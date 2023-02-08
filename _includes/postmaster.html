@@ -23,9 +23,9 @@
       <div class="thumb-wrapper">
        <div class="first-thumb">
         <a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
-         <amp-img alt="{{ post.title }}" height="110" layout="responsive" src="{{ post.image | relative_url }}" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive">
+         <amp-img alt="{{ post.title }}" height="110" layout="responsive" src="{% if post.image %}{% include image.html image=post.image alt=post.image-alt %}{% endif %}" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive">
           <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
-          <img decoding="async" alt="{{ post.title }}" src="{{ post.image | relative_url }}" class="i-amphtml-fill-content i-amphtml-replaced-content">
+          <img decoding="async" alt="{{ post.title }}" src="{% if post.image %}{% include image.html image=post.image alt=post.image-alt %}{% endif %}" class="i-amphtml-fill-content i-amphtml-replaced-content">
          </amp-img></a>
        </div>
       </div>
