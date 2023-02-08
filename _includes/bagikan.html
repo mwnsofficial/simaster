@@ -13,7 +13,7 @@ function sharethis()
 if (navigator.share) {
   navigator.share({
     title: '{{ page.title }}',
-    text: '{{ page.summary }}',
+    text: '{{ page.title }}',
     url: '{{ site.url }}{{ page.url }}',
   })
     .then(() => console.log('Sukses Dibagikan'))
