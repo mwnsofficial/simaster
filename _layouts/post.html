@@ -95,8 +95,8 @@ layout: default
                 </amp-img>
                </div>
                <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 2;">
-                <amp-img height="300" src="{% include image.html image=page.image alt=page.image-alt %}" width="450" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built amp-carousel-slide i-amphtml-layout" i-amphtml-layout="fixed" style="width: 450px; height: 300px; --loader-delay-offset:600ms !important;" aria-hidden="true" i-amphtml-auto-lightbox-visited="">
-                 <img decoding="async" src="{% include image.html image=page.image alt=page.image-alt %}" class="i-amphtml-fill-content i-amphtml-replaced-content" i-amphtml-auto-lightbox-visited="">
+                <amp-img height="300" src="{% if page.image %}{% include image.html image=page.image alt=page.image-alt %}" width="450" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built amp-carousel-slide i-amphtml-layout" i-amphtml-layout="fixed" style="width: 450px; height: 300px; --loader-delay-offset:600ms !important;" aria-hidden="true" i-amphtml-auto-lightbox-visited="">
+                 <img decoding="async" src="{% if page.image %}{% include image.html image=page.image alt=page.image-alt %}" class="i-amphtml-fill-content i-amphtml-replaced-content" i-amphtml-auto-lightbox-visited="">
                 </amp-img>
                </div>
               {%- endif -%}
