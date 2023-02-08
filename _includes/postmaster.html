@@ -4,7 +4,6 @@
    <div class="blog-posts hfeed">
     <!--Can't find substitution for tag [defaultAdStart]--> 
     {% for post in site.posts limit:30 %}
-    {% if post.featured == true %}
     <div class="post-outer">
      <div class="post hentry">
       <meta content="{% if post.summary %}{{ post.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ post.content | truncatewords: 50 | strip_html }}{% endif %}" property="twitter:description">
@@ -63,7 +62,6 @@
       </div>
      </div>
     </div>
-    {% endif %}
     {% endfor %}
    </div>
   </div>
