@@ -46,6 +46,8 @@ Untuk type yang simaster ketahui sampai saat ini di gunakan untuk modem huawei t
 - E5787s-33a
 - E5377s-32
 
+Simak video saya tentang aplikasi Huawei Manager Terbaru versi Dark ini [DISINI](https://youtu.be/as40qioNtOI)
+
 Jika anda ingin mencoba nya silahkan untuk menguji aplikasi ini.
 
 Perhatian: aplikasi ini tidak 100% aman untuk pengguna di karenakan tidak berada di marketplace resmi seperti playstore.
