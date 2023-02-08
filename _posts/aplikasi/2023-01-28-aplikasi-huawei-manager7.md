@@ -10,6 +10,7 @@ image2: assets/images/hw3.jpg
 image-alt: aplikasi huawei manager 7
 summary: Aplikasi ini khusus modem huawei.
 link: https://safelink.id/Sc4N2Vt
+ukuran: 11Mb
 tags: [huawei]
 ---
 
