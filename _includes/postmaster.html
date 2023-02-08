@@ -23,12 +23,10 @@
       <div class="thumb-wrapper">
        <div class="first-thumb">
         <a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
-         {%- if page.image -%}
-         <amp-img alt="{{ post.title }}" height="110" layout="responsive" src="{{- postImage | relative_url -}}" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive">
+         <amp-img alt="{{ post.title }}" height="110" layout="responsive" src="{%- if page.image -%}{{- postImage | relative_url -}}{%- endif -%}" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive">
           <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
-          <img decoding="async" alt="{{ post.title }}" src="{{- postImage | relative_url -}}" class="i-amphtml-fill-content i-amphtml-replaced-content">
+          <img decoding="async" alt="{{ post.title }}" src="{%- if page.image -%}{{- postImage | relative_url -}}{%- endif -%}" class="i-amphtml-fill-content i-amphtml-replaced-content">
          </amp-img></a>
-         {%- endif -%}
        </div>
       </div>
 
