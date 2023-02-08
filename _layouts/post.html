@@ -84,19 +84,13 @@ layout: default
               <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer> 
               <div tabindex="-1" class="i-amphtml-slides-container i-amphtml-slidescroll-no-snap" aria-live="polite">
                <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 3;">
-                <amp-img height="300" src="{% if page.image %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}" width="450" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built amp-carousel-slide i-amphtml-layout" i-amphtml-layout="fixed" style="width: 450px; height: 300px; --loader-delay-offset:600ms !important;" aria-hidden="true" i-amphtml-auto-lightbox-visited="">
-                 <img decoding="async" src="{% if page.image %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}" class="i-amphtml-fill-content i-amphtml-replaced-content" i-amphtml-auto-lightbox-visited="">
-                </amp-img>
+                {% if page.image %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}
                </div>
                <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 1;">
-                <amp-img height="300" src="{% if page.image %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}" width="450" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built amp-carousel-slide i-amphtml-layout" i-amphtml-layout="fixed" style="width: 450px; height: 300px; --loader-delay-offset:600ms !important;" aria-hidden="true" i-amphtml-auto-lightbox-visited="">
-                 <img decoding="async" src="{% if page.image %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}" class="i-amphtml-fill-content i-amphtml-replaced-content" i-amphtml-auto-lightbox-visited="">
-                </amp-img>
+                {% if page.image %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}
                </div>
                <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 2;">
-                <amp-img height="300" src="{% if page.image %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}" width="450" class="i-amphtml-element i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-built amp-carousel-slide i-amphtml-layout" i-amphtml-layout="fixed" style="width: 450px; height: 300px; --loader-delay-offset:600ms !important;" aria-hidden="true" i-amphtml-auto-lightbox-visited="">
-                 <img decoding="async" src="{% if page.image %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}" class="i-amphtml-fill-content i-amphtml-replaced-content" i-amphtml-auto-lightbox-visited="">
-                </amp-img>
+                {% if page.image %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}
                </div>
               </div>
               <div tabindex="0" class="amp-carousel-button amp-carousel-button-prev" role="button" title="Previous item in carousel (2 of 3)" aria-disabled="false"></div>
