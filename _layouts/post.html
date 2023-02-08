@@ -83,14 +83,14 @@ layout: default
              <amp-carousel autoplay="" controls="" data-next-button-aria-label="Selanjutnya" data-previous-button-aria-label="Sebelumnya" delay="3000" height="300" layout="responsive" loop="" type="slides" width="450" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-slidescroll i-amphtml-carousel-has-controls i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive">
               <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer> 
               <div tabindex="-1" class="i-amphtml-slides-container i-amphtml-slidescroll-no-snap" aria-live="polite">
-               <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 3;">
-                {% if page.image %}{% include image3.html image=page.image2 alt=page.image-alt %}{% endif %}
-               </div>
                <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 1;">
-                {% if page.image %}{% include image2.html image=page.image1 alt=page.image-alt %}{% endif %}
+                {% if page.image %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}
                </div>
                <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 2;">
-                {% if page.image %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}
+                {% if page.image %}{% include image2.html image=page.image1 alt=page.image-alt %}{% endif %}
+               </div>
+               <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 3;">
+                {% if page.image %}{% include image3.html image=page.image2 alt=page.image-alt %}{% endif %}
                </div>
               </div>
               <div tabindex="0" class="amp-carousel-button amp-carousel-button-prev" role="button" title="Previous item in carousel (2 of 3)" aria-disabled="false"></div>
