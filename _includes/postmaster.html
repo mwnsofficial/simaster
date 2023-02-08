@@ -4,6 +4,7 @@
    <div class="blog-posts hfeed">
     <!--Can't find substitution for tag [defaultAdStart]--> 
     {% for post in site.posts limit:30 %}
+    {% if post.featured == true %}
     <div class="post-outer">
      <div class="post hentry">
       <meta content="{% if post.summary %}{{ post.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ post.content | truncatewords: 50 | strip_html }}{% endif %}" property="twitter:description">
@@ -23,9 +24,9 @@
       <div class="thumb-wrapper">
        <div class="first-thumb">
         <a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
-         <amp-img alt="{{ post.title }}" height="110" layout="responsive" src="{%- if page.image -%}{{- postImage | relative_url -}}{%- endif -%}" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive">
+         <amp-img alt="{{ post.title }}" height="110" layout="responsive" src="{{ post.image | relative_url }}" width="110" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive">
           <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
-          <img decoding="async" alt="{{ post.title }}" src="{%- if page.image -%}{{- postImage | relative_url -}}{%- endif -%}" class="i-amphtml-fill-content i-amphtml-replaced-content">
+          <img decoding="async" alt="{{ post.title }}" src="{{ post.image | relative_url }}" class="i-amphtml-fill-content i-amphtml-replaced-content">
          </amp-img></a>
        </div>
       </div>
@@ -62,6 +63,7 @@
       </div>
      </div>
     </div>
+    {% endif %}
     {% endfor %}
    </div>
   </div>
