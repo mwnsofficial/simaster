@@ -25,7 +25,7 @@ tags: [configuration]
   </a>
  </div>
 </div>
-<h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster</a></h2>
+<h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster V1</a></h2>
 <div class="post-header">
  <div class="post-header-line-1">
   <div class="post-info">
@@ -34,7 +34,7 @@ tags: [configuration]
     <meta content="#" itemprop="url">
     <svg height="24" viewbox="0 0 24 24" width="24">
      <path d="M12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.47,22 2,17.5 2,12C2,6.48 6.48,2 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
-    </svg><a class="timestamp-link" href="#" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="{{ page.date | date: "%d-%m-%Y" }}">{{ page.date | date: "%d-%m-%Y" }}</abbr></a></span>
+    </svg><a class="timestamp-link" href="#" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="8-2-2023">8-2-2023</abbr></a></span>
   </div>
  </div>
 <div class="spacer"></div>
@@ -72,7 +72,7 @@ tags: [configuration]
   </a>
  </div>
 </div>
-<h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster</a></h2>
+<h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster V1.1</a></h2>
 <div class="post-header">
  <div class="post-header-line-1">
   <div class="post-info">
@@ -81,7 +81,7 @@ tags: [configuration]
     <meta content="#" itemprop="url">
     <svg height="24" viewbox="0 0 24 24" width="24">
      <path d="M12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.47,22 2,17.5 2,12C2,6.48 6.48,2 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
-    </svg><a class="timestamp-link" href="#" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="{{ page.date | date: "%d-%m-%Y" }}">{{ page.date | date: "%d-%m-%Y" }}</abbr></a></span>
+    </svg><a class="timestamp-link" href="#" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="8-2-2023">8-2-2023</abbr></a></span>
   </div>
  </div>
 <div class="spacer"></div>
@@ -119,7 +119,7 @@ tags: [configuration]
   </a>
  </div>
 </div>
-<h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster</a></h2>
+<h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster V1.2</a></h2>
 <div class="post-header">
  <div class="post-header-line-1">
   <div class="post-info">
@@ -128,7 +128,7 @@ tags: [configuration]
     <meta content="#" itemprop="url">
     <svg height="24" viewbox="0 0 24 24" width="24">
      <path d="M12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.47,22 2,17.5 2,12C2,6.48 6.48,2 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
-    </svg><a class="timestamp-link" href="#" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="{{ page.date | date: "%d-%m-%Y" }}">{{ page.date | date: "%d-%m-%Y" }}</abbr></a></span>
+    </svg><a class="timestamp-link" href="#" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="8-2-2023">8-2-2023</abbr></a></span>
   </div>
  </div>
 <div class="spacer"></div>
@@ -166,7 +166,7 @@ tags: [configuration]
   </a>
  </div>
 </div>
-<h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster</a></h2>
+<h2 class="post-title entry-title"><a href="#" title="Simaster">Simaster V1.3</a></h2>
 <div class="post-header">
  <div class="post-header-line-1">
   <div class="post-info">
@@ -175,7 +175,7 @@ tags: [configuration]
     <meta content="#" itemprop="url">
     <svg height="24" viewbox="0 0 24 24" width="24">
      <path d="M12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.47,22 2,17.5 2,12C2,6.48 6.48,2 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
-    </svg><a class="timestamp-link" href="#" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="{{ page.date | date: "%d-%m-%Y" }}">{{ page.date | date: "%d-%m-%Y" }}</abbr></a></span>
+    </svg><a class="timestamp-link" href="#" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished" title="8-2-2023">8-2-2023</abbr></a></span>
   </div>
  </div>
 <div class="spacer"></div>
