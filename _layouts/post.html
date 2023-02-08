@@ -55,13 +55,13 @@ layout: default
               <div class="dua"> 
                <div class="tiga"> 
                 <div class="tiga-dua"> 
-                 <b>Developer</b> {{ site.author }}. 
+                 <b>Developer: {{ site.author }}</b>
                 </div> 
                 <div class="tiga-dua"> 
-                 <b>Versi</b> {{ page.tags }} 
+                 <b>Versi: {{ page.tags }}</b>
                 </div> 
                 <div class="tiga-dua"> 
-                 <b>Ukuran File</b> {{ page.ukuran }} 
+                 <b>Ukuran File: {{ page.ukuran }}</b>
                 </div> 
                </div> 
                <div class="empat"> 
@@ -70,8 +70,8 @@ layout: default
                  </div>{{page.summary}}
                 </div> 
                </div> 
-               <div class="empat"> 
-                <a class="blog-pager-older-link ripple" href="{{ page.link }}" id="Blog1_blog-pager-older-link" title="Download">
+               <div class="empat">
+                 <b>Download File:</b> <a class="blog-pager-older-link ripple" href="{{ page.link }}" id="Blog1_blog-pager-older-link" title="Download">
                    <svg viewbox="0 0 24 24">
                    <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" fill="#ffffff"></path>
                    </svg>
@@ -148,30 +148,6 @@ layout: default
          </div>
         </div> 
         <!--Can't find substitution for tag [adEnd]-->
-       </div>
-       <div class="blog-pager" id="blog-pager">
-        <div id="blog-pager-older-link">
-         <a class="blog-pager-older-link ripple" href="{{site.baseurl}}{{previous.url}}" id="Blog1_blog-pager-older-link" title="Older Post">
-          <svg viewbox="0 0 24 24">
-           <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" fill="#ffffff"></path>
-          </svg></a>
-        </div>
-        <div class="mobile-link-button" id="blog-pager-home-link">
-         <a class="home-link" href="{{ site.baseurl }}" title="Home">
-          <svg viewbox="0 0 24 24">
-           <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" fill="#ffffff"></path>
-          </svg></a>
-        </div>
-        <div class="home-box" title="This is the newest page">
-         <svg viewbox="0 0 24 24">
-          <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" fill="#ffffff"></path>
-         </svg>
-        </div>
-        <div class="lasthome-box" title="This is the latest page">
-         <svg viewbox="0 0 24 24">
-          <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" fill="#ffffff"></path>
-         </svg>
-        </div>
        </div>
        <div class="clear"></div>
        <div class="post-feeds"></div>
