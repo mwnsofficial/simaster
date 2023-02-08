@@ -14,3 +14,20 @@ _WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label3', 'sidebar'
 </script>
 
 <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+
+
+<script type="text/javascript">
+function showMenu(){
+  var x = document.getElementById('hamburger').innerHTML;
+  console.log(x);
+  if(x=="x"){
+    console.log("close");
+    document.getElementById('hamburger').innerHTML="&#8801;";
+    document.getElementById('menu_vertikal').style.display="none";
+  }else {
+    console.log("hamburger");
+    document.getElementById('hamburger').innerHTML="x";
+    document.getElementById('menu_vertikal').style.display="block";
+  }
+}
+</script>
