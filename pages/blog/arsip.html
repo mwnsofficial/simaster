@@ -27,7 +27,7 @@ folder: blog
             <td><time>{{ post.date | date:"%d-%b-%Y" }}</time></td>
             <td>{{ post.title }}</td>
             <td>{{ post.summary }}</td>
-            <td>{{ post.url | remove: "/"}}</td>       
+            <td><a href="{{ post.url | remove: "/"}}">Menuju Link</a></td>       
           </tr>
           {% endfor %}
         </tbody>
