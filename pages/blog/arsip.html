@@ -1,206 +1,42 @@
 ---
 title: sitemap clashmwns
-layout: post
-keywords: sitrmap
+layout: tabel
+keywords: sitemap
 permalink: arsip.html
-youtubeid: ilbLf4b9bYQ
 folder: blog
 ---
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<title>Sitemap clashmwns</title>
-	<meta name="description" content="Sitemap created by clashmwns" />
-	<meta name="keywords" content="Sitemap Generator clashmwns" />
-	<meta content="simaster" name="Author" />
+<h2>Arsip Clashmwns</h2>
 
-	<style>
-
-	.html, body {
-			padding: 0px;
-			margin: 0px;
-			font-family: Tahoma, Verdana, Arial, sans-serif;
-			height: 100%;
-		}
-
-		h1 {
-			padding: 1%;
-			margin: 0px;
-			font-style: normal;
-			font-weight: normal;
-		}
-
-			h1 a {
-				color: #FFFFFF;
-				text-decoration: none;
-			}
-
-		table {
-			height: 100%;
-			border-collapse: collapse;
-		}
-
-		thead tr {
-			width: 100%;
-		}
-
-		tbody tr:nth-child(even) {
-			background-color: #f2f2f2;
-		}
-
-		tbody tr:hover {
-			background-color: #ffff99;
-		}
-
-		tbody.main {
-			overflow: auto;
-			width: 100%;
-			height: 75vh;
-		}
-
-		th {
-			font-size: 0.9em;
-			padding: 2px 2px 2px 2px;
-			border-bottom: 1px solid #CCCCCC;
-			vertical-align: top;
-		}
-
-		td {
-			font-size: 0.9em;
-			padding: 2px 2px 2px 2px;
-			border-bottom: 1px solid #CCCCCC;
-			vertical-align: top;
-		}
-
-		i {
-			font-size: 1.5em;
-		}
-
-		td p {
-			margin-top: 0;
-			padding-top: 0;
-		}
-
-		.top-bar {
-			width: 100%;
-			float: left;
-			background-color: #141E53 !important;
-		}
-
-		.body {
-			width: 98%;
-			float: left;
-			padding: 1%;
-		}
-
-		.footer {
-			width: 100%;
-			float: left;
-			border-top: 1px solid #999999;
-			padding: 10px 0px 10px 0px;
-		}
-
-			.footer a {
-				color: #999999;
-				font-size: 11px;
-				text-decoration: none;
-			}
-
-			.footer span {
-				color: #999999;
-				font-size: 11px;
-				text-decoration: none;
-				margin-left: 20px;
-			}
-
-		.c0 {
-			text-align: left;
-			white-space: nowrap;
-			width: 30em;
-		}
-
-		.c1 {
-			text-align: left;
-			min-width: 30em;
-		}
-
-		.c2 {
-			text-align: left;
-			width: 40%;
-		}
-
-		.c3 {
-			text-align: center;
-			width: 60%;
-		}
-
-		.c4 {
-			text-align: center;
-			width: 6em;
-		}
-
-		.c5 {
-			text-align: center;
-			width: 6em;
-		}
-
-		.c6 {
-			text-align: center;
-			width: 6em;
-		}
-
-
-		.bi-check-circle {
-			color: #33cc33;
-		}
-
-		.bi-exclamation-triangle {
-			color: #ff8c1a
-		}
-
-		.bi-exclamation-octagon {
-			color: #e60000
-		}
-	</style>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
-</head>
-
-<body>
-<div class="top-bar">
-<h1><a href="/sitemap.html">Sitemap clashmwns</a></h1>
-</div>
-<div class="body">
-<table>
-
-<div class="post-list">
-<section id="archive">
-{%for post in site.posts %}
-{% unless post.next %}
-<ul class="this">
-{% else %}
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-{% if year != nyear %}
-</ul>
-<h3>{{ post.date | date: '%Y' }}</h3>
-<ul class="past">
-{% endif %}
-{% endunless %}
-<tr>
-<th Class="c2">Waktu Post</th>
-<th Class="c3">Judul Post</th>
-</tr>
-<tr>
-<td Class="c2"><time>{{ post.date | date:"%d-%b-%Y" }}</time></td>
-<td Class="c3"><a href="{{ post.url | remove: "/"}}"> {{ post.title }}</a></td>
-</tr>
-{% endfor %}
-</section>
-</div>
-
-</table>
-</div>
-</body>
-</html>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <table summary="database clashmwns" class="table table-bordered table-hover dt-responsive">
+        <caption class="text-center">Hasil pencarian anda</caption>
+        <thead>
+          <tr>
+            <th>Update</th>
+            <th>Title</th>
+            <th>Keterangan</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          {%for post in site.posts %}
+          <tr>
+            <td><time>{{ post.date | date:"%d-%b-%Y" }}</time></td>
+            <td>{{ post.title }}</td>
+            <td>{{ post.summary }}</td>
+            <td>{{ post.url | remove: "/"}}</td>       
+          </tr>
+          {% endfor %}
+        </tbody>
+        <tfoot>
+        <tr>
+        <td colspan="4" class="text-center">Jika file mengalami gangguan hubungi <a href="https://wa.me/6287764241047" target="_blank">Admin</a>.</td>
+        </tr>
+        </tfoot>
+        </table>
+        </div>
+        </div>
+        </div>
