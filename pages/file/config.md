@@ -11,5 +11,5 @@ tags: [config]
     sandbox="allow-scripts allow-same-origin"
     layout="responsive"
     frameborder="0"
-    src="/config1.html">
+    src="{{ site.baseurl }}/config1.html">
   </amp-iframe>
