@@ -2,7 +2,7 @@
 title: sitemap clashmwns
 layout: tabel
 keywords: sitemap
-permalink: arsip.html
+permalink: arsip1.html
 folder: blog
 ---
 
