@@ -7,9 +7,4 @@ folder: file
 tags: [config]
 ---
 
-<amp-iframe width="100%" height="100%"
-    sandbox="allow-scripts allow-same-origin"
-    layout="responsive"
-    frameborder="0"
-    src="{{ site.baseurl }}/config1.html">
-  </amp-iframe>
+<iframe src="/config1.html" style="height:100%;width:400px;" title="Kumpulan config"></iframe>
