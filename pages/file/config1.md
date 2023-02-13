@@ -34,8 +34,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Bronze</td>
@@ -44,8 +44,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Silver</td>
@@ -54,8 +54,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Gold</td>
@@ -64,8 +64,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Platinum</td>
@@ -74,8 +74,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Limited Edition</td>
@@ -84,8 +84,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>April Master</td>
@@ -94,8 +94,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Juni Master</td>
@@ -104,8 +104,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster</td>
@@ -114,8 +114,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V1</td>
@@ -124,8 +124,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Ready</td>
-            <td><a href="https://safelink.id/lBcs" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="https://safelink.id/lBcs" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V1.1</td>
@@ -134,8 +134,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Ready</td>
-            <td><a href="https://safelink.id/xSyu0zE" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="https://safelink.id/xSyu0zE" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V1.2</td>
@@ -144,8 +144,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Ready</td>
-            <td><a href="https://safelink.id/IT58Y3NZ" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="https://safelink.id/IT58Y3NZ" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V1.3</td>
@@ -154,8 +154,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Ready</td>
-            <td><a href="https://safelink.id/fgalEzIt" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="https://safelink.id/fgalEzIt" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V1.4</td>
@@ -164,8 +164,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Ready</td>
-            <td><a href="https://safelink.id/YOAaAOO" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="https://safelink.id/YOAaAOO" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V1.5</td>
@@ -174,8 +174,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V1.6</td>
@@ -184,8 +184,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V1.7</td>
@@ -194,8 +194,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Ready</td>
-            <td><a href="https://safelink.id/NaLC" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="https://safelink.id/NaLC" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V1.8</td>
@@ -204,8 +204,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Ready</td>
-            <td><a href="https://safelink.id/EVCHE" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="https://safelink.id/EVCHE" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V1.9</td>
@@ -214,8 +214,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Ready</td>
-            <td><a href="https://safelink.id/kJZMHQ" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="https://safelink.id/kJZMHQ" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V2</td>
@@ -224,8 +224,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V2.1</td>
@@ -234,8 +234,8 @@ tags: [config]
             <td>Backup</td>
             <td>OpenWRT</td>
             <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</td>
-            <td><a href="#" target="blank">Lihat Video</td>       
+            <td><a href="#" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Final</td>
@@ -244,8 +244,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Bronze</td>
@@ -254,8 +254,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Silver</td>
@@ -264,8 +264,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Gold</td>
@@ -274,8 +274,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Platinum</td>
@@ -284,8 +284,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Limited Edition</td>
@@ -294,8 +294,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>April Master</td>
@@ -304,8 +304,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Juni Master</td>
@@ -314,8 +314,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster</td>
@@ -324,8 +324,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1</td>
@@ -334,8 +334,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.1</td>
@@ -344,8 +344,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.2</td>
@@ -354,8 +354,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.3</td>
@@ -364,8 +364,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.4</td>
@@ -374,8 +374,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.5</td>
@@ -384,8 +384,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.6</td>
@@ -394,8 +394,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.7</td>
@@ -404,8 +404,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.8</td>
@@ -414,8 +414,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.9</td>
@@ -424,8 +424,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V2</td>
@@ -434,8 +434,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V2.1</td>
@@ -444,8 +444,8 @@ tags: [config]
           <td>Backup</td>
           <td>Android</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Final</td>
@@ -454,8 +454,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Bronze</td>
@@ -464,8 +464,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Silver</td>
@@ -474,8 +474,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Gold</td>
@@ -484,8 +484,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Platinum</td>
@@ -494,8 +494,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Limited Edition</td>
@@ -504,8 +504,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>April Master</td>
@@ -514,8 +514,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Juni Master</td>
@@ -524,8 +524,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster</td>
@@ -534,8 +534,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1</td>
@@ -544,8 +544,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.1</td>
@@ -554,8 +554,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.2</td>
@@ -564,8 +564,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.3</td>
@@ -574,8 +574,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.4</td>
@@ -584,8 +584,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.5</td>
@@ -594,8 +594,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.6</td>
@@ -604,8 +604,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.7</td>
@@ -614,8 +614,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.8</td>
@@ -624,8 +624,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.9</td>
@@ -634,8 +634,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V2</td>
@@ -644,8 +644,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V2.1</td>
@@ -654,8 +654,8 @@ tags: [config]
           <td>Backup</td>
           <td>Termux</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Final</td>
@@ -664,8 +664,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Bronze</td>
@@ -674,8 +674,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Silver</td>
@@ -684,8 +684,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Gold</td>
@@ -694,8 +694,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Platinum</td>
@@ -704,8 +704,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Limited Edition</td>
@@ -714,8 +714,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>April Master</td>
@@ -724,8 +724,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Juni Master</td>
@@ -734,8 +734,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster</td>
@@ -744,8 +744,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1</td>
@@ -754,8 +754,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.1</td>
@@ -764,8 +764,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.2</td>
@@ -774,8 +774,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.3</td>
@@ -784,8 +784,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.4</td>
@@ -794,8 +794,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.5</td>
@@ -804,8 +804,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.6</td>
@@ -814,8 +814,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.7</td>
@@ -824,8 +824,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.8</td>
@@ -834,8 +834,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.9</td>
@@ -844,8 +844,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V2</td>
@@ -854,8 +854,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V2.1</td>
@@ -864,8 +864,8 @@ tags: [config]
           <td>Backup</td>
           <td>Magisk</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Final</td>
@@ -874,8 +874,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Bronze</td>
@@ -884,8 +884,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Silver</td>
@@ -894,8 +894,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Gold</td>
@@ -904,8 +904,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Platinum</td>
@@ -914,8 +914,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Limited Edition</td>
@@ -924,8 +924,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>April Master</td>
@@ -934,8 +934,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Juni Master</td>
@@ -944,8 +944,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster</td>
@@ -954,8 +954,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1</td>
@@ -964,8 +964,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.1</td>
@@ -974,8 +974,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.2</td>
@@ -984,8 +984,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.3</td>
@@ -994,8 +994,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.4</td>
@@ -1004,8 +1004,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.5</td>
@@ -1014,8 +1014,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.6</td>
@@ -1024,8 +1024,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.7</td>
@@ -1034,8 +1034,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.8</td>
@@ -1044,8 +1044,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V1.9</td>
@@ -1054,8 +1054,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V2</td>
@@ -1064,8 +1064,8 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
           <tr>
           <td>Simaster V2.1</td>
@@ -1074,13 +1074,16 @@ tags: [config]
           <td>Backup</td>
           <td>Windows</td>
           <td>Not Ready</td>
-          <td><a href="#" target="blank">Download</td>
-          <td><a href="#" target="blank">Lihat Video</td>       
+          <td><a href="#" target="blank">Download</a></td>
+          <td><a href="#" target="blank">Lihat Video</a></td>       
           </tr>
         </tbody>
         <tfoot>
         <tr>
-        <td colspan="8" class="text-center" target="blank">Jika file mengalami gangguan hubungi <a href="https://wa.me/6287764241047" target="_blank">Admin</a>.</td>
+        <td colspan="8" class="text-center">Jika file mengalami gangguan hubungi <a href="https://wa.me/6287764241047" target="_blank">Admin</a>.</td>
+        </tr>
+        <tr>
+        <td colspan="8" class="text-center">Kembali ke <a href="/">Home</a>.</td>
         </tr>
         </tfoot>
         </table>
