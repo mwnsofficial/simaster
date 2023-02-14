@@ -7,4 +7,4 @@ folder: file
 tags: [config]
 ---
 
-<iframe src="/config1.html" style="height:500px;width:100%;" title="file config simaster"></iframe>
+<iframe src="/config-pusat.html" style="height:700px;width:100%;" title="file config simaster"></iframe>
