@@ -113,7 +113,7 @@ tags: [config]
         <td colspan="8" class="text-center">Jika file mengalami gangguan hubungi <a href="https://wa.me/6287764241047" target="_blank">Admin</a>.</td>
         </tr>
         <tr>
-        <td colspan="8" class="text-center"><a href="/config.html" target="_blank">Kembali</a>.</td>
+        <td colspan="8" class="text-center"><a href="/config-pusat.html" target="_blank">Kembali</a>.</td>
         </tr>
         </tfoot>
         </table>
