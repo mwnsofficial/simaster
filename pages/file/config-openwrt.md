@@ -145,7 +145,7 @@ tags: [config]
             <td>OpenWRT</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/cJ26ZOPT" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/fiobdUjdycU" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V2 Auto Eth2</td>
@@ -155,7 +155,7 @@ tags: [config]
             <td>OpenWRT</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/6qLgu" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/fiobdUjdycU" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V2 Usb0</td>
@@ -165,7 +165,7 @@ tags: [config]
             <td>OpenWRT</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/F6invPs" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/fiobdUjdycU" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V2 Usb1</td>
@@ -175,7 +175,7 @@ tags: [config]
             <td>OpenWRT</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/BJW3" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/fiobdUjdycU" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V2 Wwan0</td>
@@ -185,7 +185,7 @@ tags: [config]
             <td>OpenWRT</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/kyt4BIe" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/fiobdUjdycU" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V2 Vlan20</td>
@@ -195,7 +195,7 @@ tags: [config]
             <td>OpenWRT</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/5KpgPfoE" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/fiobdUjdycU" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V2 Vlan30</td>
@@ -205,7 +205,7 @@ tags: [config]
             <td>OpenWRT</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/1BwBqphn" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/fiobdUjdycU" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V2 Eth1 Eth2</td>
@@ -215,7 +215,7 @@ tags: [config]
             <td>OpenWRT</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/qsX3OX" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/fiobdUjdycU" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V2 Usb0 Usb1</td>
@@ -225,7 +225,7 @@ tags: [config]
             <td>OpenWRT</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/o0Pr2m" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/fiobdUjdycU" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V2 Vlan20 Vlan30</td>
@@ -235,7 +235,7 @@ tags: [config]
             <td>OpenWRT</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/yL0FXN" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/fiobdUjdycU" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V2.1 Eth1</td>
