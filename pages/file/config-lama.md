@@ -33,8 +33,8 @@ tags: [config]
             <td>Script & Rule</td>
             <td>Manual</td>
             <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/OfMjQ0T" target="blank">Download</a></td>
             <td><a href="#" target="blank">Non Video</a></td>       
           </tr>
           <tr>
@@ -43,8 +43,8 @@ tags: [config]
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/LQd1H" target="blank">Download</a></td>
             <td><a href="#" target="blank">Non Video</a></td>       
           </tr>
           <tr>
@@ -53,8 +53,8 @@ tags: [config]
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/FCxy9NIw" target="blank">Download</a></td>
             <td><a href="#" target="blank">Non Video</a></td>       
           </tr>
           <tr>
@@ -63,8 +63,8 @@ tags: [config]
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/UgxU" target="blank">Download</a></td>
             <td><a href="#" target="blank">Non Video</a></td>       
           </tr>
           <tr>
@@ -73,8 +73,8 @@ tags: [config]
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/hspwwC" target="blank">Download</a></td>
             <td><a href="#" target="blank">Non Video</a></td>       
           </tr>
           <tr>
@@ -83,8 +83,58 @@ tags: [config]
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/EdUq" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>Spesial Edition</td>
+            <td>13 Feb 2023</td>
+            <td>Script & Rule</td>
+            <td>Backup</td>
+            <td>OpenWRT</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/GyJeJ4eM" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>September Master</td>
+            <td>13 Feb 2023</td>
+            <td>Script & Rule</td>
+            <td>Backup</td>
+            <td>OpenWRT</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/xL2w" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>Desember Master</td>
+            <td>13 Feb 2023</td>
+            <td>Script & Rule</td>
+            <td>Backup</td>
+            <td>OpenWRT</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/QQCFgQ" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>Januari Master</td>
+            <td>13 Feb 2023</td>
+            <td>Script & Rule</td>
+            <td>Backup</td>
+            <td>OpenWRT</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/M5ms" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>Maret Master</td>
+            <td>13 Feb 2023</td>
+            <td>Script & Rule</td>
+            <td>Backup</td>
+            <td>OpenWRT</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/MmUF" target="blank">Download</a></td>
             <td><a href="#" target="blank">Non Video</a></td>       
           </tr>
           <tr>
@@ -93,8 +143,8 @@ tags: [config]
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/iGeFr2" target="blank">Download</a></td>
             <td><a href="#" target="blank">Non Video</a></td>       
           </tr>
           <tr>
