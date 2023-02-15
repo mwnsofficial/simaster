@@ -1,3 +1,4 @@
+---
 title: file config windows simaster
 layout: tabel
 keywords: config
