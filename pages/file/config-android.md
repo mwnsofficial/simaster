@@ -28,6 +28,106 @@ tags: [config]
         </thead>
         <tbody>
           <tr>
+            <td>Best Master</td>
+            <td>16 Feb 2023</td>
+            <td>rule</td>
+            <td>file</td>
+            <td>Android</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/v8aR" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>Final</td>
+            <td>16 Feb 2023</td>
+            <td>rule</td>
+            <td>file</td>
+            <td>Android</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/NazF" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>Bronze</td>
+            <td>16 Feb 2023</td>
+            <td>script</td>
+            <td>file</td>
+            <td>Android</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/aL0GvMV" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>Gold</td>
+            <td>16 Feb 2023</td>
+            <td>script</td>
+            <td>file</td>
+            <td>Android</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/hSpP" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>Limited Edition</td>
+            <td>16 Feb 2023</td>
+            <td>script</td>
+            <td>file</td>
+            <td>Android</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/FK4B7" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>Januari Master</td>
+            <td>16 Feb 2023</td>
+            <td>script</td>
+            <td>file</td>
+            <td>Android</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/snH5XGK" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>Februari Master</td>
+            <td>16 Feb 2023</td>
+            <td>script</td>
+            <td>file</td>
+            <td>Android</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/mHjNyIo" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>Maret Master</td>
+            <td>16 Feb 2023</td>
+            <td>script</td>
+            <td>file</td>
+            <td>Android</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/snH5XGK" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>April Master</td>
+            <td>16 Feb 2023</td>
+            <td>script</td>
+            <td>file</td>
+            <td>Android</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/C25JmGY" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
+            <td>Simaster V1.9</td>
+            <td>16 Feb 2023</td>
+            <td>script</td>
+            <td>file</td>
+            <td>Android</td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/tcypWrjW" target="blank">Download</a></td>
+            <td><a href="#" target="blank">Non Video</a></td>       
+          </tr>
+          <tr>
             <td>Simaster V2.1</td>
             <td>16 Feb 2023</td>
             <td>Script</td>
