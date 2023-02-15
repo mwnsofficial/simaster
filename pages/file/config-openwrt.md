@@ -238,104 +238,14 @@ tags: [config]
             <td><a href="https://youtu.be/fiobdUjdycU" target="blank">Video</a></td>       
           </tr>
           <tr>
-            <td>Simaster V2.1 Eth1</td>
+            <td>Simaster V2.1</td>
             <td>13 Feb 2023</td>
             <td>Script & Rule</td>
-            <td>Auto</td>
+            <td>Backup+Auto</td>
             <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
-          </tr>
-          <tr>
-            <td>Simaster V2.1 Eth2</td>
-            <td>13 Feb 2023</td>
-            <td>Script & Rule</td>
-            <td>Auto</td>
-            <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
-          </tr>
-          <tr>
-            <td>Simaster V2.1 Usb0</td>
-            <td>13 Feb 2023</td>
-            <td>Script & Rule</td>
-            <td>Auto</td>
-            <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
-          </tr>
-          <tr>
-            <td>Simaster V2.1 Usb1</td>
-            <td>13 Feb 2023</td>
-            <td>Script & Rule</td>
-            <td>Auto</td>
-            <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
-          </tr>
-          <tr>
-            <td>Simaster V2.1 Wwan0</td>
-            <td>13 Feb 2023</td>
-            <td>Script & Rule</td>
-            <td>Auto</td>
-            <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
-          </tr>
-          <tr>
-            <td>Simaster V2.1 Vlan20</td>
-            <td>13 Feb 2023</td>
-            <td>Script & Rule</td>
-            <td>Auto</td>
-            <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
-          </tr>
-          <tr>
-            <td>Simaster V2.1 Vlan30</td>
-            <td>13 Feb 2023</td>
-            <td>Script & Rule</td>
-            <td>Auto</td>
-            <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
-          </tr>
-          <tr>
-            <td>Simaster V2.1 Eth1 Eth2</td>
-            <td>13 Feb 2023</td>
-            <td>Script & Rule</td>
-            <td>Auto</td>
-            <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
-          </tr>
-          <tr>
-            <td>Simaster V2.1 Usb0 Usb1</td>
-            <td>13 Feb 2023</td>
-            <td>Script & Rule</td>
-            <td>Auto</td>
-            <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
-          </tr>
-          <tr>
-            <td>Simaster V2.1 Vlan20 Vlan30</td>
-            <td>13 Feb 2023</td>
-            <td>Script & Rule</td>
-            <td>Auto</td>
-            <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td>Ready</td>
+            <td><a href="https://safelink.id/Bp7J6BTh" target="blank">Download</a></td>
+            <td><a href="https://youtu.be/C1m_vE5q3As" target="blank">Video</a></td>       
           </tr>
         </tbody>
         <tfoot>
