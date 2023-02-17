@@ -29,7 +29,7 @@ tags: [config]
         <tbody>
           <tr>
             <td>Final</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Manual</td>
             <td>OpenWRT</td>
@@ -39,7 +39,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Bronze</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -49,7 +49,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Silver</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -59,7 +59,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Gold</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -69,7 +69,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Platinum</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -79,7 +79,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Limited Edition</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -89,7 +89,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Spesial Edition</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -99,7 +99,7 @@ tags: [config]
           </tr>
           <tr>
             <td>September Master</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -109,7 +109,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Desember Master</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -119,7 +119,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Januari Master</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -129,7 +129,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Maret Master</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -139,7 +139,7 @@ tags: [config]
           </tr>
           <tr>
             <td>April Master</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -149,7 +149,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Juni Master</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
