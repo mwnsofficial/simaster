@@ -35,7 +35,7 @@ tags: [config]
             <td>Windows</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/J282QQd3" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://www.youtube.com/live/7anWbV43vUA?feature=share" target="blank">Video</a></td>       
           </tr>
           </tbody>
           <tfoot>
