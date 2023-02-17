@@ -93,8 +93,8 @@ tags: [config]
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
-            <td>Not Ready</td>
-            <td><a href="#" target="blank">Download</a></td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/KrIh9l" target="blank">Download</a></td>
             <td><a href="#" target="blank">Non Video</a></td>       
           </tr>
           <tr>
