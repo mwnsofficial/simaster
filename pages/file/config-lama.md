@@ -29,7 +29,7 @@ tags: [config]
         <tbody>
           <tr>
             <td>Final</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime1"></span></td>
             <td>Script & Rule</td>
             <td>Manual</td>
             <td>OpenWRT</td>
@@ -39,7 +39,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Bronze</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime2"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -49,7 +49,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Silver</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime3"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -59,7 +59,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Gold</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime4"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -69,7 +69,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Platinum</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime5"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -79,7 +79,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Limited Edition</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime6"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -89,7 +89,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Spesial Edition</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime7"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -99,7 +99,7 @@ tags: [config]
           </tr>
           <tr>
             <td>September Master</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime8"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -109,7 +109,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Desember Master</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime9"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -119,7 +119,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Januari Master</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime10"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -129,7 +129,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Maret Master</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime11"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -139,7 +139,7 @@ tags: [config]
           </tr>
           <tr>
             <td>April Master</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime12"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -149,7 +149,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Juni Master</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime13"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -171,4 +171,16 @@ tags: [config]
         </div>
         </div>
 
-<script>var dt = new Date();document.getElementById("datetime").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime1").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime2").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime3").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime4").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime5").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime6").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime7").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime8").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime9").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime10").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime11").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime12").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime13").innerHTML = dt.toLocaleDateString();</script>
