@@ -55,7 +55,7 @@ tags: [config]
             <td>Android</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/aL0GvMV" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/L_-go5IByAg" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Gold</td>
@@ -65,7 +65,7 @@ tags: [config]
             <td>Android</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/hSpP" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/zni69jAFEZA" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Limited Edition</td>
@@ -75,7 +75,7 @@ tags: [config]
             <td>Android</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/FK4B7" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/aETVObeOKB0" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Januari Master</td>
@@ -115,7 +115,7 @@ tags: [config]
             <td>Android</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/C25JmGY" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/68BIrfh63AE" target="blank">Video</a></td>       
           </tr>
           <tr>
             <td>Simaster V1.9</td>
@@ -135,7 +135,7 @@ tags: [config]
             <td>Android</td>
             <td>Ready</td>
             <td><a href="https://safelink.id/4wczUoH" target="blank">Download</a></td>
-            <td><a href="#" target="blank">Non Video</a></td>       
+            <td><a href="https://youtu.be/C1m_vE5q3As" target="blank">Video</a></td>       
           </tr>
           </tbody>
           <tfoot>
