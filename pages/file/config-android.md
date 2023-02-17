@@ -29,7 +29,7 @@ tags: [config]
         <tbody>
           <tr>
             <td>Best Master</td>
-            <td>16 Feb 2023</td>
+            <td>{{ page.date | date: "%d-%b-%Y" }}</td>
             <td>rule</td>
             <td>file</td>
             <td>Android</td>
@@ -39,7 +39,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Final</td>
-            <td>16 Feb 2023</td>
+            <td>{{ page.date | date: "%d-%b-%Y" }}</td>
             <td>rule</td>
             <td>file</td>
             <td>Android</td>
@@ -49,7 +49,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Bronze</td>
-            <td>16 Feb 2023</td>
+            <td>{{ page.date | date: "%d-%b-%Y" }}</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -59,7 +59,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Gold</td>
-            <td>16 Feb 2023</td>
+            <td>{{ page.date | date: "%d-%b-%Y" }}</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -69,7 +69,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Limited Edition</td>
-            <td>16 Feb 2023</td>
+            <td>{{ page.date | date: "%d-%b-%Y" }}</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -79,7 +79,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Januari Master</td>
-            <td>16 Feb 2023</td>
+            <td>{{ page.date | date: "%d-%b-%Y" }}</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -89,7 +89,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Februari Master</td>
-            <td>16 Feb 2023</td>
+            <td>{{ page.date | date: "%d-%b-%Y" }}</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -99,7 +99,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Maret Master</td>
-            <td>16 Feb 2023</td>
+            <td>{{ page.date | date: "%d-%b-%Y" }}</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -109,7 +109,7 @@ tags: [config]
           </tr>
           <tr>
             <td>April Master</td>
-            <td>16 Feb 2023</td>
+            <td>{{ page.date | date: "%d-%b-%Y" }}</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -119,7 +119,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V1.9</td>
-            <td>16 Feb 2023</td>
+            <td>{{ page.date | date: "%d-%b-%Y" }}</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -129,7 +129,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2.1</td>
-            <td>16 Feb 2023</td>
+            <td>{{ page.date | date: "%d-%b-%Y" }}</td>
             <td>Script</td>
             <td>file</td>
             <td>Android</td>
