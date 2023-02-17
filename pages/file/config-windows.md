@@ -29,7 +29,7 @@ tags: [config]
         <tbody>
           <tr>
             <td>Simaster V1.9</td>
-            <td>16 Feb 2023</td>
+            <td><span id="datetime1"></span></td>
             <td>script</td>
             <td>file</td>
             <td>Windows</td>
@@ -50,3 +50,5 @@ tags: [config]
           </div>
           </div>
           </div>
+
+<script>var dt = new Date();document.getElementById("datetime1").innerHTML = dt.toLocaleDateString();</script>
