@@ -29,7 +29,7 @@ tags: [config]
         <tbody>
           <tr>
             <td>Simaster</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime1"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -39,7 +39,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V1</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime2"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -49,7 +49,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V1.1</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime3"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -59,7 +59,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V1.2</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime4"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -69,7 +69,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V1.3</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime5"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -79,7 +79,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V1.4</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime6"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -89,7 +89,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V1.5</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime7"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -99,7 +99,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V1.6</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime8"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -109,7 +109,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V1.7</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime9"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -119,7 +119,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V1.8</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime10"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -129,7 +129,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V1.9</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime11"></span></td>
             <td>Script & Rule</td>
             <td>Backup</td>
             <td>OpenWRT</td>
@@ -139,7 +139,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2 Auto Eth1</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime12"></span></td>
             <td>Script & Rule</td>
             <td>Auto</td>
             <td>OpenWRT</td>
@@ -149,7 +149,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2 Auto Eth2</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime13"></span></td>
             <td>Script & Rule</td>
             <td>Auto</td>
             <td>OpenWRT</td>
@@ -159,7 +159,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2 Usb0</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime14"></span></td>
             <td>Script & Rule</td>
             <td>Auto</td>
             <td>OpenWRT</td>
@@ -169,7 +169,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2 Usb1</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime15"></span></td>
             <td>Script & Rule</td>
             <td>Auto</td>
             <td>OpenWRT</td>
@@ -179,7 +179,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2 Wwan0</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime16"></span></td>
             <td>Script & Rule</td>
             <td>Auto</td>
             <td>OpenWRT</td>
@@ -189,7 +189,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2 Vlan20</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime17"></span></td>
             <td>Script & Rule</td>
             <td>Auto</td>
             <td>OpenWRT</td>
@@ -199,7 +199,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2 Vlan30</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime18"></span></td>
             <td>Script & Rule</td>
             <td>Auto</td>
             <td>OpenWRT</td>
@@ -209,7 +209,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2 Eth1 Eth2</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime19"></span></td>
             <td>Script & Rule</td>
             <td>Auto</td>
             <td>OpenWRT</td>
@@ -219,7 +219,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2 Usb0 Usb1</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime20"></span></td>
             <td>Script & Rule</td>
             <td>Auto</td>
             <td>OpenWRT</td>
@@ -229,7 +229,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2 Vlan20 Vlan30</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime21"></span></td>
             <td>Script & Rule</td>
             <td>Auto</td>
             <td>OpenWRT</td>
@@ -239,7 +239,7 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2.1</td>
-            <td>13 Feb 2023</td>
+            <td><span id="datetime22"></span></td>
             <td>Script & Rule</td>
             <td>Backup+Auto</td>
             <td>OpenWRT</td>
@@ -260,3 +260,26 @@ tags: [config]
         </div>
         </div>
         </div>
+
+<script>var dt = new Date();document.getElementById("datetime1").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime2").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime3").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime4").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime5").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime6").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime7").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime8").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime9").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime10").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime11").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime12").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime13").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime14").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime15").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime16").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime17").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime18").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime19").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime20").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime21").innerHTML = dt.toLocaleDateString();</script>
+<script>var dt = new Date();document.getElementById("datetime22").innerHTML = dt.toLocaleDateString();</script>
