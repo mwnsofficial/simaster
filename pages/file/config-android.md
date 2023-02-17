@@ -53,6 +53,7 @@ tags: [config]
             <td>Bronze</td>
             <td><span id="datetime3"></span></td>
             <td>script</td>
+            <td>rule</td>
             <td>file</td>
             <td>Android</td>
             <td>Ready</td>
@@ -63,7 +64,7 @@ tags: [config]
             <td>Gold</td>
             <td><span id="datetime4"></span></td>
             <td>script</td>
-            <td>script</td>
+            <td>rule</td>
             <td>file</td>
             <td>Android</td>
             <td>Ready</td>
@@ -74,7 +75,7 @@ tags: [config]
             <td>Limited Edition</td>
             <td><span id="datetime5"></span></td>
             <td>script</td>
-            <td>script</td>
+            <td>rule</td>
             <td>file</td>
             <td>Android</td>
             <td>Ready</td>
@@ -85,7 +86,7 @@ tags: [config]
             <td>Januari Master</td>
             <td><span id="datetime6"></span></td>
             <td>script</td>
-            <td>script</td>
+            <td>rule</td>
             <td>file</td>
             <td>Android</td>
             <td>Ready</td>
@@ -96,7 +97,7 @@ tags: [config]
             <td>Februari Master</td>
             <td><span id="datetime7"></span></td>
             <td>script</td>
-            <td>script</td>
+            <td>rule</td>
             <td>file</td>
             <td>Android</td>
             <td>Ready</td>
@@ -107,7 +108,7 @@ tags: [config]
             <td>Maret Master</td>
             <td><span id="datetime8"></span></td>
             <td>script</td>
-            <td>script</td>
+            <td>rule</td>
             <td>file</td>
             <td>Android</td>
             <td>Ready</td>
@@ -116,9 +117,9 @@ tags: [config]
           </tr>
           <tr>
             <td>April Master</td>
-            <td><span id="datetime9"></span><script>var dt = new Date();document.getElementById("datetime9").innerHTML = dt.toLocaleDateString();</script></td>
+            <td><span id="datetime9"></span></td>
             <td>script</td>
-            <td>script</td>
+            <td>rule</td>
             <td>file</td>
             <td>Android</td>
             <td>Ready</td>
@@ -129,7 +130,7 @@ tags: [config]
             <td>Simaster V1.9</td>
             <td><span id="datetime10"></span></td>
             <td>script</td>
-            <td>script</td>
+            <td>rule</td>
             <td>file</td>
             <td>Android</td>
             <td>Ready</td>
@@ -140,7 +141,7 @@ tags: [config]
             <td>Simaster V2.1</td>
             <td><span id="datetime11"></span></td>
             <td>script</td>
-            <td>Script</td>
+            <td>rule</td>
             <td>file</td>
             <td>Android</td>
             <td>Ready</td>
