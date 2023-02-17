@@ -49,7 +49,11 @@ tags: [config]
           </tr>
           <tr>
             <td>Bronze</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime1"></span>
+            <script>
+              var dt = new Date();
+              document.getElementById("datetime1").innerHTML = dt.toLocaleDateString();
+            </script></td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -59,7 +63,12 @@ tags: [config]
           </tr>
           <tr>
             <td>Gold</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime2"></span>
+            <script>
+              var dt = new Date();
+              document.getElementById("datetime2").innerHTML = dt.toLocaleDateString();
+            </script></td>
+            <td>script</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -69,7 +78,12 @@ tags: [config]
           </tr>
           <tr>
             <td>Limited Edition</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime3"></span>
+            <script>
+              var dt = new Date();
+              document.getElementById("datetime3").innerHTML = dt.toLocaleDateString();
+            </script></td>
+            <td>script</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -79,7 +93,12 @@ tags: [config]
           </tr>
           <tr>
             <td>Januari Master</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime4"></span>
+            <script>
+              var dt = new Date();
+              document.getElementById("datetime4").innerHTML = dt.toLocaleDateString();
+            </script></td>
+            <td>script</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -89,7 +108,12 @@ tags: [config]
           </tr>
           <tr>
             <td>Februari Master</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime5"></span>
+            <script>
+              var dt = new Date();
+              document.getElementById("datetime5").innerHTML = dt.toLocaleDateString();
+            </script></td>
+            <td>script</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -99,7 +123,12 @@ tags: [config]
           </tr>
           <tr>
             <td>Maret Master</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime6"></span>
+            <script>
+              var dt = new Date();
+              document.getElementById("datetime6").innerHTML = dt.toLocaleDateString();
+            </script></td>
+            <td>script</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -109,7 +138,12 @@ tags: [config]
           </tr>
           <tr>
             <td>April Master</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime7"></span>
+            <script>
+              var dt = new Date();
+              document.getElementById("datetime7").innerHTML = dt.toLocaleDateString();
+            </script></td>
+            <td>script</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -119,7 +153,12 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V1.9</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime8"></span>
+            <script>
+              var dt = new Date();
+              document.getElementById("datetime8").innerHTML = dt.toLocaleDateString();
+            </script></td>
+            <td>script</td>
             <td>script</td>
             <td>file</td>
             <td>Android</td>
@@ -129,7 +168,12 @@ tags: [config]
           </tr>
           <tr>
             <td>Simaster V2.1</td>
-            <td><span id="datetime"></span></td>
+            <td><span id="datetime9"></span>
+            <script>
+              var dt = new Date();
+              document.getElementById("datetime9").innerHTML = dt.toLocaleDateString();
+            </script></td>
+            <td>script</td>
             <td>Script</td>
             <td>file</td>
             <td>Android</td>
