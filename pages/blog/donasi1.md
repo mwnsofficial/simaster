@@ -2,7 +2,7 @@
 title: donasi for simaster
 layout: tabel
 keywords: simaster
-permalink: donasi.html
+permalink: donasi1.html
 summary: donasi for simaster
 folder: blog
 tags: [simaster]
