@@ -5,9 +5,9 @@ title: tutorial mengatasi gagal opkg openwrt
 date: 2023-02-19
 author: Muhammad Yusuf
 permalink: tutorial-atasi-gagal-opkg.html
-image: /assets/images/post.jpg
-image2: /assets/images/post.jpg
-image3: /assets/images/post.jpg
+image: /assets/images/post.png
+image2: /assets/images/post.png
+image3: /assets/images/post.png
 image-alt: tutorial mengatasi gagal opkg openwrt
 summary: tutorial mengatasi gagal opkg openwrt
 tags: [openwrt]
