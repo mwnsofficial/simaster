@@ -33,8 +33,8 @@ tags: [config]
             <td>Script</td>
             <td>File config</td>
             <td>Magisk</td>
-            <td>Not Ready</td>
-            <td><a href="#!" target="blank">Download</a></td>
+            <td>Ready</td>
+            <td><a href="https://safelink.id/vPKKF5" target="blank">Download</a></td>
             <td><a href="#!" target="blank">Video</a></td>       
           </tr>
         </tbody>
