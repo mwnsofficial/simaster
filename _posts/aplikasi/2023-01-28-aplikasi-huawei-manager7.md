@@ -6,7 +6,7 @@ description: "Aplikasi ini khusus modem huawei"
 date: 2023-01-28
 author: "Muhammad Yusuf"
 tags: [ Aplikasi ]
-header-img: "img/post/blogging.jpg"
+header-img: "assets/images/hw1.jpg"
 image: "assets/images/hw1.jpg"
 social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
 iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
