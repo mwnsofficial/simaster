@@ -67,4 +67,4 @@ daftar lengkap fitur:
 
 Penampil HTML terpadu memiliki beberapa keterbatasan: tidak mendukung tag input dengan type = "file". Jika Anda ingin menguji file HTML tersebut, buka di browser.
 
-File bisa anda dapatkan disini <a href="https://safelink.id/m1ctK" target="_blank">Download</a>
+File bisa anda dapatkan disini <a class="btn btn-lg btn-primary" href="https://safelink.id/m1ctK" rel="noopener" target="_blank" title="Download Aplikasi Anwritter Free">Download Disini</a>
