@@ -47,7 +47,7 @@ Untuk type yang simaster ketahui sampai saat ini di gunakan untuk modem huawei t
 - E5787s-33a
 - E5377s-32
 
-Simak video saya tentang aplikasi Huawei Manager Terbaru versi Dark ini [DISINI](https://youtu.be/as40qioNtOI)
+Simak video saya tentang aplikasi Huawei Manager Terbaru versi Dark ini <a class="btn btn-lg btn-primary" href="https://youtu.be/as40qioNtOI" rel="noopener" target="_blank" title="Youtube Simaster">Disini</a>
 
 Jika anda ingin mencoba nya silahkan untuk menguji aplikasi ini.
 
@@ -55,4 +55,4 @@ Perhatian: aplikasi ini tidak 100% aman untuk pengguna di karenakan tidak berada
 
 Jadi simaster ingin anda memahami mekanisme nya terlebih dahulu sebelum anda install aplikasi ini.
 
-File bisa anda dapatkan disini <a href="https://safelink.id/Sc4N2Vt" target="_blank">Download</a>
+File bisa anda dapatkan <a class="btn btn-lg btn-primary" href="https://safelink.id/Sc4N2Vt" rel="noopener" target="_blank" title="Download File Simaster">Download Disini</a>
