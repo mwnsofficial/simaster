@@ -1,16 +1,17 @@
 ---
-published: true
 layout: post
-title: tutorial mengatasi gagal opkg openwrt
+title: "tutorial mengatasi gagal opkg openwrt"
+subtitle: "tutorial mengatasi gagal opkg openwrt"
+description: "Pilih mana, Blogger, Wordpress, atau Github Pages untuk platform blogging Anda?"
 date: 2023-02-19
-author: Muhammad Yusuf
-permalink: tutorial-atasi-gagal-opkg.html
-image: /assets/images/post.png
-image1: /assets/images/post.png
-image2: /assets/images/post.png
-image-alt: tutorial mengatasi gagal opkg openwrt
-summary: tutorial mengatasi gagal opkg openwrt
-tags: [openwrt]
+author: "Muhammad Yusuf"
+tags: [ Openwrt ]
+header-img: "/assets/images/post.png"
+image: "/assets/images/post.png"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
+youtube-js: "https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
 ---
 
 Dalam tutorial ini mungkin anda pernah mengalami hal yang satu ini.
