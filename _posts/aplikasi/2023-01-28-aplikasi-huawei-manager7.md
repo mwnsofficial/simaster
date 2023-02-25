@@ -1,17 +1,17 @@
 ---
-published: true
 layout: post
-title: Huawei Manager V7
+title: "Huawei Manager V7"
+subtitle: "Aplikasi ini khusus modem huawei?"
+description: "Aplikasi ini khusus modem huawei"
 date: 2023-01-28
-permalink: aplikasi-huawei-manager7.html
-image: assets/images/hw1.jpg
-image1: assets/images/hw2.jpg
-image2: assets/images/hw3.jpg
-image-alt: aplikasi huawei manager 7
-summary: Aplikasi ini khusus modem huawei.
-link: https://safelink.id/Sc4N2Vt
-ukuran: 11Mb
-tags: [huawei]
+author: "Muhammad Yusuf"
+tags: [ Aplikasi ]
+header-img: "img/post/blogging.jpg"
+image: "assets/images/hw1.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
+youtube-js: "https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
 ---
 
 Aplikasi Huawei Manager adalah sebuah aplikasi remote control untuk modem type huawei.
@@ -54,3 +54,5 @@ Jika anda ingin mencoba nya silahkan untuk menguji aplikasi ini.
 Perhatian: aplikasi ini tidak 100% aman untuk pengguna di karenakan tidak berada di marketplace resmi seperti playstore.
 
 Jadi simaster ingin anda memahami mekanisme nya terlebih dahulu sebelum anda install aplikasi ini.
+
+File bisa anda dapatkan disini <a href="https://safelink.id/Sc4N2Vt" target="_blank">Download</a>
