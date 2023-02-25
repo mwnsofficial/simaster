@@ -1,118 +1,22 @@
-# Khusus kata kunci pencarian google
-keywords: configuration, scripts, rules, android, openwrt, windows, termux, magisk
-
-# Menampilkan text pada halaman pencarian google
-description: Simaster adalah situs khusus berisikan semua file yang di butuhkan untuk semua pengguna koneksi internet.
-
-# Nama dari blog ini
-situs: Simaster
-
-# Penulis atau pemilik pada blog ini
+# Site settings
+title: Simaster
+subtitle: "Kumpulan File Simaster Tersedia Disini"
+header-img: img/home-bg.jpg
+image: img/home-bg.jpg
+copyright_name: Simaster
+description: "Kumpulan File Simaster Tersedia Disini."
+url: "https://clashmwns.com"
 author: Muhammad Yusuf
+twitter_username: 
+github_username: mwnsofficial
+facebook_username: myarachma92
+email_username: myarachma92@gmail.com
 
-# Email penulis atau pemilik pada blog ini
-email: myarachma92@gmail.com
-
-# Alamat utama pada atau CNAME pada blog ini
-baseurl: https://www.clashmwns.com
-
-# Bahasa penerjemah yang di gunakan pada blog ini
-subtitle:
-
-# Hak cipta pada blog ini berada pada bagian footer
-copyright: MWNS OFFICIAL
-
-# Jalur repository blog ini
-repository: mwnsofficial/simaster
-
-# Verifikasi Khusus untuk Keberadaan Situs ini pada Google
-google-site-verification: googled41425154ba52776.html
-
-# Bisa multifungsi selain web bisa juga menampilkan pdf
-output: web
-
-# optimasi search engine google
-site_title: Simaster adalah situs khusus berisikan semua file yang di butuhkan untuk semua pengguna koneksi internet.
-
-# ini tempat titik edit paling cepat untuk halaman atau post pada blog
-github_editme_path: mwnsofficial/simaster/blob/main/
-
-# ini tempat titik edit paling cepat untuk halaman atau post pada blog
-# gitlab_editme_path: 
-
-# khusus analisa google
-google_analytics: 
-
-# khusus adsense js
-google_adsense: ca-pub-1794381705838564
-
-# alamat menampilkan web
-host: 127.0.0.1
-
-# port menampilkan web
-port: 4000
-
-exclude:
-  - .idea/
-  - .gitignore
-  - vendor
-
-feedback_subject_line: mwns
-
-feedback_email: myarachma92@gmail.com
-
-# feedback_disable: true
-
-# feedback_text: "Need help?"
-
-# feedback_link: "http://helpy.io/"
-
-highlighter: rouge
-
+# Build settings
 markdown: kramdown
-kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
+highlighter: rouge
+permalink: /:title/
+paginate: 6
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-collections:
-  tooltips:
-    output: false
-
-# Ini khusus halaman statis utama pada blog
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      comments: true
-      search: true
-
-# Ini khusus halaman post utama pada blog
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-      search: true
-
-github: [metadata]
-
-# khusus search widget
-algolia:
-  application_id: XKI7G3MOW5
-  api_key: fb84fbe42de7b22c8880295732bb0001
-  index_name: simaster
-
-# Widget khusus jekyll hosting
-plugins:
-  - jekyll-gist
-  - jekyll-coffeescript
-  - jekyll-seo-tag
-  - some-other-jekyll-plugin
-  - jekyll-sitemap
+gems: [jekyll-paginate, jekyll-feed, jekyll-sitemap]

@@ -1,0 +1,26 @@
+---
+layout: page
+title: "Archives"
+subtitle: "List of the Adhy Suryadi's posts."
+description: "This page show the all of posts of Adhy Suryadi Blog."
+header-img: "img/archive-bg.jpg"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
+---
+<amp-accordion>
+ {% for post in site.posts %}
+       {% assign currentDate = post.date | date: "%Y" %}
+       {% if currentDate != myDate %}
+           {% unless forloop.first %}</ul></section>{% endunless %}
+             <section>
+           <h3 class="archive">{{ currentDate }}</h3>
+           <ul class="archives">
+           {% assign myDate = currentDate %}
+       {% endif %}
+       <li>{{ post.date | date: "%B %-d, %Y" }}
+        <ul>
+             <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        </ul>
+            </li>
+       {% if forloop.last %}</ul></section>{% endif %}
+   {% endfor %}            
+  </amp-accordion>
