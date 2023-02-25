@@ -2,135 +2,106 @@
 layout: default
 ---
 
-  <div id="wrapper">
-   <div id="content-wrapper" itemscope itemtype="http://schema.org/Blog" role="main">
-    <div id="main-wrapper">
-     <div class="main section" id="main">
-      <div class="widget Blog" data-version="1" id="Blog1">
-       <div class="blog-posts hfeed">
-        <!--Can't find substitution for tag [defaultAdStart]--> 
-        <div class="date-outer"> 
-         <h2 class="date-header"><span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%b-%Y" }}</time></span></h2> 
-         <div class="date-posts"> 
-          <div class="post-outer">
-           <div class="post hentry">
-            <meta content="{{ page.summary }}" property="twitter:description">
-            <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-             <meta content="https://1.bp.blogspot.com/mZlojaiiRgYKkGN6JsNgVW6SofuuhjcXIVCtDe1-kxXpirpB2zOxgRmieWhBnTUxLM_L=s180" itemprop="url">
-             <meta content="700" itemprop="width">
-             <meta content="700" itemprop="height">
+<div class="post">
+<!-- Post Header -->
+<header class="intro-header">
+	<amp-img noloading alt="Post Image" height="448" width="1423" src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"></amp-img>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1 class='post-title entry-title' itemprop='headline'><a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title='{{ page.title }}' itemprop='url mainEntityOfPage'>{{ page.title }}</a></h1>
+                    {% if page.subtitle %}
+                    <h2 class="subheading">{{ page.subtitle }}</h2>
+                    {% endif %}
+                    <h3 class="meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}</span></span> on <time class="published" itemprop="datePublished dateModified" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> in {% for tag in page.tags %}<a class="label label-primary" href="/tags/{{ tag }}"><i class="material-icons">&#xE54E;</i> {{ tag }}</a> {% endfor %}</h3>
+                </div>
             </div>
-            <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-             <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-              <meta content="https://3.bp.blogspot.com/--15lMM2sBn4/Wbn6D7B0ZWI/AAAAAAAANwM/iuU0-pb1bRUf1ruJtchyppHgTdoE0rhpwCLcBGAs/s1600/infinite-amp.png" itemprop="url">
-              <meta content="600" itemprop="width">
-              <meta content="600" itemprop="height">
-             </div>
-             <meta content="{{ site.situs }}" itemprop="name">
-            </div>
-            <h1 class="post-title entry-title">{{ page.title }}</h1>
-            <div class="post-header">
-             <div class="post-header-line-1">
-              <div class="post-info">
-               <span class="author-info"> ✔ <span class="fn"><span itemprop="name">certified</span></span></span>
-               <span class="post-timestamp">
-                <meta content="{{ site.baseurl }}{{ page.url }}" itemprop="url">
-                <svg height="24" viewbox="0 0 24 24" width="24">
-                 <path d="M12,20C16.42,20 20,16.42 20,12C20,7.58 16.42,4 12,4C7.58,4 4,7.58 4,12C4,16.42 7.58,20 12,20M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.47,22 2,17.5 2,12C2,6.48 6.48,2 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
-                </svg><a class="timestamp-link" href="{{ site.baseurl }}{{ page.url }}" rel="bookmark" title="permanent link"><abbr class="published updated" itemprop="datePublished">{{ page.date | date: "%d-%b-%Y" }}</abbr></a></span>
-              </div>
-             </div>
-             <div class="spacer"></div>
-             <div aria-label="Rating" class="rating" role="img">
-              <div class="stars"></div>
-              <div class="stars"></div>
-              <div class="stars"></div>
-              <div class="stars"></div>
-              <div class="stars"></div>
-             </div>
-            </div>
-            <div class="post-body entry-content" id="post-body-4452234493122568827"> 
-             <br> 
-             <div class="satu"> 
-              <div class="dua"> 
-               <div class="tiga"> 
-                <div class="tiga-dua"> 
-                 <b>Developer: {{ site.author }}</b>
-                </div> 
-                <div class="tiga-dua"> 
-                 <b>Versi: {{ page.tags }}</b>
-                </div> 
-                <div class="tiga-dua"> 
-                 <b>Ukuran File: {{ page.ukuran }}</b>
-                </div> 
-               </div> 
-               <div class="empat"> 
-                <div class="empat-satu">
-                 <div class="info">
-                  <b>Informasi:</b> {{page.summary}}</div>
-                </div> 
-               </div> 
-               <div class="empat">
-                <div class="empat-dua">
-                <b>Download File:</b> <a class="blog-pager-older-link ripple" href="{{ page.link }}" id="Blog1_blog-pager-older-link" title="Download">
-                  <svg width="100px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                   <path d="M12 19H5C3.89543 19 3 18.1046 3 17V7C3 5.89543 3.89543 5 5 5H9.58579C9.851 5 10.1054 5.10536 10.2929 5.29289L12 7H19C20.1046 7 21 7.89543 21 9V11" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M18.5 14V20M18.5 20L16 17.5M18.5 20L21 17.5" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                 </svg>
-                </a>
-               </div>
-               </div> 
-              </div> 
-             </div> 
-             <br> 
-             <amp-carousel autoplay="" controls="" data-next-button-aria-label="Selanjutnya" data-previous-button-aria-label="Sebelumnya" delay="3000" height="300" layout="responsive" loop="" type="slides" width="450" class="i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-slidescroll i-amphtml-carousel-has-controls i-amphtml-built i-amphtml-layout" i-amphtml-layout="responsive">
-              <i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer> 
-              <div tabindex="-1" class="i-amphtml-slides-container i-amphtml-slidescroll-no-snap" aria-live="polite">
-               <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 1;">
-                {% if page.image %}{% include image.html image=page.image alt=page.image-alt %}{% endif %}
-               </div>
-               <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 2;">
-                {% if page.image %}{% include image2.html image=page.image1 alt=page.image-alt %}{% endif %}
-               </div>
-               <div class="i-amphtml-slide-item i-amphtml-slide-item-show" style="order: 3;">
-                {% if page.image %}{% include image3.html image=page.image2 alt=page.image-alt %}{% endif %}
-               </div>
-              </div>
-              <div tabindex="0" class="amp-carousel-button amp-carousel-button-prev" role="button" title="Previous item in carousel (2 of 3)" aria-disabled="false"></div>
-              <div tabindex="0" class="amp-carousel-button amp-carousel-button-next" role="button" title="Selanjutnya (1 of 3)" aria-disabled="false"></div>
-             </amp-carousel> 
-             <br> 
-             <div class="snippets"> 
-              <input id="showmore" type="checkbox"> 
-              <label for="showmore"></label> 
-              <br> 
-              <div> 
-               <br> 
-               <div>
-                 {{ content }}
-               </div> 
-              </div> 
-             </div> 
-             <div class="clear"></div>
-            </div>
-            <br>
-            <br>
-            <div class="post-footer">
-              <div style="text-align: center;">
-               {% include bagikan.html %}
-              </div>
-              <div class="clear"></div>
-             </div>
-            </div>
-           </div>
-           {% include comments.html %}
-          </div> 
-         </div>
-        </div> 
-        <!--Can't find substitution for tag [adEnd]-->
-       </div>
-       <div class="clear"></div>
-       <div class="post-feeds"></div>
-      </div>
-     </div>
+        </div>
     </div>
+</header>
+<div class="clear"></div>
+<!-- Post Content -->
+<article class="entry post-content">
+<div itemprop='image' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
+  <meta content='{{site.url}}{{ site.baseurl }}/{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}' itemprop='url'/>
+  <meta content='1280' itemprop='width'>
+  <meta content='720' itemprop='height'>
+  </div>
+  <div itemprop='publisher' itemscope='itemscope' itemtype='https://schema.org/Organization'>
+    <div itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
+      <meta content='{{site.url}}{{ site.baseurl }}/img/adhysuryadi.png' itemprop='url'/>
+      <meta content='600' itemprop='width'>
+      <meta content='60' itemprop='height'>
+    </div>
+    <meta content='{{ site.title }}' itemprop='name'>
+  </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				{{ content }}
+                		{% include share_count.html %}
+                <hr>
+{% assign hasSimilar = '' %}
+{% for post in site.related_posts %}
+    {% assign postHasSimilar = false %}
+    {% for tag in post.tags %}
+        {% for thisTag in page.tags %}
+            {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
+                {% if hasSimilar.size == 0 %}
+                <h4>Similar Posts</h4>
+                <ul>
+                {% endif %}
+                <li class="relatedPost">
+                    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}
+                    {% if post.series %}
+                        (Series: {{ post.series }})
+                    {% endif %}
+                    </a>
+                </li>
+                {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+                {% assign postHasSimilar = true %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+{% if hasSimilar.size > 0 %}
+    </ul>
+{% endif %}
+                <ul class="pager post">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                    	<h5>Previous Post</h5>
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="Previous Post">{{page.previous.title}}</a>
+                    </li>
+                    {% else %}
+                    <li class="previous">
+                    	<h5>Previous Post</h5>
+                        <span>This Is The Oldest Page</span>
+                    </li>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <li class="next">
+                    	<h5>Next Post</h5>
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="Next Post">{{page.next.title}}</a>
+                    </li>
+                    {% else %}
+                    <li class="next">
+                    	<h5>Next Post</h5>
+                    	<span>This Is The Newest Post</span>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            	{% include disqus_comments.html %}
+            </div>
+        </div>
+    </div>
+</div>
+<hr>

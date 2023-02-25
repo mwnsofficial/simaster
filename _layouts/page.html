@@ -2,24 +2,42 @@
 layout: default
 ---
 
-<div id="wrapper">
-  <div id="content-wrapper" itemscope itemtype="http://schema.org/Blog" role="main">
-    <div id="main-wrapper">
-      <div class="main section" id="main">
-        <div class="widget Blog" data-version="1" id="Blog1">
-          <div class="blog-posts hfeed">
-            {% if page.summary %}
-             <div class="summary">{{page.summary}}</div>
-               {% endif %}
-
-               {% unless page.toc == false %}
-              {% include toc.html %}
-             {% endunless %}
-
-          {{content}}
-
+<div class="post">
+<!-- Page Header -->
+<header class="intro-header">
+<amp-img noloading alt="Page Image" height="448" width="1423" src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"></amp-img>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1 class='post-title entry-title' itemprop='headline'><a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title='{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}' itemprop='url mainEntityOfPage'>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</a></h1>
+                    <hr class="small">
+                    <span class="subheading">{{ page.subtitle }}</span>
+		</div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+</header>
+<!-- Main Content -->
+<div class="container">
+<div itemprop='image' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
+  <meta content='{{site.url}}{{ site.baseurl }}/{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}' itemprop='url'/>
+  <meta content='1280' itemprop='width'>
+  <meta content='720' itemprop='height'>
 </div>
+  <div itemprop='publisher' itemscope='itemscope' itemtype='https://schema.org/Organization'>
+    <div itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
+      <meta content='{{site.url}}{{ site.baseurl }}/img/adhysuryadi.png' itemprop='url'/>
+      <meta content='600' itemprop='width'>
+      <meta content='60' itemprop='height'>
+    </div>
+    <meta content='{{ site.title }}' itemprop='name'>
+  </div>
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			{{ content }}
+			</div>
+	</div>
+</div>
+</div>
+<hr>
