@@ -1,17 +1,17 @@
 ---
-published: true
 layout: post
-title: anwritter free
-date: 2023-02-08
-permalink: anwritterfree.html
-image: assets/images/aw1.jpg
-image1: assets/images/aw2.jpg
-image2: assets/images/aw3.jpg
-image-alt: aplikasi anwritter free gratis
-summary: Aplikasi edit code terbaik untuk android.
-link: https://safelink.id/m1ctK
-ukuran: 2Mb
-tags: [aplikasi]
+title: "anwritter free"
+subtitle: "Aplikasi edit code terbaik untuk android"
+description: "Aplikasi edit code terbaik untuk android"
+date: 2016-05-27
+author: "Muhammad Yusuf"
+tags: [ Aplikasi ]
+header-img: "assets/images/aw1.jpg"
+image: "assets/images/aw1.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
+youtube-js: "https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
 ---
 
 anWriter adalah editor teks untuk programmer web (HTML, CSS, JavaScript)
@@ -66,3 +66,5 @@ daftar lengkap fitur:
 
 
 Penampil HTML terpadu memiliki beberapa keterbatasan: tidak mendukung tag input dengan type = "file". Jika Anda ingin menguji file HTML tersebut, buka di browser.
+
+File bisa anda dapatkan disini <a href="https://safelink.id/m1ctK" target="_blank">Download</a>
