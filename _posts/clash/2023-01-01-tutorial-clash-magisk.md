@@ -67,7 +67,7 @@ kini anda sudah bisa berselancar di dunia internet clash magisk bersama simaster
 # DONASI
 Bagi anda yang berdonasi ke simaster di silahkan saja.
 
-melalui halaman [Donasi](/donasi/)
+melalui halaman [Donasi](/layanan/)
 
 atau bisa melalui rekening BRI
 a.n MUHAMMAD YUSUF
