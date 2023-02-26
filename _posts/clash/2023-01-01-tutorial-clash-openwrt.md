@@ -33,6 +33,6 @@ youtube-js: "https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
 15. tekan switch config pada config yang barusan muncul maka secara otomatis akan mengupload sendiri semua file yang di butuhkan config
 16. sekarang anda bisa gunakan untuk berinternet
 
-Bagi yang ingin ajak ngopi silahkan melalui <a href="{{ site.url }}/donasi/" title="donasi">Donasi</a>
+Bagi yang ingin ajak ngopi silahkan melalui <a href="{{ site.url }}/layanan/" title="donasi">Donasi</a>
 
 Terima kasih telah menggunakan simaster auto.
