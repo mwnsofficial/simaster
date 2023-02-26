@@ -1,15 +1,17 @@
 ---
-published: true
 layout: post
-title: tutorial simaster auto android
+title: "Tutorial simaster auto android"
+subtitle: "Tutorials configuration auto cfa of simaster"
+description: "Tutorials configuration auto cfa of simaster"
 date: 2023-01-01
-author: Muhammad Yusuf
-permalink: tutorial-simaster-auto-android.html
-youtubeid: ClrrSotAreE
-image: /assets/images/simaster-auto-android.jpg
-image-alt: tutorial clash android
-summary: tutorials configuration auto cfa of simaster
-tags: [android]
+author: "Muhammad Yusuf"
+tags: [ Clash ]
+header-img: "assets/images/simaster-auto-android.jpg"
+image: "assets/images/simaster-auto-android.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
+youtube-js: "https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
 ---
 
 Tata cara penggunaan simaster cfa auto.
