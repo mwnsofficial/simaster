@@ -1,14 +1,17 @@
 ---
-published: true
 layout: post
-title: pengertian domain suffix
-date: 2023-01-12
-permalink: pengertian-domain-suffix.html
-image: /assets/images/post-rule.png
-image-alt: pengertian tentang rule
-summary: Pengertian dari domain, domain-suffix, dan masih banyak lagi lain nya.
-tags: [rule]
-toc: true
+title: "Tata cara penggunaan rule online"
+subtitle: "Pengertian dari domain, domain-suffix, dan masih banyak lagi lain nya"
+description: "Pengertian dari domain, domain-suffix, dan masih banyak lagi lain nya"
+date: 2023-01-28
+author: "Muhammad Yusuf"
+tags: [ Clash ]
+header-img: "assets/images/post.png"
+image: "assets/images/post.png"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
+youtube-js: "https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
 ---
 
 ## Pengertian dari DOMAIN dan DOMAIN-SUFFIX
