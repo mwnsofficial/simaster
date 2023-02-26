@@ -1,14 +1,17 @@
 ---
-published: true
 layout: post
-title: configuration clash magisk v1.9
+title: "Configuration clash magisk v1.9"
+subtitle: "Configuration clash magisk of simaster v1.9"
+description: "Configuration clash magisk of simaster v1.9"
 date: 2023-01-02
-author: Muhammad Yusuf
-permalink: tutorial-clash-magisk.html
-image: /assets/images/post.jpg
-image-alt: tutorial clash magisk v1.9
-summary: configuration clash magisk of simaster v1.9
-tags: [magisk]
+author: "Muhammad Yusuf"
+tags: [ Clash ]
+header-img: "assets/images/post.jpg"
+image: "assets/images/post.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
+youtube-js: "https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
 ---
 
 ## clash-magisk-simaster
@@ -64,7 +67,7 @@ kini anda sudah bisa berselancar di dunia internet clash magisk bersama simaster
 # DONASI
 Bagi anda yang berdonasi ke simaster di silahkan saja.
 
-melalui halaman [Donasi](/donasi.html)
+melalui halaman [Donasi](/donasi/)
 
 atau bisa melalui rekening BRI
 a.n MUHAMMAD YUSUF
