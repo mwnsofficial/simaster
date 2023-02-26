@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "tutorial mengatasi gagal opkg openwrt"
+title: "mengatasi gagal opkg openwrt"
 subtitle: "tutorial mengatasi gagal opkg openwrt"
-description: "Pilih mana, Blogger, Wordpress, atau Github Pages untuk platform blogging Anda?"
-date: 2023-02-19
+description: "tutorial mengatasi gagal opkg openwrt"
+date: 2023-01-28
 author: "Muhammad Yusuf"
 tags: [ Openwrt ]
-header-img: "/assets/images/post.png"
-image: "/assets/images/post.png"
+header-img: "assets/images/post.png"
+image: "assets/images/post.png"
 social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
 iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
 accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
