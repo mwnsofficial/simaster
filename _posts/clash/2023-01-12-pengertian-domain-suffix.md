@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tata cara penggunaan rule online"
+title: "Pengertian domain domain suffix"
 subtitle: "Pengertian dari domain, domain-suffix, dan masih banyak lagi lain nya"
 description: "Pengertian dari domain, domain-suffix, dan masih banyak lagi lain nya"
 date: 2023-01-28
