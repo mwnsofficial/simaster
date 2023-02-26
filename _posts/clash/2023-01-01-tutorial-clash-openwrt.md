@@ -6,8 +6,8 @@ description: "Configuration auto oc openwrt of simaster"
 date: 2023-01-01
 author: "Muhammad Yusuf"
 tags: [ Clash ]
-header-img: "/assets/images/simaster-auto-openwrt.jpg"
-image: "/assets/images/simaster-auto-openwrt.jpg"
+header-img: "assets/images/simaster-auto-openwrt.jpg"
+image: "assets/images/simaster-auto-openwrt.jpg"
 social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
 iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
 accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
