@@ -1,13 +1,17 @@
 ---
-published: true
 layout: post
-title: tutorial clash windows
+title: "tutorial clash windows"
+subtitle: "tutorials configuration cfw of simaster"
+description: "tutorials configuration cfw of simaster"
 date: 2023-01-01
-permalink: tutorial-clash-windows.html
-image: assets/images/simaster-windows.jpg
-image-alt: tutorial clash windows
-summary: tutorials configuration cfw of simaster
-tags: [windows]
+author: "Muhammad Yusuf"
+tags: [ Clash ]
+header-img: "assets/images/simaster-windows.jpg"
+image: "assets/images/simaster-windows.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
+youtube-js: "https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
 ---
 
 ## Install clash windows
