@@ -1,0 +1,6 @@
+#btn_toc{font-weight:bold;cursor:pointer}
+#btn_toc:focus,#toc li:focus,.back_toc:focus{outline:none}
+#btn_toc svg{vertical-align:middle}
+#toc li,.back_toc{cursor:pointer}
+#toc{display:grid}
+:target::before{content:"";display:block;height:40px;margin-top:-40px;visibility:hidden}
