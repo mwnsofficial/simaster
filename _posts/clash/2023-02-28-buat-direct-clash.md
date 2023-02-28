@@ -63,7 +63,17 @@ payload:
 <p>Lalu setelah selesai, anda bisa menyimpan nya dengan nama <b>namaruleanda.yaml</b>.</p>
 
 <h4 id="toc_3">Membuat Rule Provider Direct</h4>
-<p>Lagi simaster tuliskan</p>
+<p>Setelah anda selesai membuat file <b>namaruleanda.yaml</b> dan kini anda bisa ke langkah berikutnya yaitu membuat rule provider untuk direct.</p>
+<p>Membuat rule provider kali ini kita akan langsung menuju ke file <b>configanda.yaml</b> untuk mengeditnya anda bisa gunakan <b>Config Editor</b>.</p>
+<p>Salin script di bawah ini dan kemudian tempelkan ini tepat di bawah dari barisan dalam bagian proxy group anda</p>
+
+```
+rule-providers:
+  Direct-Simaster:
+    type: file
+    behavior: classical
+    path: "./directmaster.yaml"
+```
 
 <h4 id="toc_4">Membuat Proxy Group Direct</h4>
 <p>Lagi simaster tuliskan</p>
@@ -74,5 +84,6 @@ payload:
 <amp-youtube width="480" height="270" layout="responsive" data-videoid="p8cE0Z_xPzM">
 </amp-youtube>
 
+<br>
 <div class="back_toc" on="tap:toc.scrollTo('position' = 'center')" role="button" tabindex="0">Back to Content Simaster ↑</div>
 <br>
