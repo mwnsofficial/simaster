@@ -11,6 +11,7 @@ image: "assets/images/post.png"
 social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
 iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
 accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
+youtube-js: "https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
 ---
 
 <p>Selamat datang di tutorial simaster, tutorial kali ini membahas tentang bagaimana cara agar anda bisa membuat rule direct sendiri mulai dari awal hingga anda berhasil melakukan direct.</p>
