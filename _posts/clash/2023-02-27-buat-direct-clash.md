@@ -26,16 +26,17 @@ accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
   <li><a href="#toc_5" title="Pengecekan Conns Yacd Untuk Direct">Pengecekan Conns Yacd Untuk Direct</a></li>
 </ol>
 </div>
-
+<br>
 <p>Sebelum anda mengikuti step by step di bawah ini. Pastikan anda sudah ready untuk semua peralatan anda.
 Seperti aplikasi html editor dan disini saya hanya membuat rule dengan menggunakan aplikasi Anwritter Free.</p>
 
 <h4 id="toc_1">Pemahaman Direct Koneksi</h4>
-<p>Direct Connection adalah pengalihan lalu lintas untuk bisa melepaskan dari jalur vpn</p>
-<p>Dengan adanya direct, maka anda bisa lebih bebas untuk melakukan trafik langsung melalui sumber koneksi utama tanpa harus melalui lalu lintas trafik vpn lagi</p>
+<p>Direct Connection adalah pengalihan lalu lintas untuk bisa melepaskan dari jalur vpn.</p>
+<p>Dengan adanya direct, maka anda bisa lebih bebas untuk melakukan trafik langsung melalui sumber koneksi utama tanpa harus melalui lalu lintas trafik vpn lagi.</p>
 
 <h4 id="toc_2">Membuat Rule Direct</h4>
-<p>coba</p>
+<p>Sebelum membuat rule, silahkan anda untuk masuk ke menu <b>Control Panel</b> kemudian menuju ke <b>Conns</b> dan anda akan standby disana sambil anda membuka sebuah aplikasi atau situs yang ingin anda direct.</p>
+<p>Jika anda sudah masuk ke salah satu situs atau aplikasi itu. Anda bisa cek di <b>Conns</b> kembali lalu tekan tanda <b>Stop</b> di tombol ikon kanan bawah berwarna biru itu hingga menjadi berwarna merah.</p>
 
 <h4 id="toc_3">Membuat Rule Provider Direct</h4>
 <p>coba</p>
