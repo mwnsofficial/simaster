@@ -38,14 +38,28 @@ Seperti aplikasi html editor dan disini saya hanya membuat rule dengan menggunak
 <p>Sebelum membuat rule, silahkan anda untuk masuk ke menu <b>Control Panel</b> kemudian menuju ke <b>Conns</b> dan anda akan standby disana sambil anda membuka sebuah aplikasi atau situs yang ingin anda direct.</p>
 <p>Jika anda sudah masuk ke salah satu situs atau aplikasi itu. Anda bisa cek di <b>Conns</b> kembali lalu tekan tanda <b>Stop</b> di tombol ikon kanan bawah berwarna biru itu hingga menjadi berwarna merah.</p>
 <p>Salin lah satu dulu domain itu jika anda temukan namun hilangkan ini <b>(:443)</b> yaitu port nya dan salin hanya domain nya saja misalkan <b>tiktokcdn.com</b> yang awal nya adalah <b>tiktokcdn.com:443</b>.</p>
-<p>Kemudian anda tempelkan domain itu ke aplikasi editor.
-Anda ikuti seperti yang sudah simaster lakukan dk bawah ini.</p>
+<p>Kemudian anda tempelkan domain itu ke aplikasi editor. Anda ikuti seperti yang sudah simaster lakukan dk bawah ini.</p>
 
 ```
 payload:
   # > Tempelkan domain dibawah ini
-  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,domain1.com
 ```
+
+<p>Salin lah semua nya satu per satu dari <b>Conns</b> itu ke aplikasi editor kalian masing-masing hingga semuanya sudah terisikan.</p>
+<p>Simaster contohkan seperti di bawah ini.</p>
+
+```
+payload:
+  # > Tempelkan domain dibawah ini
+  - DOMAIN-SUFFIX,domain1.com
+  - DOMAIN-SUFFIX,domain2.com
+  - DOMAIN-SUFFIX,domain3.com
+  - DOMAIN-SUFFIX,domain4.com
+  - DOMAIN-SUFFIX,domain5.com
+```
+
+<p>Lalu setelah selesai, anda bisa menyimpan nya dengan nama <b>namaruleanda.yaml</b>.</p>
 
 <h4 id="toc_3">Membuat Rule Provider Direct</h4>
 <p>coba</p>
