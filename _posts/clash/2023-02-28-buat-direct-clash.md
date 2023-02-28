@@ -72,11 +72,29 @@ rule-providers:
   Direct-Simaster:
     type: file
     behavior: classical
-    path: "./directmaster.yaml"
+    path: "./rule_provider/namaruleanda.yaml"
+```
+
+<p>Kemudian pada bagian <b>rules:</b> masih tetap pada <b>configanda.yaml</b> yang anda miliki.</p>
+<p>Anda salin kembali script di bawah ini dan kemudian tempelkan tepat di atas <b>- MATCH,GLOBAL</b>
+
+```
+- RULE-SET,Direct-Simaster,DIRECTMASTER
 ```
 
 <h4 id="toc_4">Membuat Proxy Group Direct</h4>
-<p>Lagi simaster tuliskan</p>
+<p>Pada tahap ini, anda akan masih saya arahkan tetap pada configanda.yaml</p>
+<p>Anda anda menyalin kembali script di bawah ini dan menempelkan nya tepat di bawah dari <b>proxy-groups:</b> untuk bisa memberikan informasi nanti di <b>Conns</b> Yacd.</p>
+
+```
+- name: DIRECTMASTER
+  type: select
+  disable-udp: false
+  proxies:
+  - DIRECT
+```
+
+<p>Jika selesai semua yang anda lakukan sesuai arahan dari saya. Silahkan anda simpan pengaturan ini dengan menekan tombol <b>Save</b> untuk tersimpan.</p>
 
 <h4 id="toc_5">Pengecekan Conns Yacd Untuk Direct</h4>
 <p>Lagi simaster tuliskan</p>
