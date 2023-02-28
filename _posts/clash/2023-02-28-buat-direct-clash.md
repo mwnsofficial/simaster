@@ -64,7 +64,7 @@ payload:
 
 <h4 id="toc_3">Membuat Rule Provider Direct</h4>
 <p>Setelah anda selesai membuat file <b>namaruleanda.yaml</b> dan kini anda bisa ke langkah berikutnya yaitu membuat rule provider untuk direct.</p>
-<p>Membuat rule provider kali ini kita akan langsung menuju ke file <b>configanda.yaml</b> untuk mengeditnya anda bisa gunakan <b>Config Editor</b>.</p>
+<p>Membuat rule provider kali ini kita akan langsung menuju ke file <b>configanda.yaml</b> untuk mengeditnya anda bisa gunakan <b>Config Editor</b></p>
 <p>Salin script di bawah ini dan kemudian tempelkan ini tepat di bawah dari barisan dalam bagian proxy group anda</p>
 
 ```
@@ -76,7 +76,7 @@ rule-providers:
 ```
 
 <p>Kemudian pada bagian <b>rules:</b> masih tetap pada <b>configanda.yaml</b> yang anda miliki.</p>
-<p>Anda salin kembali script di bawah ini dan kemudian tempelkan tepat di atas <b>- MATCH,GLOBAL</b>
+<p>Anda salin kembali script di bawah ini dan kemudian tempelkan tepat di atas <b>- MATCH,GLOBAL</b></p>
 
 ```
 - RULE-SET,Direct-Simaster,DIRECTMASTER
