@@ -13,7 +13,10 @@ iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
 accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
-<div id="btn_toc" on="tap:toc.toggleVisibility" role='button' tabindex='0'>Contents <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#000000" d="M12,18.17L8.83,15L7.42,16.41L12,21L16.59,16.41L15.17,15M12,5.83L15.17,9L16.58,7.59L12,3L7.41,7.59L8.83,9L12,5.83Z" /></svg></div>
+<p>Selamat datang di tutorial simaster, tutorial kali ini membahas tentang bagaimana cara agar anda bisa membuat rule direct sendiri mulai dari awal hingga anda berhasil melakukan direct.</p>
+<p>Berikut ini adalah beberapa contents yang sudah simaster rangkumkan untuk anda.</p>
+
+<div id="btn_toc" on="tap:toc.toggleVisibility" role='button' tabindex='0'>Contents Simaster <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#000000" d="M12,18.17L8.83,15L7.42,16.41L12,21L16.59,16.41L15.17,15M12,5.83L15.17,9L16.58,7.59L12,3L7.41,7.59L8.83,9L12,5.83Z" /></svg></div>
 <div id="toc">
 <ol>
   <li><a href="#toc_1" title="Pemahaman Direct Koneksi">Pemahaman Direct Koneksi</a></li>
@@ -24,7 +27,8 @@ accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 </ol>
 </div>
 
-<p>Selamat datang di tutorial simaster, tutorial kali ini membahas tentang bagaimana cara agar anda bisa membuat rule direct sendiri mulai dari awal hingga anda berhasil melakukan direct.</p>
+<p>Sebelum anda mengikuti step by step di bawah ini. Pastikan anda sudah ready untuk semua peralatan anda.
+Seperti aplikasi html editor dan disini saya hanya membuat rule dengan menggunakan aplikasi Anwritter Free.</p>
 
 <h4 id="toc_1">Pemahaman Direct Koneksi</h4>
 <p>Direct Connection adalah pengalihan lalu lintas untuk bisa melepaskan dari jalur vpn</p>
@@ -42,4 +46,5 @@ accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 <h4 id="toc_5">Pengecekan Conns Yacd Untuk Direct</h4>
 <p>coba</p>
 
-<div class="back_toc" on="tap:toc.scrollTo('position' = 'center')" role="button" tabindex="0">Back to Content ↑</div>
+<div class="back_toc" on="tap:toc.scrollTo('position' = 'center')" role="button" tabindex="0">Back to Content Simaster ↑</div>
+<br>
