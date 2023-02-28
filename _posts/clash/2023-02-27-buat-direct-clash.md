@@ -23,10 +23,12 @@ accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
   <li><a href="#toc_5" title="Pengecekan Conns Yacd Untuk Direct">Pengecekan Conns Yacd Untuk Direct</a></li>
 </ol>
 </div>
-<div class="back_toc" on="tap:toc.scrollTo('position' = 'center')" role="button" tabindex="0">Back to Content ↑</div>
+
+<p>Selamat datang di tutorial simaster, tutorial kali ini membahas tentang bagaimana cara agar anda bisa membuat rule direct sendiri mulai dari awal hingga anda berhasil melakukan direct.</p>
 
 <h4 id="toc_1">Pemahaman Direct Koneksi</h4>
-<p>coba</p>
+<p>Direct Connection adalah pengalihan lalu lintas untuk bisa melepaskan dari jalur vpn</p>
+<p>Dengan adanya direct, maka anda bisa lebih bebas untuk melakukan trafik langsung melalui sumber koneksi utama tanpa harus melalui lalu lintas trafik vpn lagi</p>
 
 <h4 id="toc_2">Membuat Rule Direct</h4>
 <p>coba</p>
@@ -39,3 +41,5 @@ accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 
 <h4 id="toc_5">Pengecekan Conns Yacd Untuk Direct</h4>
 <p>coba</p>
+
+<div class="back_toc" on="tap:toc.scrollTo('position' = 'center')" role="button" tabindex="0">Back to Content ↑</div>
