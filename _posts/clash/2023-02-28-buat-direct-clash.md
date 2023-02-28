@@ -97,7 +97,12 @@ rule-providers:
 <p>Jika selesai semua yang anda lakukan sesuai arahan dari saya. Silahkan anda simpan pengaturan ini dengan menekan tombol <b>Save</b> untuk tersimpan.</p>
 
 <h4 id="toc_5">Pengecekan Conns Yacd Untuk Direct</h4>
-<p>Lagi simaster tuliskan</p>
+<p>Setelah anda samakan semua isi file <b>configanda.yaml</b> di folder <b>config</b> dan folder <b>backup</b> sama di luar dari <b>config editor</b> anda.</p>
+<p>Silahkan anda kembali ke menu <b>Overview</b> kemudian anda tekan <b>switch config</b> dan <b>configanda.yaml</b> tersebut untuk menjalankan clash anda kembali</p>
+<p>Jika sudah berhasil jalan, anda akan menekan tombol <b>Control Panel</b> lalu kemudian ke menu <b>Proxies</b> agar anda bisa melihat terlebih dahulu apakah anda berhasil atau belum menambahkan DIRECTMASTER</p>
+<p>Kalo sudah, anda bisa langsung menuju menu <b>Conns</b> untuk pengecekan apakah anda sudah berhasil melakukan direct atau tidak pada situs atau aplikasi yang ingin anda direct tersebut.</p>
+
+<p>Anda bisa melihat kembali pada video di bawah ini jika anda masih belum memahami tentang tutorial ini secara visual akan menjelaskan nya.</p>
 
 <amp-youtube width="480" height="270" layout="responsive" data-videoid="p8cE0Z_xPzM">
 </amp-youtube>
