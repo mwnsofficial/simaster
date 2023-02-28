@@ -62,13 +62,16 @@ payload:
 <p>Lalu setelah selesai, anda bisa menyimpan nya dengan nama <b>namaruleanda.yaml</b>.</p>
 
 <h4 id="toc_3">Membuat Rule Provider Direct</h4>
-<p>coba</p>
+<p>Lagi simaster tuliskan</p>
 
 <h4 id="toc_4">Membuat Proxy Group Direct</h4>
-<p>coba</p>
+<p>Lagi simaster tuliskan</p>
 
 <h4 id="toc_5">Pengecekan Conns Yacd Untuk Direct</h4>
-<p>coba</p>
+<p>Lagi simaster tuliskan</p>
+
+<amp-youtube width="480" height="270" layout="responsive" data-videoid="p8cE0Z_xPzM">
+</amp-youtube>
 
 <div class="back_toc" on="tap:toc.scrollTo('position' = 'center')" role="button" tabindex="0">Back to Content Simaster ↑</div>
 <br>
