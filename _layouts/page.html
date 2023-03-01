@@ -5,7 +5,7 @@ layout: default
 <div class="post">
 <!-- Page Header -->
 <header class="intro-header">
-<amp-img noloading alt="Page Image" height="448" width="1423" src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"></amp-img>
+{% if page.image %}<img src="{{ page.header-img }}" align="center" width="80% height="320" />{% else %}<img src="/assets/images/post.png" align="center" />{% endif %}
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -27,7 +27,7 @@ layout: default
 </div>
   <div itemprop='publisher' itemscope='itemscope' itemtype='https://schema.org/Organization'>
     <div itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
-      <meta content='{{site.url}}{{ site.baseurl }}/img/adhysuryadi.png' itemprop='url'/>
+      <meta content='{{site.url}}{{ site.baseurl }}/assets/images/post.png' itemprop='url'/>
       <meta content='600' itemprop='width'>
       <meta content='60' itemprop='height'>
     </div>
