@@ -6,7 +6,7 @@ description: "wellcome to blog simaster."
 
 {% for post in paginator.posts %}
 <div class="post-preview">
-    {% if post.image %}<img src="{{ post.header-img }}" width="320 height="240" layout="respondsive" align="center" />{% else %}<img src="/assets/images/post.png" align="center" />{% endif %}
+    {% if page.image %}<img src="{{ post.header-img }}" width="320 height="240" layout="respondsive" align="center" />{% else %}<img src="/assets/images/post.png" align="center" />{% endif %}
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">{{ post.title }}</h2>
         {% if post.subtitle %}
