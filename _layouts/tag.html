@@ -35,6 +35,13 @@ layout: page
       {% endif %} 
       on {{ post.date | date: "%B %-d, %Y" }}
     </p>
+    <p class="post-meta">
+      {% if page.summary %}
+        {{ page.summary | strip_html | strip_newlines | truncate: 100 }}
+      {% else %}
+        {{ post.content | truncatewords: 30 | strip_html }}
+      {% endif %}
+         <a href="{{ post.url | prepend: site.baseurl }}" style="color:teal;">Read More</a></p>
 </div>
 <hr>
 {% endfor %}
