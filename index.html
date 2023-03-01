@@ -6,9 +6,9 @@ description: "wellcome to blog simaster."
 
 {% for post in paginator.posts %}
 <div class="post-preview">
+    {% include image1.html %}
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
+        <h2 class="post-title">{{ post.title }}</h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
             {{ post.subtitle }}
