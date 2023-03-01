@@ -16,7 +16,7 @@ description: "wellcome to blog simaster."
         {% endif %}
     </a>
    <p class="post-meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span></span> on <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d, %B, %Y" }}</time></p>
-   <p class="post-meta">{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ post.content | truncatewords: 50 | strip_html }}{% endif %}</p>
+   <p class="post-meta">{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 100 }}{% else %}{{ post.content | truncatewords: 30 | strip_html }}{% endif %}</p>
 </div>
 <hr>
 {% endfor %}
