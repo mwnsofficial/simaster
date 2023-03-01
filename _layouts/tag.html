@@ -13,7 +13,7 @@ layout: page
   <p>No posts found.</p>
 {% endunless %}
 
-{% for post in site.tags[page.tag] %}
+{% for post in paginator.tags[page.tag] %}
 <div class="post-preview">
         {% include image.html %}
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -45,16 +45,17 @@ layout: page
 </div>
 <hr>
 {% endfor %}
-{% if tags[page.tag].total_pages > 1 %}
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
 <ul class="pager">
-    {% if tags[page.tag].previous_page %}
+    {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ tags[page.tag].previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="material-icons md-18">&#xE5C4;</i> Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="material-icons md-18">&#xE5C4;</i> Newer Posts</a>
     </li>
     {% endif %}
-    {% if tags[page.tag].next_page %}
+    {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ tags[page.tag].next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts <i class="material-icons md-18">&#xE5C8;</i></a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts <i class="material-icons md-18">&#xE5C8;</i></a>
     </li>
     {% endif %}
 </ul>
