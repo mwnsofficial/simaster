@@ -5,7 +5,7 @@ layout: default
 <div class="post">
 <!-- Post Header -->
 <header class="intro-header">
-        <img alt="tutorial simaster" src="{{ site.url }}/{{ post.image }}" width="80% height="240" layout="respondsive" align="center" />
+        {% if page.image %}<img src="{{ post.header-img }}" align="center" width="80% height="320" />{% endif %}
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
