@@ -23,7 +23,7 @@ Setelah berhasil membuat blog di Github Pages, tentunya Anda ingin menjadikan bl
 
 ### Langkah Pertama
 Langkah pertama yang harus dilakukan tentunya Anda harus menyewa domain di penyedia domain. Setelah domain Anda aktif silahkan lakukan setting DNS dengan A records dengan IP address yang diberikan penyedia layanan dan CNAME record dengan `www` untuk host-nya dengan IP address menggunakan *username.github.io* (ganti *username* dengan username Github Anda).
-{% include adsense_middle_post.html %}
+
 ### Langkah Kedua
 Setelah beres melakukan record DNS di penyedia layanan custom domain Anda, kini tinggal membuat file CNAME di repository blog Anda.
 
@@ -31,7 +31,7 @@ Silahkan buat file baru di repository dengan nama **CNAME** kemudian masukan dom
 
 Untk melihat apakah blog kita sudah online dengan domain kita yang baru, silahkan klik menu setting di repository dan lihat pada kotak Github Pages akan tampak seperti di bawah ini.
 
-<amp-img src="{{ site.baseurl }}/img/post/custom-github.jpg"
+<amp-img src="{{ site.baseurl }}/assets/images/custom-github.jpg"
       width="750"
       height="406"
       layout="responsive"
