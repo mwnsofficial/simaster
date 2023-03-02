@@ -3,7 +3,7 @@
 //<![CDATA[
 $.each($(".post-view[data-id]"), function(a, e) {
 var l = $(e).parent().find("#postviews").addClass("view-load"),
-i = new Firebase("https://views-countermaster-default-rtdb.asia-southeast1.firebasedatabase.app/" + $(e).attr("data-id"));
+i = new Firebase("https://views-countermaster-default-rtdb.asia-southeast1.firebasedatabase.app/pages/id/" + $(e).attr("data-id"));
         i.once("value", function(a) {
             var n = a.val(),
                 t = !1;
