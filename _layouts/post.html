@@ -39,9 +39,9 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                		{% include share_count.html %}
-                <hr>
-				{{ content }}
+                {{ content }}
+                <br>
+                {% include share_count.html %}
                 <hr>
 {% assign hasSimilar = '' %}
 {% for post in site.related_posts %}
