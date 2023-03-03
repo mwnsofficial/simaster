@@ -172,8 +172,8 @@ hr.small {
   position: absolute; 
   top: 0; 
   left: 0; 
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 75%;
+  min-height: 75%;
   object-fit: cover;
 }
 .intro-header .site-heading,
