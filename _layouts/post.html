@@ -39,7 +39,9 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                {{ content }}
+                   {% include iklan.html %}
+			{{ content }}
+                   {% include iklan.html %}
                 <hr>
 {% assign hasSimilar = '' %}
 {% for post in site.related_posts %}
@@ -99,6 +101,8 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             	{% include disqus_comments.html %}
+<br>
+                   {% include iklan.html %}
             </div>
         </div>
     </div>
