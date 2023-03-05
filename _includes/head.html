@@ -106,7 +106,7 @@ amp-selector[role=tablist] [role=tab][selected] + [role=tabpanel] {
 <script async custom-element="amp-facebook-like" src="https://cdn.ampproject.org/v0/amp-facebook-like-0.1.js"></script>
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-addthis" src="https://cdn.ampproject.org/v0/amp-addthis-0.1.js"></script>
-<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
-<script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+{% if page.ad-js %}<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>{% endif %}
+{% if page.selector-js %}<script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>{% endif %}
 <!-- Bidvertiser2080289 -->
 </head>
