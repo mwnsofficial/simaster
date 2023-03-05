@@ -1,14 +1,15 @@
-<script src='//cdn.firebase.com/js/client/2.2.1/firebase.js' type='text/javascript'/>
-<script type="text/javascript">
-//<![CDATA[
-$.each($(".post-view[data-id]"), function(a, e) {
-var l = $(e).parent().find("#postviews").addClass("view-load"),
-i = new Firebase("https://views-countermaster-default-rtdb.asia-southeast1.firebasedatabase.app/pages/id/" + $(e).attr("data-id"));
-        i.once("value", function(a) {
-            var n = a.val(),
-                t = !1;
-            null == n && (n = {}, n.value = 0, n.url = window.location.href, n.id = $(e).attr("data-id"), t = !0), l.removeClass("view-load").text(n.value), n.value++, "/" != window.location.pathname && (t ? i.set(n) : i.child("value").set(n.value))
-        })
-    });
-    //]]>
-</script>
+<script async src='https://cdn.ampproject.org/v0.js'></script>
+<script async custom-element='amp-sidebar' src='https://cdn.ampproject.org/v0/amp-sidebar-0.1.js'></script>
+<script async custom-element='amp-form' src='https://cdn.ampproject.org/v0/amp-form-0.1.js'></script>
+<script async custom-element='amp-analytics' src='https://cdn.ampproject.org/v0/amp-analytics-0.1.js'></script>
+<script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
+<script async custom-element='amp-social-share' src='{{ page.social-js }}'></script>
+<script async custom-element='amp-iframe' src='{{ page.iframe-js }}'></script>
+<script async custom-element='amp-accordion' src='{{ page.accordion-js }}'></script>
+<script async custom-element='amp-youtube' src='{{ page.youtube-js }}'></script>
+<script async custom-element="amp-facebook-page" src="https://cdn.ampproject.org/v0/amp-facebook-page-0.1.js"></script>
+<script async custom-element="amp-facebook-like" src="https://cdn.ampproject.org/v0/amp-facebook-like-0.1.js"></script>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-addthis" src="https://cdn.ampproject.org/v0/amp-addthis-0.1.js"></script>
+<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+<script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
