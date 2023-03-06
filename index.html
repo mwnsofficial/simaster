@@ -9,17 +9,17 @@ description: "wellcome to blog simaster."
 <div id="tabpanel1" role="tabpanel" aria-labelledby="tab1">
 {% for post in paginator.posts %}
 <div class="post-preview">
-    {% include image.html %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">{{ post.title }}</h2>
+        <center>{% include image.html %}</center>
+        <center><a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">{{ post.title }}</h2></center>
         {% if post.subtitle %}
-        <h3 class="post-subtitle">
+        <center><h3 class="post-subtitle">
             {{ post.subtitle }}
-        </h3>
+        </h3></center>
         {% endif %}
     </a>
-   <p class="post-meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span></span> on <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d, %B, %Y" }}</time></p>
-   <p class="post-meta">{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 100 }}{% else %}{{ post.content | truncatewords: 30 | strip_html }}{% endif %} <a href="{{ post.url | prepend: site.baseurl }}" style="color:teal;">Read More</a></p>
+   <center><p class="post-meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span></span> on <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d, %B, %Y" }}</time></p></center>
+   <center><p class="post-meta">{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 100 }}{% else %}{{ post.content | truncatewords: 30 | strip_html }}{% endif %} <a href="{{ post.url | prepend: site.baseurl }}" style="color:teal;">Read More</a></p></center>
    {% include iklan.html %}
 </div>
 <hr>
@@ -51,9 +51,8 @@ description: "wellcome to blog simaster."
    <ul>
   <li><amp-iframe allowfullscreen='' frameborder='0' height='320' layout='responsive' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation' src='https://youtube.com/embed/playlist?list=PLl3VtaZ1T4Vqy07x_sKKlYoyRj_vMH_GQ' width='480'>
 <amp-img height='240' layout='fixed-height' noloading='' placeholder='' src='https://cdn.staticaly.com/img/1.bp.blogspot.com/-x1yVa6ztsWY/WyHFPLG0uLI/AAAAAAAAyIg/3C5Lb5EjGywOPzO_XSwK1XTu6VlBZE4SgCLcBGAs/s1600/back-iframe.png'></amp-img>
-<br />
-   {% include iklan.html %}
 </amp-iframe></li>
+<li>{% include iklan.html %}</li>
  </ul>
 </li>
   </ul>
@@ -67,9 +66,8 @@ description: "wellcome to blog simaster."
    <ul>
   <li><amp-iframe allowfullscreen='' frameborder='0' height='320' layout='responsive' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation' src='https://youtube.com/embed/playlist?list=PLl3VtaZ1T4VpPm1NjF0jPwETk_npxDrwI' width='480'>
 <amp-img height='240' layout='fixed-height' noloading='' placeholder='' src='https://cdn.staticaly.com/img/1.bp.blogspot.com/-x1yVa6ztsWY/WyHFPLG0uLI/AAAAAAAAyIg/3C5Lb5EjGywOPzO_XSwK1XTu6VlBZE4SgCLcBGAs/s1600/back-iframe.png'></amp-img>
-<br />
-   {% include iklan.html %}
 </amp-iframe></li>
+<li>{% include iklan.html %}</li>
  </ul>
 </li>
   </ul>
@@ -83,9 +81,8 @@ description: "wellcome to blog simaster."
    <ul>
   <li><amp-iframe allowfullscreen='' frameborder='0' height='320' layout='responsive' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation' src='https://youtube.com/embed/playlist?list=PLl3VtaZ1T4VqEskClDqZ9WyEb4RMVs6k9' width='480'>
 <amp-img height='240' layout='fixed-height' noloading='' placeholder='' src='https://cdn.staticaly.com/img/1.bp.blogspot.com/-x1yVa6ztsWY/WyHFPLG0uLI/AAAAAAAAyIg/3C5Lb5EjGywOPzO_XSwK1XTu6VlBZE4SgCLcBGAs/s1600/back-iframe.png'></amp-img>
-<br />
-   {% include iklan.html %}
 </amp-iframe></li>
+<li>{% include iklan.html %}</li>
  </ul>
 </li>
   </ul>
@@ -99,9 +96,8 @@ description: "wellcome to blog simaster."
    <ul>
   <li><amp-iframe allowfullscreen='' frameborder='0' height='320' layout='responsive' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation' src='https://youtube.com/embed/playlist?list=PLl3VtaZ1T4VonR6LWHxUz-YBOxm9Njpfj' width='480'>
 <amp-img height='240' layout='fixed-height' noloading='' placeholder='' src='https://cdn.staticaly.com/img/1.bp.blogspot.com/-x1yVa6ztsWY/WyHFPLG0uLI/AAAAAAAAyIg/3C5Lb5EjGywOPzO_XSwK1XTu6VlBZE4SgCLcBGAs/s1600/back-iframe.png'></amp-img>
-<br />
-   {% include iklan.html %}
 </amp-iframe></li>
+<li>{% include iklan.html %}</li>
  </ul>
 </li>
   </ul>
@@ -115,9 +111,8 @@ description: "wellcome to blog simaster."
    <ul>
   <li><amp-iframe allowfullscreen='' frameborder='0' height='320' layout='responsive' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation' src='https://youtube.com/embed/playlist?list=PLl3VtaZ1T4Vp26XSTv3OQLMvF46V2JTry' width='480'>
 <amp-img height='240' layout='fixed-height' noloading='' placeholder='' src='https://cdn.staticaly.com/img/1.bp.blogspot.com/-x1yVa6ztsWY/WyHFPLG0uLI/AAAAAAAAyIg/3C5Lb5EjGywOPzO_XSwK1XTu6VlBZE4SgCLcBGAs/s1600/back-iframe.png'></amp-img>
-<br />
-   {% include iklan.html %}
 </amp-iframe></li>
+<li>{% include iklan.html %}</li>
  </ul>
 </li>
   </ul>
@@ -131,9 +126,8 @@ description: "wellcome to blog simaster."
    <ul>
   <li><amp-iframe allowfullscreen='' frameborder='0' height='320' layout='responsive' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation' src='https://youtube.com/embed/playlist?list=PLl3VtaZ1T4VrF51cD_mhNiLI5Xuc9UFoH' width='480'>
 <amp-img height='240' layout='fixed-height' noloading='' placeholder='' src='https://cdn.staticaly.com/img/1.bp.blogspot.com/-x1yVa6ztsWY/WyHFPLG0uLI/AAAAAAAAyIg/3C5Lb5EjGywOPzO_XSwK1XTu6VlBZE4SgCLcBGAs/s1600/back-iframe.png'></amp-img>
-<br />
-   {% include iklan.html %}
 </amp-iframe></li>
+<li>{% include iklan.html %}</li>
  </ul>
 </li>
   </ul>
