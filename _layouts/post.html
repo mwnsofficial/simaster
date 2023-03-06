@@ -4,6 +4,9 @@ layout: default
 
 <div class="post">
 <!-- Post Header -->
+    <br />
+    <br />
+    {% include iklan728x90.html %}
 <header class="intro-header">
       <amp-img noloading alt="Post Simaster" height="448" width="100%" src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"></amp-img>
     <div class="container">
@@ -50,7 +53,7 @@ layout: default
         {% for thisTag in page.tags %}
             {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
                 {% if hasSimilar.size == 0 %}
-                <h4>Similar Posts</h4>
+                <h4>Berkaitan dengan Posts</h4>
                 <ul>
                 {% endif %}
                 <li class="relatedPost">
