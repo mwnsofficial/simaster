@@ -41,3 +41,27 @@ Perangkat yang mempunyai port Ethernet sudah menonaktifkan Wi-Fi secara default.
 - Bila Anda sudah mengonfigurasi Wi-Fi 5GHz dan baru saja mengaktifkannya, namun Wi-Fi 5 GHz sepertinya tidak memulai, pertimbangkan hal berikut: Jika perangkat Anda mendukung saluran Wi-Fi > 100, perangkat OpenWrt Anda terlebih dahulu wajib memindai radar cuaca pada saluran ini, sebelum Anda sahih-benar bisa menggunakan saluran tersebut buat Wi-Fi. Ini mungkin memakan waktu 1-10 mnt sekali setelah reboot pertama tergantung di situasi Wi-Fi Anda serta tergantung pada jumlah saluran yang didukung perangkat > 100. Anda mungkin jua mengalami penundaan 1 mnt di setiap perubahan saluran otomatis, sebab penundaan pemindaian yg sama terjadi dibutuhkan buat kepatuhan terhadap peraturan.
 
 - Jaringan / Nirkabel / Edit / Konfigurasi Antarmuka / Pengaturan awam / Jaringan harus dibiarkan ke "lan" default atau ke antarmuka lain pada mana ada server DHCP yang aktif, JANGAN pilih "wan" atau "wan6" sebab itu artinya antarmuka upstream buat koneksi internet saja
+
+## menggunakan baris perintah SSH
+
+Ini bukan cara lengkap tentang cara menghasilkan jaringan Wi-Fi yg disetel dengan baik di baris perintah.
+
+Itu hanya membagikan kepada Anda langkah-langkah penting buat awalnya mengatur dasar-dasar buat mengaktifkan Wi-Fi dengan sahih di baris perintah, buat memenuhi peraturan aturan negara Anda:
+
+- Terhubung dengan SSH ke perangkat OpenWrt Anda: `$ ssh root@192.168.1.1`
+
+- Jalankan `uci show wireless` buat melihat seluruh konfigurasi nirkabel dan  berapa poly chip Wi-Fi (dianggap "radio" di konfigurasi) yg ada pada perangkat. 
+
+- Identifikasi nomor  radio (0, 1, 2, dll) yang Anda tuju. misalnya, `radio0`, `radio1`, `radio2`, `radioX`.
+
+- Cari memahami negara Anda pada daftar kode negara ISO/IEC 3166 alpha2. ada daftar di artikel Wikipedia tentang [ISO 3166-1 alpha-dua](https://en.wikipedia.org/wiki/ISO%203166-1%20alpha-2).
+
+- Jalankan `uci set wireless.radioN.country='XX'` buat menyetel kode negara XX buat setiap (N = 0, 1, dua) perangkat radio yg mungkin dimiliki router Anda.
+
+- Jalankan `uci set wireless.radioN.disabled='0'` buat mengaktifkan seluruh radio tadi.
+
+- Commit perubahan: `uci commit nirkabel`.
+
+- Muat ulang antarmuka wifi: `wifi reload`.
+
+- Tunggu beberapa mnt buat memungkinkan radio mem-boot serta akhirnya memindai DFS. Menikmati
