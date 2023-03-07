@@ -20,6 +20,8 @@ Perangkat yang mempunyai port Ethernet sudah menonaktifkan Wi-Fi secara default.
 
 3. buat setiap radio, Anda dapat membuat jaringan Wi-Fi dengan mengeklik masukkan:
 
+<hr>{% include iklan.html %}<hr>
+
  a. Pada jaringan Wi-Fi pertama yang Anda konfigurasikan, buka *Konfigurasi device* dan buka tab *Pengaturan Lanjut*: di bidang Kode Negara, pilih kode negara yang benar, tempat perangkat OpenWrt Anda diinstal. Ini penting untuk memastikan perangkat OpenWrt Anda memenuhi peraturan hukum di negara Anda. (semua radio yang dikonfigurasi lainnya akan menggunakan pengaturan perangkat yang sama)
  
  b. Untuk setiap jaringan Wi-Fi, di bagian "Konfigurasi interface", konfigurasikan pengaturan Wi-Fi Anda:
@@ -36,6 +38,8 @@ Perangkat yang mempunyai port Ethernet sudah menonaktifkan Wi-Fi secara default.
 
 - Klik `Save & Apply` setelah selesai.
 
+<hr>{% include iklan.html %}<hr>
+
 ## Penyelesaian duduk perkara:
 
 - Bila Anda sudah mengonfigurasi Wi-Fi 5GHz dan baru saja mengaktifkannya, namun Wi-Fi 5 GHz sepertinya tidak memulai, pertimbangkan hal berikut: Jika perangkat Anda mendukung saluran Wi-Fi > 100, perangkat OpenWrt Anda terlebih dahulu wajib memindai radar cuaca pada saluran ini, sebelum Anda sahih-benar bisa menggunakan saluran tersebut buat Wi-Fi. Ini mungkin memakan waktu 1-10 mnt sekali setelah reboot pertama tergantung di situasi Wi-Fi Anda serta tergantung pada jumlah saluran yang didukung perangkat > 100. Anda mungkin jua mengalami penundaan 1 mnt di setiap perubahan saluran otomatis, sebab penundaan pemindaian yg sama terjadi dibutuhkan buat kepatuhan terhadap peraturan.
@@ -47,6 +51,8 @@ Perangkat yang mempunyai port Ethernet sudah menonaktifkan Wi-Fi secara default.
 Ini bukan cara lengkap tentang cara menghasilkan jaringan Wi-Fi yg disetel dengan baik di baris perintah.
 
 Itu hanya membagikan kepada Anda langkah-langkah penting buat awalnya mengatur dasar-dasar buat mengaktifkan Wi-Fi dengan sahih di baris perintah, buat memenuhi peraturan aturan negara Anda:
+
+<hr>{% include iklan.html %}<hr>
 
 - Terhubung dengan SSH ke perangkat OpenWrt Anda: `$ ssh root@192.168.1.1`
 
