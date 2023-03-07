@@ -5,7 +5,7 @@ subtitle: "Mengaktifkan titik akses Wi-Fi di OpenWrt."
 description: "Mengaktifkan titik akses Wi-Fi di OpenWrt."
 date: 2023-03-07
 author: "Muhammad Yusuf"
-tags: [ Openwrt ]
+tags: [ wireless ]
 header-img: "assets/images/post.png"
 image: "assets/images/post.png"
 ---
@@ -34,10 +34,10 @@ Perangkat yang mempunyai port Ethernet sudah menonaktifkan Wi-Fi secara default.
 
 - Jika perlu, konfigurasikan pengaturan lebih lanjut sesuai dengan kebutuhan Anda. Pengaturan default lainnya biasanya benar untuk penggunaan umum.
 
-4. Klik `Save & Apply` setelah selesai.
+- Klik `Save & Apply` setelah selesai.
 
 ## Penyelesaian duduk perkara:
 
-> Bila Anda sudah mengonfigurasi Wi-Fi 5GHz dan baru saja mengaktifkannya, namun Wi-Fi 5 GHz sepertinya tidak memulai, pertimbangkan hal berikut: Jika perangkat Anda mendukung saluran Wi-Fi > 100, perangkat OpenWrt Anda terlebih dahulu wajib memindai radar cuaca pada saluran ini, sebelum Anda sahih-benar bisa menggunakan saluran tersebut buat Wi-Fi. Ini mungkin memakan waktu 1-10 mnt sekali setelah reboot pertama tergantung di situasi Wi-Fi Anda serta tergantung pada jumlah saluran yang didukung perangkat > 100. Anda mungkin jua mengalami penundaan 1 mnt di setiap perubahan saluran otomatis, sebab penundaan pemindaian yg sama terjadi dibutuhkan buat kepatuhan terhadap peraturan.
+- Bila Anda sudah mengonfigurasi Wi-Fi 5GHz dan baru saja mengaktifkannya, namun Wi-Fi 5 GHz sepertinya tidak memulai, pertimbangkan hal berikut: Jika perangkat Anda mendukung saluran Wi-Fi > 100, perangkat OpenWrt Anda terlebih dahulu wajib memindai radar cuaca pada saluran ini, sebelum Anda sahih-benar bisa menggunakan saluran tersebut buat Wi-Fi. Ini mungkin memakan waktu 1-10 mnt sekali setelah reboot pertama tergantung di situasi Wi-Fi Anda serta tergantung pada jumlah saluran yang didukung perangkat > 100. Anda mungkin jua mengalami penundaan 1 mnt di setiap perubahan saluran otomatis, sebab penundaan pemindaian yg sama terjadi dibutuhkan buat kepatuhan terhadap peraturan.
 
-> Jaringan / Nirkabel / Edit / Konfigurasi Antarmuka / Pengaturan awam / Jaringan harus dibiarkan ke "lan" default atau ke antarmuka lain pada mana ada server DHCP yang aktif, JANGAN pilih "wan" atau "wan6" sebab itu artinya antarmuka upstream buat koneksi internet saja
+- Jaringan / Nirkabel / Edit / Konfigurasi Antarmuka / Pengaturan awam / Jaringan harus dibiarkan ke "lan" default atau ke antarmuka lain pada mana ada server DHCP yang aktif, JANGAN pilih "wan" atau "wan6" sebab itu artinya antarmuka upstream buat koneksi internet saja
