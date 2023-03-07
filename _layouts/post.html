@@ -42,10 +42,13 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                   {% include iklan.html %}
-			{{ content }}
-                   {% include iklan.html %}
-                <hr>
+               {% include iklan.html %}
+	         {{ content }}
+                    <hr>
+                       {% include share_count.html %}
+                    <hr>
+                 {% include iklan.html %}
+              <hr>
 {% assign hasSimilar = '' %}
 {% for post in site.related_posts %}
     {% assign postHasSimilar = false %}
