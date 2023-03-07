@@ -14,6 +14,8 @@ Implementasi firewall OpenWrt adalah mekanisme dimana kemudian lintas jaringan d
 
 Firewall OpenWrt berputar pada lebih kurang proyek [netfilter](http://www.netfilter.org/) Linux. ada komponen primer berikut buat firewall OpenWrt:
 
+<hr>{% include iklan.html %}<hr>
+
 1. software [firewall3](https://openwrt.org/docs/guide-user/firewall/overview)
 
 2. satu set kait netfilter pada tumpukan jaringan kernel
@@ -26,6 +28,8 @@ Dokumentasi ini berdasarkan pada OpenWrt [18.06.0](https://openwrt.org/releases/
 
 ## Firewall3 (fw3)
 Paket [software fw3](https://openwrt.org/docs/guide-user/firewall/overview) adalah perangkat lunak primer yg digunakan buat menyediakan firewall. Ini dikembangkan sang tim OpenWrt spesifik buat proyek tersebut.
+
+<hr>{% include iklan.html %}<hr>
 
 ## Pengait netfilter kernel
 
@@ -49,6 +53,8 @@ Kode kait netfilter menggunakan deretan makro `NF_HOOK`. Setiap pengait mengambi
 
 - panggilan kembali fungsi Jika paket melewati filter
 
+<hr>{% include iklan.html %}<hr>
+
 ## Modul netfilter kernel
 
 Modul kernel netfilter dimuat ketika boot tergantung pada konfigurasi. terdapat kira-kira 35 modul kernel buat mendukung kemampuan netfilter baku, namun masih banyak lagi tergantung pada kebutuhan router. sebagai contoh, banyak router yang memakai fitur [ipset](http://ipset.netfilter.org/). Ini menambahkan ~16 modul kernel tambahan.
@@ -62,6 +68,8 @@ Sebagian besar modul netfilter berukuran kecil, menyediakan satu kemampuan khusu
 Beberapa modul netfilter berukuran lebih akbar. contohnya:
 
 - `nf_conntrack` melakukan pelacakan koneksi buat penyamaran (NAT) dan de-fragmentasi paket.
+
+<hr>{% include iklan.html %}<hr>
 
 ## Penyetelan kernel melalui sysctl
 
